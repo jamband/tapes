@@ -1,0 +1,50 @@
+{
+  "id": 1,
+  "title": "Pop/Soul",
+  "path": "/2021/05/pop-soul",
+  "date": "May 10, 2021",
+  "items": [
+    {
+      "title": "Lake Street Dive - Hypotheticals",
+      "provider": "Bandcamp",
+      "provider_key": "3158639415",
+      "image": "https://f4.bcbits.com/img/a1894322872_4.jpg",
+      "slug": "lake-street-dive-hypotheticals"
+    },
+    {
+      "title": "Nicole Atkins - Sleepwalking",
+      "provider": "SoundCloud",
+      "provider_key": "330956170",
+      "image": "https://i1.sndcdn.com/artworks-000231390685-0l3oi1-t300x300.jpg",
+      "slug": "nicole-atkins-sleepwalking"
+    },
+    {
+      "title": "Tanika Charles - Endless Chain",
+      "provider": "Bandcamp",
+      "provider_key": "2630286717",
+      "image": "https://f4.bcbits.com/img/a2178908541_4.jpg",
+      "slug": "tanika-charles-endless-chain"
+    },
+    {
+      "title": "PREP - Don't Bring Me Down",
+      "provider": "SoundCloud",
+      "provider_key": "402549141",
+      "image": "https://i1.sndcdn.com/artworks-000305529183-wswyut-t300x300.jpg",
+      "slug": "prep-dont-bring-me-down"
+    },
+    {
+      "title": "Grace Gillespie - Human (Heart)",
+      "provider": "SoundCloud",
+      "provider_key": "586911741",
+      "image": "https://i1.sndcdn.com/artworks-000500926578-xt3k4i-t300x300.jpg",
+      "slug": "grace-gillespie-human-heart"
+    },
+    {
+      "title": "Natalie Prass - Short Court Style",
+      "provider": "SoundCloud",
+      "provider_key": "406595985",
+      "image": "https://i1.sndcdn.com/artworks-000309186852-d9tuld-t300x300.jpg",
+      "slug": "natalie-prass-short-court-style"
+    }
+  ]
+}

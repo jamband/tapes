@@ -1,0 +1,50 @@
+{
+  "id": 3,
+  "title": "Favorites",
+  "path": "/2021/07/favorites",
+  "date": "Jul 10, 2021",
+  "items": [
+    {
+      "title": "NV - KATA",
+      "provider": "YouTube",
+      "provider_key": "bPU0TAwxKM8",
+      "image": "https://i.ytimg.com/vi/bPU0TAwxKM8/mqdefault.jpg",
+      "slug": "nv-kata"
+    },
+    {
+      "title": "寺尾紗穂 - アジアの汗",
+      "provider": "YouTube",
+      "provider_key": "JBvpqKFDd9w",
+      "image": "https://i.ytimg.com/vi/JBvpqKFDd9w/mqdefault.jpg",
+      "slug": "saho-terao-ajia-no-ase"
+    },
+    {
+      "title": "Plastic Plastic - Knock Knock",
+      "provider": "YouTube",
+      "provider_key": "r5KvYIW7gwQ",
+      "image": "https://i.ytimg.com/vi/r5KvYIW7gwQ/mqdefault.jpg",
+      "slug": "plastic-plastic-knock-knock"
+    },
+    {
+      "title": "福岡史朗 - できること",
+      "provider": "YouTube",
+      "provider_key": "jKdqMyKPH00",
+      "image": "https://i.ytimg.com/vi/jKdqMyKPH00/mqdefault.jpg",
+      "slug": "shirou-fukuoka-dekirukoto"
+    },
+    {
+      "title": "ザ・なつやすみバンド - Odyssey",
+      "provider": "YouTube",
+      "provider_key": "DajY5y_IMOM",
+      "image": "https://i.ytimg.com/vi/DajY5y_IMOM/mqdefault.jpg",
+      "slug": "natsuyasumi-band-odyssey"
+    },
+    {
+      "title": "ミツメ - あこがれ",
+      "provider": "YouTube",
+      "provider_key": "53mOa0B3nN4",
+      "image": "https://i.ytimg.com/vi/53mOa0B3nN4/mqdefault.jpg",
+      "slug": "mitsume-akogare"
+    }
+  ]
+}
