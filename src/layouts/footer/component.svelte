@@ -1,14 +1,14 @@
 <script lang="ts">
   import { page } from "$app/stores";
   import { LinkExternal } from "$components/link-external";
-  import { IconVolumeUp, IconX } from "$icons";
+  import { IconX, IconLightningBolt } from "$icons";
   import { track } from "$stores/track";
 </script>
 
 <footer class="fixed bottom-0 w-full bg-gray-800">
   {#if $track.path && !$page.params.track}
     <div class="py-1 md:container md:mx-auto flex items-center justify-center">
-      <span class="ml-4"><IconVolumeUp class="h-4 w-4" /></span>
+      <span class="ml-4"><IconLightningBolt class="h-4 w-4" /></span>
       <a
         class="ml-4 mr-1 whitespace-nowrap overflow-ellipsis overflow-hidden font-semibold text-sm hover:text-purple-500"
         href={$track.path}>{$track.title}</a
