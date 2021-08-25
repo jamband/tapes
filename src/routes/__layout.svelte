@@ -4,6 +4,7 @@
   import { APP_NAME } from "$constants/app";
   import { Footer } from "$layouts/footer";
   import { Header } from "$layouts/header";
+  import { Loading } from "$layouts/loading";
   import "$styles/app.css";
 </script>
 
@@ -13,6 +14,7 @@
 </svelte:head>
 
 <div class="flex flex-col min-h-screen">
+  <Loading />
   <Header />
   <main class="py-24 flex-grow container mx-auto">
     <div class:hidden={!$page.params.track}>
