@@ -68,6 +68,7 @@
     </a>
   {/each}
 </div>
+<SectionDivider />
 <div class="mt-12 text-center">
   <a href="/" class="font-semibold hover:text-purple-500">Home</a>
 </div>
