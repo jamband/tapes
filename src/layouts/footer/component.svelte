@@ -11,11 +11,11 @@
       <span class="ml-4"><IconLightningBolt class="h-4 w-4" /></span>
       <a
         sveltekit:prefetch
-        class="ml-4 mr-1 whitespace-nowrap overflow-ellipsis overflow-hidden font-semibold text-sm hover:text-purple-500"
+        class="ml-4 mr-1 whitespace-nowrap overflow-ellipsis overflow-hidden font-semibold text-sm"
         href={$track.path}>{$track.title}</a
       >
       <button class="mr-2 p-2" on:click={track.clear}
-        ><IconX class="h-5 w-5 hover:text-purple-500" /></button
+        ><IconX class="h-5 w-5" /></button
       >
     </div>
   {:else}
@@ -24,11 +24,10 @@
       aria-label="Footer navigation"
     >
       <div class="grid grid-cols-3 divide-x divide-gray-600 text-center">
-        <a class="hover:text-purple-500" href="/about">About</a>
-        <a class="hover:text-purple-500" href="/contact">Contact</a>
-        <LinkExternal
-          class="hover:text-purple-500"
-          href="https://github.com/jamband/tapes">GitHub</LinkExternal
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
+        <LinkExternal href="https://github.com/jamband/tapes"
+          >GitHub</LinkExternal
         >
       </div>
     </nav>
