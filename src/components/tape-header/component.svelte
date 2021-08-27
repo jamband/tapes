@@ -5,7 +5,7 @@
   export let title: string;
 </script>
 
-<h1 class="mb-0 text-center">{title}</h1>
+<h1 class="mb-0 italic font-bold text-center">{title}</h1>
 <div class="text-center text-xs text-gray-400">
   selected from <LinkExternal
     href="https://plusarchive.com"
