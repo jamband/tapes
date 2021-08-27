@@ -10,6 +10,7 @@
     <div class="py-1 md:container md:mx-auto flex items-center justify-center">
       <span class="ml-4"><IconLightningBolt class="h-4 w-4" /></span>
       <a
+        sveltekit:prefetch
         class="ml-4 mr-1 whitespace-nowrap overflow-ellipsis overflow-hidden font-semibold text-sm hover:text-purple-500"
         href={$track.path}>{$track.title}</a
       >

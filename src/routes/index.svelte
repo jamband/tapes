@@ -38,8 +38,10 @@
       <span class="mr-1 font-bold text-purple-900 text-xxs align-top"
         >&#9679</span
       >
-      <a class="font-semibold text-2xl hover:text-purple-500" href={tape.path}
-        >{tape.title} →</a
+      <a
+        sveltekit:prefetch
+        class="font-semibold text-2xl hover:text-purple-500"
+        href={tape.path}>{tape.title} →</a
       >
       <div class="ml-5 text-xs text-gray-400">
         {tape.date}

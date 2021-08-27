@@ -31,6 +31,8 @@
   </h3>
   <SectionDivider class="my-10" />
   <div class="font-semibold text-sm text-center">
-    <a class="hover:text-purple-500" href={tapePath}>← {$track.tape.title}</a>
+    <a sveltekit:prefetch class="hover:text-purple-500" href={tapePath}
+      >← {$track.tape.title}</a
+    >
   </div>
 {/if}

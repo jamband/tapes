@@ -41,7 +41,11 @@
 <SectionDivider class="my-10" />
 <div class="mb-10 grid grid-cols-1 md:grid-cols-2 gap-6">
   {#each tape.items as item (item.slug)}
-    <a class="mb-1 relative shadow" href="{tape.path}/{item.slug}">
+    <a
+      sveltekit:prefetch
+      class="mb-1 relative shadow"
+      href="{tape.path}/{item.slug}"
+    >
       <img
         class="w-full rounded opacity-70"
         width="354"
