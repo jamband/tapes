@@ -20,7 +20,7 @@
       {APP_DESCRIPTION}
       The music introduced here is selected from
       <LinkExternal href="https://plusarchive.com" class="text-purple-500"
-        >PlusArchive<IconExternalLink class="ml-1 h-4 w-4" /></LinkExternal
+        >PlusArchive<IconExternalLink class="ml-0.5 h-4 w-4" /></LinkExternal
       >
     </p>
     <p>
@@ -29,7 +29,7 @@
         href="https://github.com/jamband/tapes"
         class="text-purple-500"
         >GitHub: {APP_NAME}<IconExternalLink
-          class="ml-1 h-4 w-4"
+          class="ml-0.5 h-4 w-4"
         /></LinkExternal
       >
     </p>
