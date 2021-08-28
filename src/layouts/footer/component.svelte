@@ -11,7 +11,7 @@
       <span class="ml-4"><IconLightningBolt class="h-4 w-4" /></span>
       <a
         sveltekit:prefetch
-        class="ml-4 mr-1 whitespace-nowrap overflow-ellipsis overflow-hidden font-semibold text-sm"
+        class="ml-4 mr-1 py-1 whitespace-nowrap overflow-ellipsis overflow-hidden font-semibold text-sm"
         href={$track.path}>{$track.title}</a
       >
       <button class="mr-2 p-2" on:click={track.clear}
@@ -20,13 +20,13 @@
     </div>
   {:else}
     <nav
-      class="py-3 container mx-auto font-mono font-light text-xs text-gray-300"
+      class="py-2 container mx-auto text-sm text-gray-300"
       aria-label="Footer navigation"
     >
       <div class="grid grid-cols-3 divide-x divide-gray-600 text-center">
-        <a href="/about">About</a>
-        <a href="/contact">Contact</a>
-        <LinkExternal href="https://github.com/jamband/tapes"
+        <a class="py-1" href="/about">About</a>
+        <a class="py-1" href="/contact">Contact</a>
+        <LinkExternal class="py-1" href="https://github.com/jamband/tapes"
           >GitHub</LinkExternal
         >
       </div>
