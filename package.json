@@ -11,28 +11,28 @@
     "clean": "rm -rf .svelte-kit build node_modules"
   },
   "devDependencies": {
-    "@sveltejs/adapter-static": "^1.0.0-next.17",
-    "@sveltejs/kit": "^1.0.0-next.158",
+    "@sveltejs/adapter-static": "^1.0.0-next.18",
+    "@sveltejs/kit": "^1.0.0-next.162",
     "@tailwindcss/aspect-ratio": "^0.2.1",
     "@types/glob": "^7.1.4",
     "@types/html-minifier-terser": "^5.1.2",
     "@types/tailwindcss": "^2.2.1",
-    "@typescript-eslint/eslint-plugin": "^4.29.3",
-    "@typescript-eslint/parser": "^4.29.3",
-    "autoprefixer": "^10.3.3",
+    "@typescript-eslint/eslint-plugin": "^4.30.0",
+    "@typescript-eslint/parser": "^4.30.0",
+    "autoprefixer": "^10.3.4",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-svelte3": "^3.2.0",
     "glob": "^7.1.7",
-    "html-minifier-terser": "^5.1.1",
+    "html-minifier-terser": "^6.0.2",
     "postcss": "^8.3.6",
     "prettier": "2.3.2",
     "prettier-plugin-svelte": "^2.4.0",
     "svelte": "^3.42.4",
     "svelte-check": "^2.2.5",
     "svelte-preprocess": "^4.8.0",
-    "tailwindcss": "^2.2.8",
+    "tailwindcss": "^2.2.9",
     "tslib": "^2.3.1",
-    "typescript": "4.3.5"
+    "typescript": "^4.4.2"
   }
 }
