@@ -1,14 +1,14 @@
 <script lang="ts">
   import { page } from "$app/stores";
   import { LinkExternal } from "~/components/link-external";
-  import { IconX, IconLightningBolt } from "~/icons";
+  import { IconX } from "~/icons";
   import { track } from "~/stores/track";
 </script>
 
 <footer class="fixed bottom-0 w-full bg-gray-800">
   {#if $track.path && !$page.params.track}
     <div class="py-1 md:container md:mx-auto flex items-center justify-center">
-      <span class="ml-4"><IconLightningBolt class="h-4 w-4" /></span>
+      <span class="font-bold text-purple-800 text-xxs align-top">&#9679</span>
       <a
         sveltekit:prefetch
         class="ml-4 mr-1 py-1 whitespace-nowrap overflow-ellipsis overflow-hidden font-semibold text-sm"
