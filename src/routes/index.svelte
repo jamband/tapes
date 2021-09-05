@@ -13,11 +13,11 @@
 </script>
 
 <script lang="ts">
-  import { SectionDivider } from "$components/section-divider";
-  import { TapeHeader } from "$components/tape-header";
-  import { APP_DESCRIPTION, APP_NAME, APP_URL } from "$constants/app";
-  import { Page } from "$layouts/page";
-  import type { Tapes } from "$types/tape";
+  import { SectionDivider } from "~/components/section-divider";
+  import { TapeHeader } from "~/components/tape-header";
+  import { APP_DESCRIPTION, APP_NAME, APP_URL } from "~/constants/app";
+  import { Page } from "~/layouts/page";
+  import type { Tapes } from "~/types/tape";
 
   export let tapes: Tapes;
 </script>

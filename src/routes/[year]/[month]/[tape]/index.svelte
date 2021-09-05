@@ -15,13 +15,13 @@
 </script>
 
 <script lang="ts">
-  import { SectionDivider } from "$components/section-divider";
-  import { TapeHeader } from "$components/tape-header";
-  import { APP_NAME, APP_URL } from "$constants/app";
-  import { IconPause, IconPlay } from "$icons";
-  import { Page } from "$layouts/page";
-  import { trackId } from "$stores/track";
-  import type { Tape } from "$types/tape";
+  import { SectionDivider } from "~/components/section-divider";
+  import { TapeHeader } from "~/components/tape-header";
+  import { APP_NAME, APP_URL } from "~/constants/app";
+  import { IconPause, IconPlay } from "~/icons";
+  import { Page } from "~/layouts/page";
+  import { trackId } from "~/stores/track";
+  import type { Tape } from "~/types/tape";
 
   export let tape: Tape;
   const title = `${tape.date} ${tape.title}`;

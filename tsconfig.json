@@ -15,7 +15,7 @@
     "allowJs": true,
     "checkJs": true,
     "strict": true,
-    "paths": { "$*": ["src/*"] }
+    "paths": { "~/*": ["src/*"] }
   },
   "include": ["src/**/*.d.ts", "src/**/*.ts", "src/**/*.svelte"]
 }

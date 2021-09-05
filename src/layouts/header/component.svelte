@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { APP_NAME } from "$constants/app";
+  import { APP_NAME } from "~/constants/app";
 
   const [name, repository] = APP_NAME.split("/");
 </script>

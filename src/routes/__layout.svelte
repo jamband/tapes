@@ -1,11 +1,11 @@
 <script lang="ts">
+  import "~/styles/app.css";
   import { page } from "$app/stores";
-  import { Track } from "$components/track";
-  import { APP_NAME } from "$constants/app";
-  import { Footer } from "$layouts/footer";
-  import { Header } from "$layouts/header";
-  import { Loading } from "$layouts/loading";
-  import "$styles/app.css";
+  import { Track } from "~/components/track";
+  import { APP_NAME } from "~/constants/app";
+  import { Footer } from "~/layouts/footer";
+  import { Header } from "~/layouts/header";
+  import { Loading } from "~/layouts/loading";
 </script>
 
 <svelte:head>

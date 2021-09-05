@@ -15,10 +15,10 @@
 </script>
 
 <script lang="ts">
-  import { APP_NAME, APP_URL } from "$constants/app";
-  import { Page } from "$layouts/page";
-  import { track as __track } from "$stores/track";
-  import type { Track } from "$types/track";
+  import { APP_NAME, APP_URL } from "~/constants/app";
+  import { Page } from "~/layouts/page";
+  import { track as __track } from "~/stores/track";
+  import type { Track } from "~/types/track";
 
   export let track: Track;
   __track.set(track);

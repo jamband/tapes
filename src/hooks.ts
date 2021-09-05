@@ -1,5 +1,5 @@
-import { prerendering } from "$app/env";
 import type { Handle } from "@sveltejs/kit";
+import { prerendering } from "$app/env";
 import { minify } from "html-minifier-terser";
 
 export const handle: Handle = async ({ request, resolve }) => {

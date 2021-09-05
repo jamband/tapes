@@ -1,6 +1,6 @@
-import type { Params } from "$types/params";
-import type { Tape, Tapes } from "$types/tape";
-import type { Track } from "$types/track";
+import type { Params } from "~/types/params";
+import type { Tape, Tapes } from "~/types/tape";
+import type { Track } from "~/types/track";
 import fs from "fs";
 import glob from "glob";
 import { join } from "path";

@@ -1,7 +1,7 @@
 <script lang="ts">
-  import { SectionDivider } from "$components/section-divider";
-  import { TrackLoading } from "$components/track-loading";
-  import { player, track, trackId } from "$stores/track";
+  import { SectionDivider } from "~/components/section-divider";
+  import { TrackLoading } from "~/components/track-loading";
+  import { player, track, trackId } from "~/stores/track";
 
   $: squareRatio = ["Bandcamp", "SoundCloud"].includes($track.provider);
   $: tapePath = $track.path.split("/").slice(0, -1).join("/");

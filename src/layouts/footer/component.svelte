@@ -1,8 +1,8 @@
 <script lang="ts">
   import { page } from "$app/stores";
-  import { LinkExternal } from "$components/link-external";
-  import { IconX, IconLightningBolt } from "$icons";
-  import { track } from "$stores/track";
+  import { LinkExternal } from "~/components/link-external";
+  import { IconX, IconLightningBolt } from "~/icons";
+  import { track } from "~/stores/track";
 </script>
 
 <footer class="fixed bottom-0 w-full bg-gray-800">

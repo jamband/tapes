@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { IconLightningBolt } from "$icons";
+  import { IconLightningBolt } from "~/icons";
 </script>
 
 <div class={$$props.class || ""} role="status">

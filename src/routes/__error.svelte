@@ -14,8 +14,8 @@
 </script>
 
 <script lang="ts">
-  import { SectionDivider } from "$components/section-divider";
-  import { Page } from "$layouts/page";
+  import { SectionDivider } from "~/components/section-divider";
+  import { Page } from "~/layouts/page";
 
   export let title: string;
   export let message: string;

@@ -1,7 +1,7 @@
 <script lang="ts">
-  import { SectionDivider } from "$components/section-divider";
-  import { APP_DESCRIPTION, APP_NAME, APP_URL } from "$constants/app";
-  import { Page } from "$layouts/page";
+  import { SectionDivider } from "~/components/section-divider";
+  import { APP_DESCRIPTION, APP_NAME, APP_URL } from "~/constants/app";
+  import { Page } from "~/layouts/page";
 </script>
 
 <svelte:head>

@@ -1,8 +1,8 @@
 <script lang="ts">
-  import { LinkExternal } from "$components/link-external";
-  import { APP_DESCRIPTION, APP_NAME, APP_URL } from "$constants/app";
-  import { IconExternalLink } from "$icons";
-  import { Page } from "$layouts/page";
+  import { LinkExternal } from "~/components/link-external";
+  import { APP_DESCRIPTION, APP_NAME, APP_URL } from "~/constants/app";
+  import { IconExternalLink } from "~/icons";
+  import { Page } from "~/layouts/page";
 </script>
 
 <svelte:head>
