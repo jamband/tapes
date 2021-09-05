@@ -15,7 +15,7 @@
         : 'aspect-w-16 aspect-h-9'}"
     >
       {#key $trackId}
-        <TrackLoading class="flex flex-col items-center justify-center" />
+        <TrackLoading class="flex items-center justify-center" />
         <iframe
           src={$player}
           class="rounded"
