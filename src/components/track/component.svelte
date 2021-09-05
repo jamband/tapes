@@ -1,6 +1,6 @@
 <script lang="ts">
+  import { Loading } from "~/components/loading";
   import { SectionDivider } from "~/components/section-divider";
-  import { TrackLoading } from "~/components/track-loading";
   import { player, track, trackId } from "~/stores/track";
 
   $: squareRatio = ["Bandcamp", "SoundCloud"].includes($track.provider);
@@ -15,7 +15,7 @@
         : 'aspect-w-16 aspect-h-9'}"
     >
       {#key $trackId}
-        <TrackLoading class="flex items-center justify-center" />
+        <Loading class="flex items-center justify-center" />
         <iframe
           src={$player}
           class="rounded"
