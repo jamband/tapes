@@ -8,7 +8,9 @@
 <footer class="fixed bottom-0 w-full bg-gray-800">
   {#if $track.path && !$page.params.track}
     <div class="py-1 md:container md:mx-auto flex items-center justify-center">
-      <span class="font-bold text-purple-800 text-xxs align-top">&#9679</span>
+      <span class="ml-4 font-bold text-purple-700 text-xxs align-top"
+        >&#9679</span
+      >
       <a
         sveltekit:prefetch
         class="ml-4 mr-1 py-1 whitespace-nowrap overflow-ellipsis overflow-hidden font-semibold text-sm"
