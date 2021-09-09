@@ -1,0 +1,36 @@
+{
+  "id": 3,
+  "title": "Ambient/Experimental/Pop",
+  "path": "/2021/03/ambient-experimental-pop",
+  "date": "Mar 17, 2021",
+  "items": [
+    {
+      "title": "Konradsen - Television Land",
+      "provider": "Bandcamp",
+      "provider_key": "4223588813",
+      "image": "https://f4.bcbits.com/img/a3632032337_4.jpg",
+      "slug": "konradsen-television-land"
+    },
+    {
+      "title": "The Giving Shapes - Upstream",
+      "provider": "Bandcamp",
+      "provider_key": "4109119488",
+      "image": "https://f4.bcbits.com/img/a1139856286_4.jpg",
+      "slug": "the-giving-shapes-upstream"
+    },
+    {
+      "title": "Joseph Shabason - The Fellowship",
+      "provider": "Bandcamp",
+      "provider_key": "1161469736",
+      "image": "https://f4.bcbits.com/img/a3363258549_4.jpg",
+      "slug": "joseph-shabason-the-fellowship"
+    },
+    {
+      "title": "Susanna - Lily",
+      "provider": "Bandcamp",
+      "provider_key": "1783965666",
+      "image": "https://f4.bcbits.com/img/a1384149316_4.jpg",
+      "slug": "susanna-lily"
+    }
+  ]
+}

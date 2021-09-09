@@ -1,0 +1,50 @@
+{
+  "id": 4,
+  "title": "Adrianne Lenker",
+  "path": "/2021/04/adrianne-lenker",
+  "date": "Apr 12, 2021",
+  "items": [
+    {
+      "title": "Adrianne Lenker - Steamboat",
+      "provider": "Bandcamp",
+      "provider_key": "983878807",
+      "image": "https://f4.bcbits.com/img/a0398068431_4.jpg",
+      "slug": "adrianne-lenker-steamboat"
+    },
+    {
+      "title": "Adrianne Lenker - Indiana",
+      "provider": "Bandcamp",
+      "provider_key": "699327025",
+      "image": "https://f4.bcbits.com/img/a0398068431_4.jpg",
+      "slug": "adrianne-lenker-indiana"
+    },
+    {
+      "title": "Adrianne Lenker - Hours Were The Birds",
+      "provider": "Bandcamp",
+      "provider_key": "976882955",
+      "image": "https://f4.bcbits.com/img/a0398068431_4.jpg",
+      "slug": "adrianne-lenker-hours-were-the-birds"
+    },
+    {
+      "title": "Adrianne Lenker and Buck Meek - Kerina",
+      "provider": "Bandcamp",
+      "provider_key": "3707619096",
+      "image": "https://f4.bcbits.com/img/a3721978892_4.jpg",
+      "slug": "adrianne-lenker-and-buck-meek-kerina"
+    },
+    {
+      "title": "Adrianne Lenker and Buck Meek - Jonathan",
+      "provider": "Bandcamp",
+      "provider_key": "1934218642",
+      "image": "https://f4.bcbits.com/img/a3721978892_4.jpg",
+      "slug": "adrianne-lenker-and-buck-meek-jonathan"
+    },
+    {
+      "title": "Adrianne Lenker - Butterfly",
+      "provider": "Bandcamp",
+      "provider_key": "1490515166",
+      "image": "https://f4.bcbits.com/img/a0398068431_4.jpg",
+      "slug": "adrianne-lenker-butterfly"
+    }
+  ]
+}
