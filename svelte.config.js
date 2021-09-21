@@ -13,7 +13,8 @@ const config = {
     adapter: adapter(),
     target: "#svelte",
     paths: {
-      base: process.env.GITHUB_ACTIONS ? "/tapes" : "",
+      base: process.env["VITE_GITHUB_ACTIONS"] ? "/tapes" : "",
+      // base: "/tapes",
     },
     trailingSlash: "always",
     vite: {
