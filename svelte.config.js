@@ -14,7 +14,6 @@ const config = {
     target: "#svelte",
     paths: {
       base: process.env["VITE_GITHUB_ACTIONS"] ? "/tapes" : "",
-      // base: "/tapes",
     },
     trailingSlash: "always",
     vite: {

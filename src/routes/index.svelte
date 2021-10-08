@@ -2,7 +2,7 @@
   import type { LoadInput } from "@sveltejs/kit";
 
   export const load = async ({ fetch }: LoadInput) => {
-    const response = await fetch("/index.json");
+    const response = await fetch("index.json");
 
     return {
       props: {
@@ -13,6 +13,7 @@
 </script>
 
 <script lang="ts">
+  import { base } from "$app/paths";
   import { SectionDivider } from "~/components/section-divider";
   import { TapeHeader } from "~/components/tape-header";
   import { APP_DESCRIPTION, APP_NAME, APP_URL } from "~/constants/app";
@@ -41,7 +42,7 @@
       <a
         sveltekit:prefetch
         class="font-semibold text-2xl hover:text-purple-500"
-        href={tape.path}>{tape.title} →</a
+        href="{base}{tape.path}">{tape.title} →</a
       >
       <div class="ml-5 text-xs text-gray-400">
         {tape.date}

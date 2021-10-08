@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { base } from "$app/paths";
   import { Loading } from "~/components/loading";
   import { SectionDivider } from "~/components/section-divider";
   import { player, track, trackId } from "~/stores/track";
@@ -31,8 +32,10 @@
   </h3>
   <SectionDivider class="my-10" />
   <div class="font-semibold text-sm text-center">
-    <a sveltekit:prefetch class="p-3 hover:text-purple-500" href={tapePath}
-      >← {$track.tape.title}</a
+    <a
+      sveltekit:prefetch
+      class="p-3 hover:text-purple-500"
+      href="{base}{tapePath}">← {$track.tape.title}</a
     >
   </div>
 {/if}

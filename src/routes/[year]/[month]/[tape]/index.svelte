@@ -15,6 +15,7 @@
 </script>
 
 <script lang="ts">
+  import { base } from "$app/paths";
   import { SectionDivider } from "~/components/section-divider";
   import { TapeHeader } from "~/components/tape-header";
   import { APP_NAME, APP_URL } from "~/constants/app";
@@ -70,5 +71,5 @@
 </div>
 <SectionDivider />
 <div class="mt-12 text-center">
-  <a href="/" class="p-3 font-semibold hover:text-purple-500">← Home</a>
+  <a href="{base}/" class="p-3 font-semibold hover:text-purple-500">← Home</a>
 </div>
