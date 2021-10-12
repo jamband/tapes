@@ -1,8 +1,11 @@
 <script lang="ts" context="module">
+  import { browser } from "$app/env";
   import type { LoadInput } from "@sveltejs/kit";
 
   export const load = async ({ fetch }: LoadInput) => {
-    const response = await fetch("index.json");
+    const urlPrefix = browser ? base : "";
+    const url = `${urlPrefix}/index.json`;
+    const response = await fetch(url);
 
     return {
       props: {

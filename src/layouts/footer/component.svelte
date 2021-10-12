@@ -15,7 +15,7 @@
       <a
         sveltekit:prefetch
         class="ml-4 mr-1 py-1 whitespace-nowrap overflow-ellipsis overflow-hidden font-semibold text-sm"
-        href={$track.path}>{$track.title}</a
+        href="{base}{$track.path}">{$track.title}</a
       >
       <button class="mr-2 p-2" on:click={track.clear}
         ><IconX class="h-5 w-5" /></button

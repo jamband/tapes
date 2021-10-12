@@ -1,9 +1,12 @@
 <script lang="ts" context="module">
+  import { browser } from "$app/env";
+  import { base } from "$app/paths";
   import type { LoadInput } from "@sveltejs/kit";
 
   export const load = async ({ page, fetch }: LoadInput) => {
     const params = page.params;
-    const url = `/${params.year}/${params.month}/${params.tape}.json`;
+    const urlPrefix = browser ? base : "";
+    const url = `${urlPrefix}/${params.year}/${params.month}/${params.tape}.json`;
     const response = await fetch(url);
 
     return {
@@ -15,7 +18,6 @@
 </script>
 
 <script lang="ts">
-  import { base } from "$app/paths";
   import { SectionDivider } from "~/components/section-divider";
   import { TapeHeader } from "~/components/tape-header";
   import { APP_NAME, APP_URL } from "~/constants/app";
@@ -45,7 +47,7 @@
     <a
       sveltekit:prefetch
       class="mb-1 relative shadow"
-      href="{tape.path}/{item.slug}"
+      href="{base}{tape.path}/{item.slug}"
     >
       <img
         class="w-full rounded opacity-70"

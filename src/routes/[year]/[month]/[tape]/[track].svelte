@@ -1,9 +1,12 @@
 <script lang="ts" context="module">
+  import { browser } from "$app/env";
+  import { base } from "$app/paths";
   import type { LoadInput } from "@sveltejs/kit";
 
   export const load = async ({ page, fetch }: LoadInput) => {
     const params = page.params;
-    const url = `/${params.year}/${params.month}/${params.tape}/${params.track}.json`;
+    const urlPrefix = browser ? base : "";
+    const url = `${urlPrefix}/${params.year}/${params.month}/${params.tape}/${params.track}.json`;
     const response = await fetch(url);
 
     return {
