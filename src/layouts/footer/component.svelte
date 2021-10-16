@@ -37,8 +37,5 @@
   {/if}
 </footer>
 
-<style>
-  footer {
-    padding-bottom: env(safe-area-inset-bottom);
-  }
+<style src="./style.css">
 </style>
