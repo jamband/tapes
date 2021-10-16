@@ -5,7 +5,7 @@ import fs from "fs";
 import glob from "glob";
 import { join } from "path";
 
-const baseDir = join(process.cwd(), "static/data");
+const baseDir = join(process.cwd(), "src/tapes");
 const files = glob.sync(`${baseDir}/**/*.json`);
 
 const contents = (path: string) => {
