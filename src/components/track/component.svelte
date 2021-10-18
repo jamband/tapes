@@ -4,14 +4,14 @@
   import { SectionDivider } from "~/components/section-divider";
   import { player, track, trackId } from "~/stores/track";
 
-  $: squareRatio = ["Bandcamp", "SoundCloud"].includes($track.provider);
+  $: isSquareRatio = ["Bandcamp", "SoundCloud"].includes($track.provider);
   $: tapePath = $track.path.split("/").slice(0, -1).join("/");
 </script>
 
 {#if $trackId}
   <div class="mb-3 grid grid-cols-6 grap-4">
     <div
-      class="col-span-6 {squareRatio
+      class="col-span-6 {isSquareRatio
         ? 'md:col-span-4 md:col-start-2 aspect-w-1 aspect-h-1'
         : 'aspect-w-16 aspect-h-9'}"
     >
