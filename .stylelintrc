@@ -1,0 +1,20 @@
+{
+  "extends": ["stylelint-config-standard"],
+  "plugins": ["stylelint-order"],
+  "overrides": [
+    {
+      "files": "src/**/*.svelte",
+      "customSyntax": "postcss-html"
+    }
+  ],
+  "rules": {
+    "alpha-value-notation": "number",
+    "at-rule-no-unknown": [
+      true,
+      {
+        "ignoreAtRules": ["layer", "responsive", "screen", "variants"]
+      }
+    ],
+    "order/properties-alphabetical-order": true
+  }
+}

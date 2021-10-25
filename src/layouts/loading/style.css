@@ -4,11 +4,13 @@
 
 .start {
   @apply bg-purple-700 opacity-50;
+
   transition: width 10s cubic-bezier(0.1, 0.05, 0, 1);
   width: 99%;
 }
 
 .complete {
   @apply w-full opacity-0;
+
   transition: width 0.1s ease-out, opacity 0.5s ease 0.2s;
 }
