@@ -5,7 +5,11 @@
   export let title: string;
 </script>
 
-<h1 class="mb-0 font-bold text-center">{title}</h1>
+<h1
+  class="mb-0 font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-pink-600"
+>
+  {title}
+</h1>
 <div class="text-center text-xs text-gray-400">
   selected from
   <LinkExternal href="https://plusarchive.com" class="hover:text-purple-500"
