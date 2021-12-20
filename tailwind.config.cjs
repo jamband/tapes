@@ -1,7 +1,5 @@
 module.exports = {
-  mode: "jit",
-  darkMode: false,
-  purge: ["./src/**/*.{html,js,svelte,ts}"],
+  content: ["./src/**/*.{html,js,svelte,ts}"],
   theme: {
     container: {
       padding: "1rem",
@@ -33,12 +31,5 @@ module.exports = {
         "70vh": "70vh",
       },
     },
-    // plugins
-    aspectRatio: {
-      1: "1",
-      9: "9",
-      16: "16",
-    },
   },
-  plugins: [require("@tailwindcss/aspect-ratio")],
 };

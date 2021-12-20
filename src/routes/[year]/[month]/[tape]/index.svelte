@@ -54,18 +54,14 @@
       class="mb-1 relative shadow"
       href="{base}{tape.path}/{item.slug}"
     >
-      <div
-        class={isSquareRatio(item.provider)
-          ? "aspect-w-1 aspect-h-1"
-          : "aspect-w-16 aspect-h-9"}
-      >
-        <img
-          class="w-full rounded opacity-70"
-          src={item.image}
-          loading="lazy"
-          alt=""
-        />
-      </div>
+      <img
+        class="w-full rounded opacity-70"
+        class:aspect-square={isSquareRatio(item.provider)}
+        class:aspect-video={!isSquareRatio(item.provider)}
+        src={item.image}
+        loading="lazy"
+        alt=""
+      />
       <div class="absolute inset-0 flex items-center justify-center opacity-70">
         {#if item.provider + item.provider_key === $trackId}
           <IconPause class="h-12 w-12 lg:h-14 lg:w-14" />
@@ -82,5 +78,5 @@
 </div>
 <SectionDivider />
 <div class="mt-12 text-center">
-  <a href="{base}/" class="p-3 font-semibold hover:text-purple-500">← Home</a>
+  <a href="{base}/" class="p-3 font-semibold hover:text-violet-500">← Home</a>
 </div>

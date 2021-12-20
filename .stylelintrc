@@ -10,9 +10,7 @@
   "rules": {
     "at-rule-no-unknown": [
       true,
-      {
-        "ignoreAtRules": ["layer", "responsive", "screen", "variants"]
-      }
+      { "ignoreAtRules": ["layer", "responsive", "screen"] }
     ],
     "order/properties-alphabetical-order": true
   }

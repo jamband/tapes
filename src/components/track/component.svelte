@@ -1,6 +1,5 @@
 <script lang="ts">
   import { base } from "$app/paths";
-  import { Loading } from "~/components/loading";
   import { SectionDivider } from "~/components/section-divider";
   import { player, track, trackId } from "~/stores/track";
 
@@ -10,16 +9,13 @@
 
 {#if $trackId}
   <div class="mb-3 grid grid-cols-6 grap-4">
-    <div
-      class="col-span-6 {isSquareRatio
-        ? 'md:col-span-4 md:col-start-2 aspect-w-1 aspect-h-1'
-        : 'aspect-w-16 aspect-h-9'}"
-    >
+    <div class="col-span-6 {isSquareRatio && 'md:col-span-4 md:col-start-2'}">
       {#key $trackId}
-        <Loading class="flex items-center justify-center" />
         <iframe
           src={$player}
-          class="rounded"
+          class="w-full rounded"
+          class:aspect-square={isSquareRatio}
+          class:aspect-video={!isSquareRatio}
           title="{$track.title} ･ {$track.provider}"
           allowfullscreen
         />
@@ -34,7 +30,7 @@
   <div class="font-semibold text-sm text-center">
     <a
       sveltekit:prefetch
-      class="p-3 hover:text-purple-500"
+      class="p-3 hover:text-violet-500"
       href="{base}{tapePath}">← {$track.tape.title}</a
     >
   </div>

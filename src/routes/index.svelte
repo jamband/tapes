@@ -39,12 +39,12 @@
 <ul>
   {#each tapes as tape (tape.path)}
     <li class="mb-3">
-      <span class="mr-1 font-bold text-purple-900 text-xxs align-top"
+      <span class="mr-1 font-bold text-violet-900 text-xxs align-top"
         >&#9679</span
       >
       <a
         sveltekit:prefetch
-        class="font-semibold text-2xl hover:text-purple-500"
+        class="font-semibold text-2xl hover:text-violet-500"
         href="{base}{tape.path}">{tape.title} →</a
       >
       <div class="ml-5 text-xs text-gray-400">
