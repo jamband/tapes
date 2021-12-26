@@ -10,7 +10,9 @@
 </h1>
 <div class="text-center text-xs text-gray-400">
   selected from
-  <LinkExternal href="https://plusarchive.com" class="hover:text-violet-500"
+  <LinkExternal
+    href="https://plusarchive.com"
+    class="inline-flex items-center hover:text-violet-500"
     >PlusArchive<IconExternalLink class="ml-0.5 h-4 w-4" /></LinkExternal
   >
 </div>
