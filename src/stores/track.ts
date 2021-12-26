@@ -1,7 +1,7 @@
 import type { Track } from "~/types/track";
 import { derived, writable } from "svelte/store";
 
-const InitialValue: Track = {
+const initialValue: Track = {
   title: "",
   provider: "",
   provider_key: "",
@@ -14,12 +14,12 @@ const InitialValue: Track = {
 };
 
 const createTrack = () => {
-  const { subscribe, set } = writable<Track>(InitialValue);
+  const { subscribe, set } = writable<Track>(initialValue);
 
   return {
     subscribe,
     set: (track: Track) => set(track),
-    clear: () => set(InitialValue),
+    clear: () => set(initialValue),
   };
 };
 
