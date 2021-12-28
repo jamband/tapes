@@ -48,16 +48,18 @@
       {/key}
     </div>
   </div>
-  <h3 class="text-center">
-    {$track.title}
-    <span class="text-xs text-gray-500">{$track.provider}</span>
-  </h3>
-  <SectionDivider class="my-10" />
-  <div class="font-semibold text-sm text-center">
-    <a
-      sveltekit:prefetch
-      class="p-3 hover:text-violet-500"
-      href="{base}{tapePath}">← {$track.tape.title}</a
-    >
+  <div class="text-center">
+    <h3>{$track.title}</h3>
+    <div class="text-xs text-gray-500">
+      via {$track.provider}
+    </div>
+    <SectionDivider class="my-10" />
+    <div class="font-semibold text-sm">
+      <a
+        sveltekit:prefetch
+        class="p-3 hover:text-violet-500"
+        href="{base}{tapePath}">← {$track.tape.title}</a
+      >
+    </div>
   </div>
 {/if}
