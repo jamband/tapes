@@ -73,7 +73,7 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@rollup/pluginutils@^4.1.1":
+"@rollup/pluginutils@^4.1.2":
   version "4.1.2"
   resolved "https://registry.yarnpkg.com/@rollup/pluginutils/-/pluginutils-4.1.2.tgz#ed5821c15e5e05e32816f5fb9ec607cdf5a75751"
   integrity sha512-ROn4qvkxP9SyPeHaf7uQC/GPFY6L/OWy9+bd9AwcjOAWQwxRscoEyAUD8qCY5o5iL4jqQwoLk2kaTKJPb/HwzQ==
@@ -88,10 +88,10 @@
   dependencies:
     tiny-glob "^0.2.9"
 
-"@sveltejs/kit@^1.0.0-next.203":
-  version "1.0.0-next.203"
-  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.0.0-next.203.tgz#3fee8cc7329fd0c2eeb7a5e9f83c25bc82188334"
-  integrity sha512-+bhfmkzquWMSCCFIJoh36U9D6IKC0p/NrIr4CBHMAdRpqzL9lMP0AYQm1fUDH20F/6b2tWvGxmEg+gAmHikRfA==
+"@sveltejs/kit@^1.0.0-next.206":
+  version "1.0.0-next.206"
+  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.0.0-next.206.tgz#c7f0efc6bcb6eefa0741498c2494a78ceabaa9f9"
+  integrity sha512-AQEOKZLG1GKkuBfWUKKxMs9A3AzE9tSHYc4Lu+AL/4BAs4erIFdOei2ldsxak2ICxxeaCloqVRPvIOtj7UEacg==
   dependencies:
     "@sveltejs/vite-plugin-svelte" "^1.0.0-next.32"
     cheap-watch "^1.0.4"
@@ -99,16 +99,16 @@
     vite "^2.7.2"
 
 "@sveltejs/vite-plugin-svelte@^1.0.0-next.32":
-  version "1.0.0-next.32"
-  resolved "https://registry.yarnpkg.com/@sveltejs/vite-plugin-svelte/-/vite-plugin-svelte-1.0.0-next.32.tgz#bafcb15dfa7832566dac2b8a67ac6b03e2be5ef6"
-  integrity sha512-Lhf5BxVylosHIW6U2s6WDQA39ycd+bXivC8gHsXCJeLzxoHj7Pv7XAOk25xRSXT4wHg9DWFMBQh2DFU0DxHZ2g==
+  version "1.0.0-next.33"
+  resolved "https://registry.yarnpkg.com/@sveltejs/vite-plugin-svelte/-/vite-plugin-svelte-1.0.0-next.33.tgz#99ecda078709929a2323e40f66801f5aa329c5b8"
+  integrity sha512-aj0h2+ZixgT+yoJFIs8dRRw/Cj9tgNu3+hY4CJikpa04mfhR61wXqJFfi2ZEFMUvFda5nCxKYIChFkc6wq5fJA==
   dependencies:
-    "@rollup/pluginutils" "^4.1.1"
+    "@rollup/pluginutils" "^4.1.2"
     debug "^4.3.3"
     kleur "^4.1.4"
     magic-string "^0.25.7"
     require-relative "^0.8.7"
-    svelte-hmr "^0.14.7"
+    svelte-hmr "^0.14.9"
 
 "@types/glob@^7.1.4":
   version "7.2.0"
@@ -437,9 +437,9 @@ camelcase@^5.3.1:
   integrity sha512-L28STB170nwWS63UjtlEOE3dldQApaJXZkOI1uMFfzf3rRuPegHaHesyee+YxQ+W6SvRDQV6UrdOdRiR153wJg==
 
 caniuse-lite@^1.0.30001272, caniuse-lite@^1.0.30001286:
-  version "1.0.30001292"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001292.tgz#4a55f61c06abc9595965cfd77897dc7bc1cdc456"
-  integrity sha512-jnT4Tq0Q4ma+6nncYQVe7d73kmDmE9C3OGTx3MvW7lBM/eY1S1DZTMBON7dqV481RhNiS5OxD7k9JQvmDOTirw==
+  version "1.0.30001294"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001294.tgz#4849f27b101fd59ddee3751598c663801032533d"
+  integrity sha512-LiMlrs1nSKZ8qkNhpUf5KD0Al1KCBE3zaT7OLOwEkagXMEDij98SiOovn9wxVGQpklk9vVC/pUSqgYmkmKOS8g==
 
 chalk@^2.0.0:
   version "2.4.2"
@@ -668,9 +668,9 @@ dot-case@^3.0.4:
     tslib "^2.0.3"
 
 electron-to-chromium@^1.4.17:
-  version "1.4.28"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.28.tgz#fef0e92e281df6d568f482d8d53c34ca5374de48"
-  integrity sha512-Gzbf0wUtKfyPaqf0Plz+Ctinf9eQIzxEqBHwSvbGfeOm9GMNdLxyu1dNiCUfM+x6r4BE0xUJNh3Nmg9gfAtTmg==
+  version "1.4.29"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.29.tgz#a9b85ab888d0122124c9647c04d8dd246fae94b6"
+  integrity sha512-N2Jbwxo5Rum8G2YXeUxycs1sv4Qme/ry71HG73bv8BvZl+I/4JtRgK/En+ST/Wh/yF1fqvVCY4jZBgMxnhjtBA==
 
 emoji-regex@^8.0.0:
   version "8.0.0"
@@ -2185,7 +2185,7 @@ svelte-check@^2.2.11:
     svelte-preprocess "^4.0.0"
     typescript "*"
 
-svelte-hmr@^0.14.7:
+svelte-hmr@^0.14.9:
   version "0.14.9"
   resolved "https://registry.yarnpkg.com/svelte-hmr/-/svelte-hmr-0.14.9.tgz#35f277efc789e1a6230185717347cddb2f8e9833"
   integrity sha512-bKE9+4qb4sAnA+TKHiYurUl970rjA0XmlP9TEP7K/ncyWz3m81kA4HOgmlZK/7irGK7gzZlaPDI3cmf8fp/+tg==
@@ -2223,10 +2223,10 @@ table@^6.7.5:
     string-width "^4.2.3"
     strip-ansi "^6.0.1"
 
-tailwindcss@^3.0.7:
-  version "3.0.7"
-  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-3.0.7.tgz#15936881f042a7eb8d6f2b6a454bac9f51181bbd"
-  integrity sha512-rZdKNHtC64jcQncLoWOuCzj4lQDTAgLtgK3WmQS88tTdpHh9OwLqULTQxI3tw9AMJsqSpCKlmcjW/8CSnni6zQ==
+tailwindcss@^3.0.8:
+  version "3.0.8"
+  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-3.0.8.tgz#6c751c3d2ee8e1fa18b108303b73f44a5e868992"
+  integrity sha512-Yww1eRYO1AxITJmW/KduZPxNvYdHuedeKwPju9Oakp7MdiixRi5xkpLhirsc81QCxHL0eoce6qKmxXwYGt4Cjw==
   dependencies:
     arg "^5.0.1"
     chalk "^4.1.2"
@@ -2373,9 +2373,9 @@ validate-npm-package-license@^3.0.1:
     spdx-expression-parse "^3.0.0"
 
 vite@^2.7.2:
-  version "2.7.8"
-  resolved "https://registry.yarnpkg.com/vite/-/vite-2.7.8.tgz#0bfd4b513f8dfc8edcf2ea2d2490655dd44f404a"
-  integrity sha512-NOgvRtXUq4/7srE2cTQ2IU1oERdGq2njVOlZtgRrjMO+PPJpncd61/AUzxzZklQ1zBkiWXEVrw3Csq0Sbgr0rQ==
+  version "2.7.9"
+  resolved "https://registry.yarnpkg.com/vite/-/vite-2.7.9.tgz#c72d8817cdddbb127daed0c8f87fbca4e7754a81"
+  integrity sha512-CyopIJIRrc26Wnbkch5BCHFhQodzeV4jjSegLAEw1RImvXSuoOo2SfpEW9zRVi188WmjJwCqCaoG25C0r4nekw==
   dependencies:
     esbuild "^0.13.12"
     postcss "^8.4.5"
