@@ -1,10 +1,10 @@
 import type { RequestHandler } from "@sveltejs/kit";
 import { getTapes, getYears } from "~/utils/api";
 
-export const get: RequestHandler = async () => {
+export const get: RequestHandler = async ({ params }) => {
   return {
     body: {
-      tapes: getTapes(new Date().getFullYear()),
+      tapes: getTapes(Number(params.year)),
       years: getYears,
     },
   };

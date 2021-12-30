@@ -1,17 +1,18 @@
 <script lang="ts" context="module">
   import { browser } from "$app/env";
   import { base } from "$app/paths";
+  import { page } from "$app/stores";
   import type { LoadInput } from "@sveltejs/kit";
   import { MoreTapes } from "~/components/more-tapes";
   import { SectionDivider } from "~/components/section-divider";
   import { TapeHeader } from "~/components/tape-header";
-  import { APP_DESCRIPTION, APP_NAME, APP_URL } from "~/constants/app";
+  import { APP_NAME, APP_URL } from "~/constants/app";
   import { Page } from "~/layouts/page";
   import type { Tapes } from "~/types/tape";
 
-  export const load = async ({ fetch }: LoadInput) => {
+  export const load = async ({ fetch, page }: LoadInput) => {
     const urlPrefix = browser ? base : "";
-    const url = `${urlPrefix}/index.json`;
+    const url = `${urlPrefix}/${page.params.year}.json`;
     const response = await fetch(url);
     const { tapes, years } = await response.json();
 
@@ -27,17 +28,19 @@
 <script lang="ts">
   export let tapes: Tapes;
   export let years: string[];
+
+  const title = `Tape on ${$page.params.year}`;
 </script>
 
 <svelte:head>
-  <meta name="description" content={APP_DESCRIPTION} />
-  <meta property="og:title" content={APP_NAME} />
-  <meta property="og:description" content={APP_DESCRIPTION} />
-  <meta property="og:url" content={APP_URL} />
+  <meta name="description" content={title} />
+  <meta property="og:title" content="{title} ･ {APP_NAME}" />
+  <meta property="og:description" content={title} />
+  <meta property="og:url" content="{APP_URL}{$page.params.year}/" />
 </svelte:head>
 
-<Page />
-<TapeHeader title="Monthly Favorite Tracks" />
+<Page title="Tape on {$page.params.year}" />
+<TapeHeader title="Monthly Favorite Tracks on {$page.params.year}" />
 <SectionDivider class="my-10" />
 <ul>
   {#each tapes as tape (tape.path)}
