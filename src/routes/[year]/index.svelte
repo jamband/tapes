@@ -29,7 +29,7 @@
   export let tapes: Tapes;
   export let years: string[];
 
-  const title = `Tape on ${$page.params.year}`;
+  const title = `Tapes on ${$page.params.year}`;
 </script>
 
 <svelte:head>
@@ -39,7 +39,7 @@
   <meta property="og:url" content="{APP_URL}{$page.params.year}/" />
 </svelte:head>
 
-<Page title="Tape on {$page.params.year}" />
+<Page {title} />
 <TapeHeader title="Monthly Favorite Tracks on {$page.params.year}" />
 <SectionDivider class="my-10" />
 <ul>
