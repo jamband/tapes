@@ -2,6 +2,14 @@
   import { browser } from "$app/env";
   import { base } from "$app/paths";
   import type { LoadInput } from "@sveltejs/kit";
+  import { SectionDivider } from "~/components/section-divider";
+  import { TapeHeader } from "~/components/tape-header";
+  import { APP_NAME, APP_URL } from "~/constants/app";
+  import { IconPause, IconPlay } from "~/icons";
+  import { Page } from "~/layouts/page";
+  import { trackId } from "~/stores/track";
+  import type { Provider } from "~/types/provider";
+  import type { Tape } from "~/types/tape";
 
   export const load = async ({ page, fetch }: LoadInput) => {
     const params = page.params;
@@ -18,16 +26,8 @@
 </script>
 
 <script lang="ts">
-  import { SectionDivider } from "~/components/section-divider";
-  import { TapeHeader } from "~/components/tape-header";
-  import { APP_NAME, APP_URL } from "~/constants/app";
-  import { IconPause, IconPlay } from "~/icons";
-  import { Page } from "~/layouts/page";
-  import { trackId } from "~/stores/track";
-  import type { Provider } from "~/types/provider";
-  import type { Tape } from "~/types/tape";
-
   export let tape: Tape;
+
   const title = `${tape.date} ${tape.title}`;
   const currentUrl = `${APP_URL.replace(/\/$/, "")}${tape.path}/`;
 

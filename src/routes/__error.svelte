@@ -1,5 +1,8 @@
 <script lang="ts" context="module">
+  import { base } from "$app/paths";
   import type { ErrorLoadInput } from "@sveltejs/kit";
+  import { SectionDivider } from "~/components/section-divider";
+  import { Page } from "~/layouts/page";
 
   export const load = async ({ error, status }: ErrorLoadInput) => {
     const isNotFound = status === 404;
@@ -14,10 +17,6 @@
 </script>
 
 <script lang="ts">
-  import { base } from "$app/paths";
-  import { SectionDivider } from "~/components/section-divider";
-  import { Page } from "~/layouts/page";
-
   export let title: string;
   export let message: string;
 </script>

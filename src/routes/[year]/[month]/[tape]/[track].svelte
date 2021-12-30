@@ -2,6 +2,10 @@
   import { browser } from "$app/env";
   import { base } from "$app/paths";
   import type { LoadInput } from "@sveltejs/kit";
+  import { APP_NAME, APP_URL } from "~/constants/app";
+  import { Page } from "~/layouts/page";
+  import { track as __track } from "~/stores/track";
+  import type { Track } from "~/types/track";
 
   export const load = async ({ page, fetch }: LoadInput) => {
     const params = page.params;
@@ -18,12 +22,8 @@
 </script>
 
 <script lang="ts">
-  import { APP_NAME, APP_URL } from "~/constants/app";
-  import { Page } from "~/layouts/page";
-  import { track as __track } from "~/stores/track";
-  import type { Track } from "~/types/track";
-
   export let track: Track;
+
   __track.set(track);
 
   const title = `${$__track.tape.title} ･ ${track.title}`;
