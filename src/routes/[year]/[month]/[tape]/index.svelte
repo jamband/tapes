@@ -11,8 +11,7 @@
   import type { Provider } from "~/types/provider";
   import type { Tape } from "~/types/tape";
 
-  export const load = async ({ page, fetch }: LoadInput) => {
-    const params = page.params;
+  export const load = async ({ fetch, params }: LoadInput) => {
     const urlPrefix = browser ? base : "";
     const url = `${urlPrefix}/${params.year}/${params.month}/${params.tape}.json`;
     const response = await fetch(url);

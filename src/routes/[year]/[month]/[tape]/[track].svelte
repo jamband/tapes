@@ -7,8 +7,7 @@
   import { track as __track } from "~/stores/track";
   import type { Track } from "~/types/track";
 
-  export const load = async ({ page, fetch }: LoadInput) => {
-    const params = page.params;
+  export const load = async ({ fetch, params }: LoadInput) => {
     const urlPrefix = browser ? base : "";
     const url = `${urlPrefix}/${params.year}/${params.month}/${params.tape}/${params.track}.json`;
     const response = await fetch(url);

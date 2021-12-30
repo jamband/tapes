@@ -10,9 +10,9 @@
   import { Page } from "~/layouts/page";
   import type { Tapes } from "~/types/tape";
 
-  export const load = async ({ fetch, page }: LoadInput) => {
+  export const load = async ({ fetch, params }: LoadInput) => {
     const urlPrefix = browser ? base : "";
-    const url = `${urlPrefix}/${page.params.year}.json`;
+    const url = `${urlPrefix}/${params.year}.json`;
     const response = await fetch(url);
     const { tapes, years } = await response.json();
 
