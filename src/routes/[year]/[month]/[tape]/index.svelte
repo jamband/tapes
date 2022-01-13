@@ -54,7 +54,7 @@
       href="{base}{tape.path}/{item.slug}"
     >
       <img
-        class="w-full rounded opacity-70"
+        class="w-full bg-gray-800 rounded opacity-70"
         class:aspect-square={isSquareRatio(item.provider)}
         class:aspect-video={!isSquareRatio(item.provider)}
         src={item.image}
