@@ -1,0 +1,50 @@
+{
+  "id": 13,
+  "title": "Pop / Folk",
+  "path": "/2022/01/pop-folk",
+  "date": "Jan 13, 2022",
+  "items": [
+    {
+      "title": "Julia Holter - Feel You",
+      "provider": "Bandcamp",
+      "provider_key": "2069946023",
+      "image": "https://f4.bcbits.com/img/a3587684738_4.jpg",
+      "slug": "julia-holter-feel-you"
+    },
+    {
+      "title": "A Girl Called Eddy - Finest Actor",
+      "provider": "SoundCloud",
+      "provider_key": "799869877",
+      "image": "https://i1.sndcdn.com/artworks-niM37i4KT9Hxur9F-X1sEWw-t300x300.jpg",
+      "slug": "a-girl-called-eddy-finest-actor"
+    },
+    {
+      "title": "Faye Webster - Kingston",
+      "provider": "SoundCloud",
+      "provider_key": "518731563",
+      "image": "https://i1.sndcdn.com/artworks-000427030950-a2wkmt-t300x300.jpg",
+      "slug": "faye-webster-kingston"
+    },
+    {
+      "title": "Sweet Whirl - Weirdo",
+      "provider": "Bandcamp",
+      "provider_key": "2171484271",
+      "image": "https://f4.bcbits.com/img/a4115822752_4.jpg",
+      "slug": "sweet-whirl-weirdo"
+    },
+    {
+      "title": "Matt Maltese - Like A Fish",
+      "provider": "SoundCloud",
+      "provider_key": "429805962",
+      "image": "https://i1.sndcdn.com/artworks-000335300742-wg0ly0-t300x300.jpg",
+      "slug": "matt-maltese-like-a-fish"
+    },
+    {
+      "title": "Mary Glenn - Hours Are The New Days",
+      "provider": "Bandcamp",
+      "provider_key": "3660151376",
+      "image": "https://f4.bcbits.com/img/a0543376922_4.jpg",
+      "slug": "mary-glenn-hours-are-the-new-days"
+    }
+  ]
+}
