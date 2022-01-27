@@ -17,7 +17,6 @@ const config = {
     paths: {
       base: dev ? "" : "/tapes",
     },
-    trailingSlash: "always",
     vite: {
       resolve: {
         alias: {
