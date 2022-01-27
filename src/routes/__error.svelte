@@ -27,6 +27,6 @@
     <h1>{title}</h1>
     <div class="text-sm text-gray-400">{message}</div>
     <SectionDivider class="my-10" />
-    <a class="font-semibold" href="/{base}">Go digging →</a>
+    <a class="font-semibold" href="{base}/">Go digging →</a>
   </div>
 </div>

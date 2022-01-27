@@ -58,7 +58,7 @@
       <a
         sveltekit:prefetch
         class="p-3 hover:text-violet-500"
-        href="{base}{tapePath}">← {$track.tape.title}</a
+        href="{base}{tapePath}/">← {$track.tape.title}</a
       >
     </div>
   </div>
