@@ -1,5 +1,4 @@
 <script lang="ts">
-  import { base } from "$app/paths";
   import { page } from "$app/stores";
   import { LinkExternal } from "~/components/link-external";
   import { IconX } from "~/icons";
@@ -15,7 +14,7 @@
       <a
         sveltekit:prefetch
         class="ml-4 mr-1 py-1 whitespace-nowrap text-ellipsis overflow-hidden font-semibold text-sm"
-        href="{base}{$track.path}">{$track.title}</a
+        href={$track.path}>{$track.title}</a
       >
       <button class="mr-2 p-2" on:click={track.clear}
         ><IconX class="h-5 w-5" /></button
@@ -27,8 +26,8 @@
       aria-label="Footer navigation"
     >
       <div class="grid grid-cols-3 divide-x divide-gray-600 text-center">
-        <a class="py-1" href="{base}/about">About</a>
-        <a class="py-1" href="{base}/contact">Contact</a>
+        <a class="py-1" href="/about">About</a>
+        <a class="py-1" href="/contact">Contact</a>
         <LinkExternal class="py-1" href="https://github.com/jamband/tapes"
           >GitHub</LinkExternal
         >

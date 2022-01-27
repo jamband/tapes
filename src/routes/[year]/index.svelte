@@ -1,6 +1,4 @@
 <script lang="ts" context="module">
-  import { browser } from "$app/env";
-  import { base } from "$app/paths";
   import { page } from "$app/stores";
   import type { LoadInput } from "@sveltejs/kit";
   import { MoreTapes } from "~/components/more-tapes";
@@ -11,9 +9,7 @@
   import type { Tapes } from "~/types/tape";
 
   export const load = async ({ fetch, params }: LoadInput) => {
-    const urlPrefix = browser ? base : "";
-    const url = `${urlPrefix}/${params.year}.json`;
-    const response = await fetch(url);
+    const response = await fetch(`/${params.year}.json`);
     const { tapes, years } = await response.json();
 
     return {
@@ -51,7 +47,7 @@
       <a
         sveltekit:prefetch
         class="font-semibold text-2xl hover:text-violet-500"
-        href="{base}{tape.path}">{tape.title} →</a
+        href={tape.path}>{tape.title} →</a
       >
       <div class="ml-5 text-xs text-gray-400">
         {tape.date}

@@ -1,6 +1,4 @@
 <script lang="ts" context="module">
-  import { browser } from "$app/env";
-  import { base } from "$app/paths";
   import type { LoadInput } from "@sveltejs/kit";
   import { SectionDivider } from "~/components/section-divider";
   import { TapeHeader } from "~/components/tape-header";
@@ -12,8 +10,7 @@
   import type { Tape } from "~/types/tape";
 
   export const load = async ({ fetch, params }: LoadInput) => {
-    const urlPrefix = browser ? base : "";
-    const url = `${urlPrefix}/${params.year}/${params.month}/${params.tape}.json`;
+    const url = `/${params.year}/${params.month}/${params.tape}.json`;
     const response = await fetch(url);
 
     return {
@@ -53,7 +50,7 @@
     <a
       sveltekit:prefetch
       class="mb-1 relative shadow"
-      href="{base}{tape.path}/{item.slug}"
+      href="{tape.path}/{item.slug}"
     >
       <img
         class="w-full bg-gray-800 rounded opacity-70"
@@ -79,7 +76,7 @@
 </div>
 <SectionDivider />
 <div class="mt-12 text-center">
-  <a href="{base}/{year}" class="p-3 font-semibold hover:text-violet-500"
+  <a href="/{year}" class="p-3 font-semibold hover:text-violet-500"
     >← Monthly Favorite Tracks on {year}</a
   >
 </div>

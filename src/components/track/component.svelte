@@ -1,5 +1,4 @@
 <script lang="ts">
-  import { base } from "$app/paths";
   import { beforeUpdate } from "svelte";
   import { SectionDivider } from "~/components/section-divider";
   import { IconLoading } from "~/icons";
@@ -55,10 +54,8 @@
     </div>
     <SectionDivider class="my-10" />
     <div class="font-semibold text-sm">
-      <a
-        sveltekit:prefetch
-        class="p-3 hover:text-violet-500"
-        href="{base}{tapePath}">← {$track.tape.title}</a
+      <a sveltekit:prefetch class="p-3 hover:text-violet-500" href={tapePath}
+        >← {$track.tape.title}</a
       >
     </div>
   </div>
