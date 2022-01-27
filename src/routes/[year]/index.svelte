@@ -48,7 +48,7 @@
       <a
         sveltekit:prefetch
         class="font-semibold text-2xl hover:text-violet-500"
-        href={tape.path}>{tape.title} →</a
+        href="{base}{tape.path}">{tape.title} →</a
       >
       <div class="ml-5 text-xs text-gray-400">
         {tape.date}

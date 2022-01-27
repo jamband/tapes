@@ -51,7 +51,7 @@
     <a
       sveltekit:prefetch
       class="mb-1 relative shadow"
-      href="{tape.path}/{item.slug}"
+      href="{base}{tape.path}/{item.slug}"
     >
       <img
         class="w-full bg-gray-800 rounded opacity-70"
@@ -77,7 +77,7 @@
 </div>
 <SectionDivider />
 <div class="mt-12 text-center">
-  <a href="/{year}" class="p-3 font-semibold hover:text-violet-500"
+  <a href="{base}/{year}" class="p-3 font-semibold hover:text-violet-500"
     >← Monthly Favorite Tracks on {year}</a
   >
 </div>
