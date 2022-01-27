@@ -2,6 +2,8 @@ import adapter from "@sveltejs/adapter-static";
 import { resolve } from "path";
 import preprocess from "svelte-preprocess";
 
+const dev = process.env.NODE_ENV === "development";
+
 /** @type {import("@sveltejs/kit").Config} */
 const config = {
   preprocess: [
@@ -13,7 +15,7 @@ const config = {
     adapter: adapter(),
     target: "#svelte",
     paths: {
-      base: process.env["VITE_GITHUB_ACTIONS"] ? "/tapes" : "",
+      base: dev ? "" : "/tapes",
     },
     trailingSlash: "always",
     vite: {
