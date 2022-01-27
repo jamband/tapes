@@ -1,4 +1,5 @@
 <script lang="ts" context="module">
+  import { base } from "$app/paths";
   import { page } from "$app/stores";
   import type { LoadInput } from "@sveltejs/kit";
   import { MoreTapes } from "~/components/more-tapes";
@@ -9,7 +10,7 @@
   import type { Tapes } from "~/types/tape";
 
   export const load = async ({ fetch, params }: LoadInput) => {
-    const response = await fetch(`/${params.year}.json`);
+    const response = await fetch(`${base}/${params.year}.json`);
     const { tapes, years } = await response.json();
 
     return {

@@ -1,4 +1,5 @@
 <script lang="ts" context="module">
+  import { base } from "$app/paths";
   import type { LoadInput } from "@sveltejs/kit";
   import { SectionDivider } from "~/components/section-divider";
   import { TapeHeader } from "~/components/tape-header";
@@ -10,7 +11,7 @@
   import type { Tape } from "~/types/tape";
 
   export const load = async ({ fetch, params }: LoadInput) => {
-    const url = `/${params.year}/${params.month}/${params.tape}.json`;
+    const url = `${base}/${params.year}/${params.month}/${params.tape}.json`;
     const response = await fetch(url);
 
     return {
