@@ -19,6 +19,7 @@
     return {
       props: {
         tape: await response.json(),
+        year: params.year,
       },
     };
   };
@@ -26,6 +27,7 @@
 
 <script lang="ts">
   export let tape: Tape;
+  export let year: string;
 
   const title = `${tape.date} ${tape.title}`;
   const currentUrl = `${APP_URL.replace(/\/$/, "")}${tape.path}/`;
@@ -77,5 +79,7 @@
 </div>
 <SectionDivider />
 <div class="mt-12 text-center">
-  <a href="{base}/" class="p-3 font-semibold hover:text-violet-500">← Home</a>
+  <a href="{base}/{year}" class="p-3 font-semibold hover:text-violet-500"
+    >← Monthly Favorite Tracks on {year}</a
+  >
 </div>
