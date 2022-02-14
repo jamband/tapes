@@ -1,30 +1,13 @@
-<script lang="ts" context="module">
+<script lang="ts">
   import { base } from "$app/paths";
   import { page } from "$app/stores";
-  import type { LoadInput } from "@sveltejs/kit";
-  import { MoreTapes } from "~/components/more-tapes";
   import { SectionDivider } from "~/components/section-divider";
   import { TapeHeader } from "~/components/tape-header";
   import { APP_NAME, APP_URL } from "~/constants/app";
   import { Page } from "~/layouts/page";
   import type { Tapes } from "~/types/tape";
 
-  export const load = async ({ fetch, params }: LoadInput) => {
-    const response = await fetch(`${base}/${params.year}.json`);
-    const { tapes, years } = await response.json();
-
-    return {
-      props: {
-        tapes,
-        years,
-      },
-    };
-  };
-</script>
-
-<script lang="ts">
   export let tapes: Tapes;
-  export let years: string[];
 
   const title = `Tapes on ${$page.params.year}`;
 </script>
@@ -56,5 +39,9 @@
     </li>
   {/each}
 </ul>
-<SectionDivider class="my-10" />
-<MoreTapes {years} />
+<SectionDivider />
+<div class="mt-12 text-center">
+  <a href="{base}/" class="p-3 font-semibold hover:text-violet-500"
+    >← Back to Home</a
+  >
+</div>

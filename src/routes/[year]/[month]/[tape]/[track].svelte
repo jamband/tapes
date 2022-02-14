@@ -1,24 +1,9 @@
-<script lang="ts" context="module">
-  import { base } from "$app/paths";
-  import type { LoadInput } from "@sveltejs/kit";
+<script lang="ts">
   import { APP_NAME, APP_URL } from "~/constants/app";
   import { Page } from "~/layouts/page";
   import { track as __track } from "~/stores/track";
   import type { Track } from "~/types/track";
 
-  export const load = async ({ fetch, params }: LoadInput) => {
-    const url = `${base}/${params.year}/${params.month}/${params.tape}/${params.track}.json`;
-    const response = await fetch(url);
-
-    return {
-      props: {
-        track: await response.json(),
-      },
-    };
-  };
-</script>
-
-<script lang="ts">
   export let track: Track;
 
   __track.set(track);

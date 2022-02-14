@@ -1,8 +1,10 @@
 import type { RequestHandler } from "@sveltejs/kit";
-import { getTape } from "~/utils/api";
+import { getTrack } from "~/utils/api";
 
 export const get: RequestHandler = async ({ params }) => {
   return {
-    body: getTape(params),
+    body: {
+      track: getTrack(params) || "",
+    },
   };
 };
