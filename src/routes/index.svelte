@@ -1,5 +1,6 @@
 <script lang="ts">
   import { base } from "$app/paths";
+  import { SectionDivider } from "~/components/section-divider";
   import { TapeHeader } from "~/components/tape-header";
   import { APP_DESCRIPTION, APP_NAME, APP_URL } from "~/constants/app";
   import { Page } from "~/layouts/page";
@@ -16,7 +17,8 @@
 
 <Page />
 <TapeHeader title="Monthly Favorite Tracks" />
-<div class="mt-10 flex items-center justify-center">
+<SectionDivider class="my-10" />
+<div class="flex items-center justify-center">
   {#each years as year}
     <a
       sveltekit:prefetch
