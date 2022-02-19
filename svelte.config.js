@@ -16,6 +16,10 @@ const config = {
       base: process.env["VITE_GITHUB_ACTIONS"] ? "/tapes" : "",
     },
     vite: {
+      optimizeDeps: {
+        include: ["svelte/internal"],
+        exclude: ["svelte/animate"],
+      },
       resolve: {
         alias: {
           "~": resolve("src"),
