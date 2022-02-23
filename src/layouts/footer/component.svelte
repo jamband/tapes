@@ -8,7 +8,7 @@
 
 <footer class="fixed bottom-0 w-full bg-gray-800">
   {#if $track.path && !$page.params.track}
-    <div class="py-2 md:container md:mx-auto flex items-center justify-center">
+    <div class="py-3 md:container md:mx-auto flex items-center justify-center">
       <span class="ml-4 font-bold text-violet-700 text-xxs align-top"
         >&#9679</span
       >
