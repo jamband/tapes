@@ -55,10 +55,8 @@
     </div>
     <SectionDivider class="my-10" />
     <div class="font-semibold text-sm">
-      <a
-        sveltekit:prefetch
-        class="p-3 hover:text-violet-500"
-        href="{base}{tapePath}">← {$track.tape.title}</a
+      <a sveltekit:prefetch class="p-3" href="{base}{tapePath}"
+        >← {$track.tape.title}</a
       >
     </div>
   </div>

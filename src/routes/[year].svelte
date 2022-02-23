@@ -30,7 +30,7 @@
       >
       <a
         sveltekit:prefetch
-        class="font-semibold text-2xl hover:text-violet-500"
+        class="font-semibold text-2xl"
         href="{base}{tape.path}">{tape.title} →</a
       >
       <div class="ml-5 text-xs text-gray-400">
@@ -41,7 +41,5 @@
 </ul>
 <SectionDivider />
 <div class="mt-12 text-center">
-  <a href="{base}/" class="p-3 font-semibold hover:text-violet-500"
-    >← Back to Home</a
-  >
+  <a href="{base}/" class="p-3 font-semibold">← Back to Home</a>
 </div>

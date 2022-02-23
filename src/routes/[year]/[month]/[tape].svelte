@@ -35,7 +35,7 @@
   {#each tape.items as item (item.slug)}
     <a
       sveltekit:prefetch
-      class="mb-1 relative shadow"
+      class="mb-1 relative shadow active:text-gray-100"
       href="{base}{tape.path}/{item.slug}"
     >
       <img
@@ -62,7 +62,7 @@
 </div>
 <SectionDivider />
 <div class="mt-12 text-center">
-  <a href="{base}/{year}" class="p-3 font-semibold hover:text-violet-500"
+  <a href="{base}/{year}" class="p-3 font-semibold"
     >← Monthly Favorite Tracks on {year}</a
   >
 </div>

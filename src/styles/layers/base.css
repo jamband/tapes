@@ -21,6 +21,6 @@
   }
 
   a {
-    @apply underline decoration-[0.05em] underline-offset-[0.25em];
+    @apply underline decoration-[0.05em] underline-offset-[0.25em] active:text-violet-500;
   }
 }
