@@ -1,15 +1,13 @@
 <script lang="ts">
-  import { navigating } from "$app/stores";
+  import { afterNavigate, beforeNavigate } from "$app/navigation";
 
-  type State = "initial" | "start" | "complete";
+  let state: "initial" | "start" | "complete" = "initial";
 
-  let state: State = "initial";
-
-  $: if ($navigating) {
+  beforeNavigate(() => {
     state = "start";
-  }
+  });
 
-  $: if (!$navigating) {
+  afterNavigate(() => {
     setTimeout(() => {
       state = "complete";
     }, 100);
@@ -17,7 +15,7 @@
     setTimeout(() => {
       state = "initial";
     }, 500);
-  }
+  });
 </script>
 
 <div
