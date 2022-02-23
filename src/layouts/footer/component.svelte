@@ -14,11 +14,11 @@
       >
       <a
         sveltekit:prefetch
-        class="ml-4 mr-1 py-1 whitespace-nowrap text-ellipsis overflow-hidden font-semibold text-sm"
+        class="ml-4 mr-1 py-1 whitespace-nowrap text-ellipsis overflow-hidden font-semibold text-sm no-underline"
         href="{base}{$track.path}">{$track.title}</a
       >
       <button class="mr-2 p-2" on:click={track.clear}
-        ><IconX class="h-5 w-5" /></button
+        ><IconX class="h-5 w-5 text-gray-400" /></button
       >
     </div>
   {:else}
@@ -26,11 +26,12 @@
       class="py-2 container mx-auto text-sm text-gray-300"
       aria-label="Footer navigation"
     >
-      <div class="grid grid-cols-3 divide-x divide-gray-600 text-center">
-        <a class="py-1" href="{base}/about">About</a>
-        <a class="py-1" href="{base}/contact">Contact</a>
-        <LinkExternal class="py-1" href="https://github.com/jamband/tapes"
-          >GitHub</LinkExternal
+      <div class="flex flex-row gap-2 md:gap-10 justify-center">
+        <a class="px-5 py-2 no-underline" href="{base}/about">About</a>
+        <a class="px-5 py-2 no-underline" href="{base}/contact">Contact</a>
+        <LinkExternal
+          class="px-5 py-2 no-underline"
+          href="https://github.com/jamband/tapes">GitHub</LinkExternal
         >
       </div>
     </nav>

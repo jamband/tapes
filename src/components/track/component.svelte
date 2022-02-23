@@ -50,7 +50,7 @@
   </div>
   <div class="text-center">
     <h3>{$track.title}</h3>
-    <div class="text-xs text-gray-500">
+    <div class="text-xs text-gray-400">
       via {$track.provider}
     </div>
     <SectionDivider class="my-10" />
