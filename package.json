@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "@sveltejs/adapter-static": "^1.0.0-next.28",
-    "@sveltejs/kit": "^1.0.0-next.284",
+    "@sveltejs/kit": "^1.0.0-next.286",
     "@types/glob": "^7.1.4",
     "@types/html-minifier-terser": "^6.1.0",
     "@typescript-eslint/eslint-plugin": "^5.12.1",
@@ -25,7 +25,7 @@
     "eslint-plugin-svelte3": "^3.4.1",
     "glob": "^7.2.0",
     "html-minifier-terser": "^6.1.0",
-    "postcss": "^8.4.6",
+    "postcss": "^8.4.7",
     "postcss-html": "^1.3.0",
     "prettier": "2.5.1",
     "prettier-plugin-svelte": "^2.6.0",
