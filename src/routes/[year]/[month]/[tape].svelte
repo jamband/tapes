@@ -63,6 +63,6 @@
 <SectionDivider />
 <div class="mt-12 text-center">
   <a href="{base}/{year}" class="p-3 font-semibold"
-    >← Monthly Favorite Tracks on {year}</a
+    >← Monthly Favorite Tracks of {year}</a
   >
 </div>

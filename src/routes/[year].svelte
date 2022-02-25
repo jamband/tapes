@@ -9,7 +9,7 @@
 
   export let tapes: Tapes;
 
-  const title = `Tapes on ${$page.params.year}`;
+  const title = `Tapes of ${$page.params.year}`;
 </script>
 
 <svelte:head>
@@ -20,7 +20,7 @@
 </svelte:head>
 
 <Page {title} />
-<TapeHeader title="Monthly Favorite Tracks on {$page.params.year}" />
+<TapeHeader title="Monthly Favorite Tracks of {$page.params.year}" />
 <SectionDivider class="my-10" />
 <ul>
   {#each tapes as tape (tape.path)}
