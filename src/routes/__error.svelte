@@ -1,10 +1,10 @@
 <script lang="ts" context="module">
   import { base } from "$app/paths";
-  import type { ErrorLoadInput } from "@sveltejs/kit";
+  import type { ErrorLoad } from "@sveltejs/kit";
   import { SectionDivider } from "~/components/section-divider";
   import { Page } from "~/layouts/page";
 
-  export const load = async ({ error, status }: ErrorLoadInput) => {
+  export const load: ErrorLoad = async ({ error, status }) => {
     const isNotFound = status === 404;
 
     return {
