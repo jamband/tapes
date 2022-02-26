@@ -20,4 +20,4 @@
   <meta property="og:url" content={currentUrl} />
 </svelte:head>
 
-<Page title="{$__track.tape.title} ･ {track.title}" />
+<Page {title} />
