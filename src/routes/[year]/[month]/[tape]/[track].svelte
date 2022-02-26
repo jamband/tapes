@@ -1,15 +1,21 @@
 <script lang="ts">
+  import { onMount } from "svelte";
   import { APP_NAME, APP_URL } from "~/constants/app";
   import { Page } from "~/layouts/page";
+  import { tape } from "~/stores/tape";
   import { track as __track } from "~/stores/track";
   import type { Track } from "~/types/track";
 
+  export let tapeTitle: string;
   export let track: Track;
 
-  __track.set(track);
+  const title = `${tapeTitle} ･ ${track.title}`;
+  const currentUrl = `${APP_URL.slice(0, -1)}${track.path}/`;
 
-  const title = `${$__track.tape.title} ･ ${track.title}`;
-  const currentUrl = `${APP_URL.replace(/\/$/, "")}${track.path}/`;
+  onMount(() => {
+    tape.set({ title: tapeTitle });
+    __track.set(track);
+  });
 </script>
 
 <svelte:head>

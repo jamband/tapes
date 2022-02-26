@@ -1,5 +1,4 @@
 import type { Provider } from "./provider";
-import type { Tape } from "./tape";
 
 export type Track = {
   title: string;
@@ -8,5 +7,4 @@ export type Track = {
   image: string;
   slug: string;
   path: string;
-  tape: Pick<Tape, "title">;
 };

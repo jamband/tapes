@@ -8,8 +8,7 @@
   import type { Tapes } from "~/types/tape";
 
   export let tapes: Tapes;
-
-  const title = `Tapes of ${$page.params.year}`;
+  export let title: string;
 </script>
 
 <svelte:head>

@@ -1,23 +1,25 @@
 <script lang="ts">
   import { base } from "$app/paths";
+  import { page } from "$app/stores";
   import { beforeUpdate } from "svelte";
   import { SectionDivider } from "~/components/section-divider";
   import { IconLoading } from "~/icons";
-  import { player, track, trackId } from "~/stores/track";
-
-  $: isSquareRatio = ["Bandcamp", "SoundCloud"].includes($track.provider);
-
-  $: tapePath = $track.path
-    ? $track.path.split("/").slice(0, -1).join("/")
-    : "/";
+  import { tape } from "~/stores/tape";
+  import { player, track } from "~/stores/track";
+  import type { Params } from "~/types/params";
 
   let title = "";
   let playerLoading = true;
+  let params: Params;
 
   const playerLoaded = () => {
     playerLoading = false;
     title = $track.title;
   };
+
+  $: isSquareRatio = ["Bandcamp", "SoundCloud"].includes($track.provider);
+  $: params = $page.params;
+  $: tapePath = `/${params.year}/${params.month}/${params.tape}`;
 
   beforeUpdate(() => {
     if (title !== $track.title) {
@@ -26,13 +28,13 @@
   });
 </script>
 
-{#if $trackId}
+{#if $track.path}
   <div class="mb-3 grid grid-cols-6 grap-4">
     <div
       class="relative col-span-6 {isSquareRatio &&
         'md:col-span-4 md:col-start-2'}"
     >
-      {#key $trackId}
+      {#key $track.path}
         <div
           class="pointer-events-none absolute inset-0 flex items-center justify-center"
           class:hidden={!playerLoading}
@@ -59,7 +61,7 @@
     <SectionDivider class="my-10" />
     <div class="font-semibold text-sm">
       <a sveltekit:prefetch class="p-3" href="{base}{tapePath}"
-        >← {$track.tape.title}</a
+        >← {$tape.title}</a
       >
     </div>
   </div>

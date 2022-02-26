@@ -5,15 +5,15 @@
   import { APP_NAME, APP_URL } from "~/constants/app";
   import { IconPause, IconPlay } from "~/icons";
   import { Page } from "~/layouts/page";
-  import { trackId } from "~/stores/track";
+  import { track } from "~/stores/track";
   import type { Provider } from "~/types/provider";
   import type { Tape } from "~/types/tape";
 
+  export let title: string;
   export let tape: Tape;
   export let year: string;
 
-  const title = `${tape.date} ${tape.title}`;
-  const currentUrl = `${APP_URL.replace(/\/$/, "")}${tape.path}/`;
+  const currentUrl = `${APP_URL.slice(0, -1)}${tape.path}/`;
 
   const isSquareRatio = (provider: Provider | "") => {
     return ["Bandcamp", "SoundCloud"].includes(provider);
@@ -47,7 +47,7 @@
         alt=""
       />
       <div class="absolute inset-0 flex items-center justify-center opacity-70">
-        {#if item.provider + item.provider_key === $trackId}
+        {#if `${tape.path}/${item.slug}` === $track.path}
           <IconPause class="h-12 w-12 lg:h-14 lg:w-14" />
         {:else}
           <IconPlay class="h-12 w-12 lg:h-14 lg:w-14" />

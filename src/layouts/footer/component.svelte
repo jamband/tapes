@@ -3,7 +3,13 @@
   import { page } from "$app/stores";
   import { LinkExternal } from "~/components/link-external";
   import { IconX } from "~/icons";
+  import { tape } from "~/stores/tape";
   import { track } from "~/stores/track";
+
+  const clearTapeAndTrack = () => {
+    tape.clear();
+    track.clear();
+  };
 </script>
 
 <footer class="fixed bottom-0 w-full bg-gray-800">
@@ -17,7 +23,7 @@
         class="ml-4 mr-1 py-1 whitespace-nowrap text-ellipsis overflow-hidden font-semibold text-sm no-underline"
         href="{base}{$track.path}">{$track.title}</a
       >
-      <button class="mr-2 p-2" on:click={track.clear}
+      <button class="mr-2 p-2" on:click={clearTapeAndTrack}
         ><IconX class="h-5 w-5 text-gray-400" /></button
       >
     </div>

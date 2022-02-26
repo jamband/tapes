@@ -8,6 +8,4 @@ export type Tape = {
   items: Array<Track>;
 };
 
-export type TapeSummary = Pick<Tape, "id" | "title" | "path" | "date">;
-
-export type Tapes = Array<TapeSummary>;
+export type Tapes = Array<Pick<Tape, "id" | "title" | "path" | "date">>;
