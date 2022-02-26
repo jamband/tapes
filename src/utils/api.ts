@@ -3,7 +3,7 @@ import glob from "glob";
 import { join } from "path";
 import { initialValue as trackInitialValue } from "~/stores/track";
 import type { Params } from "~/types/params";
-import type { Tape, Tapes } from "~/types/tape";
+import type { Tape, Tapes, TapeSummary } from "~/types/tape";
 import type { Track } from "~/types/track";
 
 const baseDir = join(process.cwd(), "src/tapes");
@@ -18,7 +18,7 @@ const tapePath = (params: Params) => {
 
 export const getTapes = (year: number): Tapes => {
   const tapes = glob.sync(`${baseDir}/${year}/**/*.json`).map((file) => {
-    const { id, title, path, date }: Tape = JSON.parse(contents(file));
+    const { id, title, path, date }: TapeSummary = JSON.parse(contents(file));
     return { id, title, path, date };
   });
 
