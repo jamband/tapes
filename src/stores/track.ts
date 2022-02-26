@@ -14,7 +14,7 @@ export const initialValue: Track = {
 };
 
 const createTrack = () => {
-  const { subscribe, set } = writable<Track>(initialValue);
+  const { subscribe, set } = writable(initialValue);
 
   return {
     subscribe,
