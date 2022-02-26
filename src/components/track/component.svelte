@@ -6,7 +6,10 @@
   import { player, track, trackId } from "~/stores/track";
 
   $: isSquareRatio = ["Bandcamp", "SoundCloud"].includes($track.provider);
-  $: tapePath = $track.path.split("/").slice(0, -1).join("/");
+
+  $: tapePath = $track.path
+    ? $track.path.split("/").slice(0, -1).join("/")
+    : "/";
 
   let title = "";
   let playerLoading = true;

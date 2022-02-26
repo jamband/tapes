@@ -1,6 +1,7 @@
 import fs from "fs";
 import glob from "glob";
 import { join } from "path";
+import { initialValue as trackInitialValue } from "~/stores/track";
 import type { Params } from "~/types/params";
 import type { Tape, Tapes } from "~/types/tape";
 import type { Track } from "~/types/track";
@@ -37,7 +38,7 @@ export const getTape = (params: Params): Tape => {
   return JSON.parse(contents(`${baseDir}${path}`));
 };
 
-export const getTrack = (params: Params): Track | undefined => {
+export const getTrack = (params: Params): Track => {
   const tape = getTape(params);
 
   const track = tape.items.find((track: Track) => {
@@ -47,7 +48,8 @@ export const getTrack = (params: Params): Track | undefined => {
   if (track) {
     track.path = `${tapePath(params)}/${params.track}`;
     track.tape = { title: `${tape.date} ${tape.title}` };
+    return track;
   }
 
-  return track;
+  return trackInitialValue;
 };

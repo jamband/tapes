@@ -1,7 +1,7 @@
 import { derived, writable } from "svelte/store";
 import type { Track } from "~/types/track";
 
-const initialValue: Track = {
+export const initialValue: Track = {
   title: "",
   provider: "",
   provider_key: "",
