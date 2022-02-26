@@ -5,7 +5,7 @@
   import { APP_DESCRIPTION, APP_NAME, APP_URL } from "~/constants/app";
   import { Page } from "~/layouts/page";
 
-  const years = ["2022", "2021"];
+  export let years: Array<string>;
 </script>
 
 <svelte:head>
