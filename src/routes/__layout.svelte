@@ -16,7 +16,7 @@
 <div class="flex flex-col min-h-screen">
   <Loading />
   <Header />
-  <main class="py-24 flex-grow container mx-auto">
+  <main class="py-28 flex-grow container mx-auto">
     <div class:hidden={!$page.params.track}>
       <Track />
     </div>
