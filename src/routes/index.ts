@@ -1,5 +1,5 @@
-import type { RequestHandler } from "@sveltejs/kit";
 import { getYears } from "~/utils/api";
+import type { RequestHandler } from "./index.d";
 
 export const get: RequestHandler = () => {
   return {

@@ -1,8 +1,7 @@
-import type { RequestHandler } from "@sveltejs/kit";
-import type { Params } from "~/types/params";
 import { getTapes } from "~/utils/api";
+import type { RequestHandler } from "./[year].d";
 
-export const get: RequestHandler<Params> = ({ params }) => {
+export const get: RequestHandler = ({ params }) => {
   return {
     body: {
       tapes: getTapes(Number(params.year)),

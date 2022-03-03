@@ -12,6 +12,5 @@
   "editor.formatOnSave": true,
   "eslint.validate": ["svelte"],
   "stylelint.validate": ["css", "postcss", "svelte"],
-  "svelte.enable-ts-plugin": true,
   "typescript.preferences.importModuleSpecifier": "non-relative"
 }
