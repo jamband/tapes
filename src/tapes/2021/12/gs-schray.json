@@ -9,6 +9,8 @@
       "provider": "Bandcamp",
       "provider_key": "3230480813",
       "image": "https://f4.bcbits.com/img/a2600498077_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
       "slug": "gs-schray-all-featureless-corridors"
     },
     {
@@ -16,6 +18,8 @@
       "provider": "Bandcamp",
       "provider_key": "3093617482",
       "image": "https://f4.bcbits.com/img/a2600498077_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
       "slug": "gs-schray-placeholder-areas"
     },
     {
@@ -23,6 +27,8 @@
       "provider": "Bandcamp",
       "provider_key": "198839914",
       "image": "https://f4.bcbits.com/img/a1213879751_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
       "slug": "gs-schray-greyfield-envoy"
     },
     {
@@ -30,6 +36,8 @@
       "provider": "Bandcamp",
       "provider_key": "3994230604",
       "image": "https://f4.bcbits.com/img/a1213879751_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
       "slug": "gs-schray-gabriel-at-the-prewindow"
     },
     {
@@ -37,6 +45,8 @@
       "provider": "Bandcamp",
       "provider_key": "2639095580",
       "image": "https://f4.bcbits.com/img/a1482434769_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
       "slug": "gs-schray-still-puzzled"
     },
     {
@@ -44,6 +54,8 @@
       "provider": "Bandcamp",
       "provider_key": "2783339570",
       "image": "https://f4.bcbits.com/img/a1482434769_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
       "slug": "gs-schray-two-pals-glowing"
     }
   ]

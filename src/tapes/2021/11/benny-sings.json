@@ -9,13 +9,17 @@
       "provider": "SoundCloud",
       "provider_key": "229555787",
       "image": "https://i1.sndcdn.com/artworks-000133561278-npdleh-t300x300.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
       "slug": "benny-sings-softly"
     },
     {
-      "title": "Benny Sings - Nobody’s Fault",
+      "title": "Benny Sings - Nobody's Fault",
       "provider": "Bandcamp",
       "provider_key": "2873372776",
       "image": "https://f4.bcbits.com/img/a1971464203_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
       "slug": "benny-sings-nobodys-fault"
     },
     {
@@ -23,6 +27,8 @@
       "provider": "SoundCloud",
       "provider_key": "236624512",
       "image": "https://i1.sndcdn.com/artworks-000138833951-dgo9tj-t300x300.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
       "slug": "benny-sings-one-of-these-hearts-out-now"
     },
     {
@@ -30,6 +36,8 @@
       "provider": "Bandcamp",
       "provider_key": "4122057089",
       "image": "https://f4.bcbits.com/img/a2216259611_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
       "slug": "benny-sings-everything-i-know"
     },
     {
@@ -37,6 +45,8 @@
       "provider": "Bandcamp",
       "provider_key": "2789902369",
       "image": "https://f4.bcbits.com/img/a2958000510_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
       "slug": "benny-sings-all-im-good-for"
     },
     {
@@ -44,6 +54,8 @@
       "provider": "SoundCloud",
       "provider_key": "33179137",
       "image": "https://i1.sndcdn.com/artworks-000016661564-7rfop2-t300x300.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
       "slug": "benny-sings-make-a-rainbow"
     }
   ]

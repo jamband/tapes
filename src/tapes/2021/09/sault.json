@@ -9,6 +9,8 @@
       "provider": "Bandcamp",
       "provider_key": "1989618339",
       "image": "https://f4.bcbits.com/img/a1929582517_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
       "slug": "sault-dont-waste-my-time"
     },
     {
@@ -16,6 +18,8 @@
       "provider": "Bandcamp",
       "provider_key": "3243822592",
       "image": "https://f4.bcbits.com/img/a1703176958_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
       "slug": "sault-over"
     },
     {
@@ -23,6 +27,8 @@
       "provider": "Bandcamp",
       "provider_key": "4079930663",
       "image": "https://f4.bcbits.com/img/a1929582517_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
       "slug": "sault-up-all-night"
     },
     {
@@ -30,6 +36,8 @@
       "provider": "Bandcamp",
       "provider_key": "3767976835",
       "image": "https://f4.bcbits.com/img/a1703176958_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
       "slug": "sault-smile-and-go"
     },
     {
@@ -37,6 +45,8 @@
       "provider": "Bandcamp",
       "provider_key": "4075908478",
       "image": "https://f4.bcbits.com/img/a2352533554_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
       "slug": "sault-lights-in-your-hands"
     },
     {
@@ -44,6 +54,8 @@
       "provider": "Bandcamp",
       "provider_key": "2615630190",
       "image": "https://f4.bcbits.com/img/a2352533554_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
       "slug": "sault-bitterstreets"
     }
   ]

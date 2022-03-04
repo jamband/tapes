@@ -9,6 +9,8 @@
       "provider": "Bandcamp",
       "provider_key": "1547754924",
       "image": "https://f4.bcbits.com/img/a4129648315_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
       "slug": "chihei-hatakeyama-light-from-garden"
     },
     {
@@ -16,6 +18,8 @@
       "provider": "Bandcamp",
       "provider_key": "1613746331",
       "image": "https://f4.bcbits.com/img/a1352972598_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
       "slug": "chihei-hatakeyama-old-chair"
     },
     {
@@ -23,6 +27,8 @@
       "provider": "Bandcamp",
       "provider_key": "2415088509",
       "image": "https://f4.bcbits.com/img/a3294323143_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
       "slug": "chihei-hatakeyama-walk-in-space-i"
     },
     {
@@ -30,6 +36,8 @@
       "provider": "Bandcamp",
       "provider_key": "2221686984",
       "image": "https://f4.bcbits.com/img/a0267732051_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
       "slug": "chihei-hatakeyama-ocean-to-ocean"
     },
     {
@@ -37,6 +45,8 @@
       "provider": "Bandcamp",
       "provider_key": "2916382219",
       "image": "https://f4.bcbits.com/img/a4071545172_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
       "slug": "chihei-hatakeyama-that-morning"
     },
     {
@@ -44,6 +54,8 @@
       "provider": "Bandcamp",
       "provider_key": "1193101944",
       "image": "https://f4.bcbits.com/img/a0147939984_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
       "slug": "chihei-hatakeyama-fugitive-from-wisteria-filed"
     }
   ]

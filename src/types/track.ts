@@ -6,5 +6,7 @@ export type Track = {
   provider_key: string;
   image: string;
   slug: string;
+  image_aspect_ratio: `${number}/${number}`;
+  embed_aspect_ratio: `${number}/${number}`;
   path: string;
 };

@@ -6,7 +6,7 @@
   import { IconPause, IconPlay } from "~/icons";
   import { Page } from "~/layouts/page";
   import { track } from "~/stores/track";
-  import type { Provider } from "~/types/provider";
+  import { aspectRatio } from "~/styles/dynamic";
   import type { Tape } from "~/types/tape";
 
   export let title: string;
@@ -14,10 +14,6 @@
   export let year: string;
 
   const currentUrl = `${APP_URL.slice(0, -1)}${tape.path}/`;
-
-  const isSquareRatio = (provider: Provider | "") => {
-    return ["Bandcamp", "SoundCloud"].includes(provider);
-  };
 </script>
 
 <svelte:head>
@@ -39,9 +35,9 @@
       href="{base}{tape.path}/{item.slug}"
     >
       <img
-        class="w-full bg-gray-800 rounded opacity-70"
-        class:aspect-square={isSquareRatio(item.provider)}
-        class:aspect-video={!isSquareRatio(item.provider)}
+        class="w-full object-cover bg-gray-800 rounded opacity-70 {aspectRatio(
+          item.image_aspect_ratio
+        )}"
         src={item.image}
         loading="lazy"
         alt=""

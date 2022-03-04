@@ -9,6 +9,8 @@
       "provider": "Bandcamp",
       "provider_key": "2997027227",
       "image": "https://f4.bcbits.com/img/a1472130432_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
       "slug": "kero-kero-bonito-210420"
     },
     {
@@ -16,6 +18,7 @@
       "provider": "Bandcamp",
       "provider_key": "1401411230",
       "image": "https://f4.bcbits.com/img/a3393371199_4.jpg",
+      "aspect_ratio": "1/1",
       "slug": "kero-kero-bonito-try-me"
     },
     {
@@ -23,6 +26,8 @@
       "provider": "Bandcamp",
       "provider_key": "423931240",
       "image": "https://f4.bcbits.com/img/a1240517111_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
       "slug": "kero-kero-bonito-make-believe"
     },
     {
@@ -30,6 +35,8 @@
       "provider": "Bandcamp",
       "provider_key": "3147095918",
       "image": "https://f4.bcbits.com/img/a1240517111_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
       "slug": "kero-kero-bonito-time-today"
     },
     {
@@ -37,6 +44,8 @@
       "provider": "Bandcamp",
       "provider_key": "47855193",
       "image": "https://f4.bcbits.com/img/a3393371199_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
       "slug": "kero-kero-bonito-heard-a-song"
     },
     {
@@ -44,6 +53,8 @@
       "provider": "Bandcamp",
       "provider_key": "3772968528",
       "image": "https://f4.bcbits.com/img/a2627975405_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
       "slug": "kero-kero-bonito-flamingo"
     }
   ]

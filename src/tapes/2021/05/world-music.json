@@ -9,6 +9,8 @@
       "provider": "SoundCloud",
       "provider_key": "905383858",
       "image": "https://i1.sndcdn.com/artworks-DF250wwH9gsrEFqy-5DM5TA-t300x300.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
       "slug": "world-standard-shikisai-ongaku"
     },
     {
@@ -16,6 +18,8 @@
       "provider": "Bandcamp",
       "provider_key": "1932693252",
       "image": "https://f4.bcbits.com/img/a3508215343_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
       "slug": "yoshiharu-takeda-bliss-of-landing"
     },
     {
@@ -23,6 +27,8 @@
       "provider": "Bandcamp",
       "provider_key": "3836784262",
       "image": "https://f4.bcbits.com/img/a3924173050_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
       "slug": "ballake-sissoko-vincent-segal-balazando"
     },
     {
@@ -30,6 +36,8 @@
       "provider": "Bandcamp",
       "provider_key": "326539771",
       "image": "https://f4.bcbits.com/img/a2765906517_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
       "slug": "remis-rancys-zalia"
     }
   ]

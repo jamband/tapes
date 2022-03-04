@@ -9,6 +9,8 @@
       "provider": "YouTube",
       "provider_key": "bPU0TAwxKM8",
       "image": "https://i.ytimg.com/vi/bPU0TAwxKM8/mqdefault.jpg",
+      "image_aspect_ratio": "16/9",
+      "embed_aspect_ratio": "16/9",
       "slug": "nv-kata"
     },
     {
@@ -16,6 +18,8 @@
       "provider": "YouTube",
       "provider_key": "JBvpqKFDd9w",
       "image": "https://i.ytimg.com/vi/JBvpqKFDd9w/mqdefault.jpg",
+      "image_aspect_ratio": "16/9",
+      "embed_aspect_ratio": "16/9",
       "slug": "saho-terao-ajia-no-ase"
     },
     {
@@ -23,6 +27,8 @@
       "provider": "YouTube",
       "provider_key": "r5KvYIW7gwQ",
       "image": "https://i.ytimg.com/vi/r5KvYIW7gwQ/mqdefault.jpg",
+      "image_aspect_ratio": "16/9",
+      "embed_aspect_ratio": "16/9",
       "slug": "plastic-plastic-knock-knock"
     },
     {
@@ -30,6 +36,8 @@
       "provider": "YouTube",
       "provider_key": "jKdqMyKPH00",
       "image": "https://i.ytimg.com/vi/jKdqMyKPH00/mqdefault.jpg",
+      "image_aspect_ratio": "16/9",
+      "embed_aspect_ratio": "16/9",
       "slug": "shirou-fukuoka-dekirukoto"
     },
     {
@@ -37,6 +45,8 @@
       "provider": "YouTube",
       "provider_key": "DajY5y_IMOM",
       "image": "https://i.ytimg.com/vi/DajY5y_IMOM/mqdefault.jpg",
+      "image_aspect_ratio": "16/9",
+      "embed_aspect_ratio": "16/9",
       "slug": "natsuyasumi-band-odyssey"
     },
     {
@@ -44,6 +54,8 @@
       "provider": "YouTube",
       "provider_key": "53mOa0B3nN4",
       "image": "https://i.ytimg.com/vi/53mOa0B3nN4/mqdefault.jpg",
+      "image_aspect_ratio": "16/9",
+      "embed_aspect_ratio": "16/9",
       "slug": "mitsume-akogare"
     }
   ]

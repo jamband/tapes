@@ -9,6 +9,8 @@
       "provider": "YouTube",
       "provider_key": "0LMwgWFzDjU",
       "image": "https://i.ytimg.com/vi/0LMwgWFzDjU/mqdefault.jpg",
+      "image_aspect_ratio": "4/3",
+      "embed_aspect_ratio": "4/3",
       "slug": "men-i-trust-tree-among-shrubs"
     },
     {
@@ -16,6 +18,8 @@
       "provider": "YouTube",
       "provider_key": "93rM4qnUyGA",
       "image": "https://i.ytimg.com/vi/93rM4qnUyGA/mqdefault.jpg",
+      "image_aspect_ratio": "4/3",
+      "embed_aspect_ratio": "4/3",
       "slug": "men-i-trust-sugar"
     },
     {
@@ -23,6 +27,8 @@
       "provider": "YouTube",
       "provider_key": "xAz_DzPUjrM",
       "image": "https://i.ytimg.com/vi/xAz_DzPUjrM/mqdefault.jpg",
+      "image_aspect_ratio": "4/3",
+      "embed_aspect_ratio": "16/9",
       "slug": "men-i-trust-numb"
     },
     {
@@ -30,6 +36,8 @@
       "provider": "YouTube",
       "provider_key": "9IZKcb3LndA",
       "image": "https://i.ytimg.com/vi/9IZKcb3LndA/mqdefault.jpg",
+      "image_aspect_ratio": "4/3",
+      "embed_aspect_ratio": "16/9",
       "slug": "men-i-trust-tailwhip"
     },
     {
@@ -37,6 +45,8 @@
       "provider": "YouTube",
       "provider_key": "DviID8Ni7Ns",
       "image": "https://i.ytimg.com/vi/DviID8Ni7Ns/mqdefault.jpg",
+      "image_aspect_ratio": "4/3",
+      "embed_aspect_ratio": "16/9",
       "slug": "men-i-trust-i-hope-to-be-around"
     },
     {
@@ -44,6 +54,8 @@
       "provider": "YouTube",
       "provider_key": "TNsSBhl_2LI",
       "image": "https://i.ytimg.com/vi/TNsSBhl_2LI/mqdefault.jpg",
+      "image_aspect_ratio": "4/3",
+      "embed_aspect_ratio": "16/9",
       "slug": "men-i-trust-lauren"
     }
   ]

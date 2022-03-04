@@ -6,6 +6,7 @@
   import { IconLoading } from "~/icons";
   import { tape } from "~/stores/tape";
   import { player, track } from "~/stores/track";
+  import { aspectRatio } from "~/styles/dynamic";
   import type { Params } from "~/types/params";
 
   let title = "";
@@ -17,7 +18,18 @@
     title = $track.title;
   };
 
-  $: isSquareRatio = ["Bandcamp", "SoundCloud"].includes($track.provider);
+  $: responsiveCol = () => {
+    if ($track.embed_aspect_ratio === "1/1") {
+      return "md:col-start-3 md:col-span-8";
+    }
+
+    if ($track.embed_aspect_ratio === "4/3") {
+      return "md:col-start-2 md:col-span-10";
+    }
+
+    return "";
+  };
+
   $: params = $page.params;
   $: tapePath = `/${params.year}/${params.month}/${params.tape}`;
 
@@ -29,11 +41,8 @@
 </script>
 
 {#if $track.path}
-  <div class="mb-3 grid grid-cols-6 grap-4">
-    <div
-      class="relative col-span-6 {isSquareRatio &&
-        'md:col-span-4 md:col-start-2'}"
-    >
+  <div class="mb-3 grid grid-cols-12">
+    <div class="relative col-span-12 {responsiveCol()}">
       {#key $track.path}
         <div
           class="pointer-events-none absolute inset-0 flex items-center justify-center"
@@ -43,9 +52,7 @@
         </div>
         <iframe
           src={$player}
-          class="w-full rounded"
-          class:aspect-square={isSquareRatio}
-          class:aspect-video={!isSquareRatio}
+          class="w-full rounded {aspectRatio($track.embed_aspect_ratio)}"
           title="{$track.title} ･ {$track.provider}"
           allowfullscreen
           on:load={() => playerLoaded()}

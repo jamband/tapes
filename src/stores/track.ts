@@ -7,6 +7,8 @@ export const initialValue: Track = {
   provider_key: "",
   image: "",
   slug: "",
+  image_aspect_ratio: "1/1",
+  embed_aspect_ratio: "1/1",
   path: "",
 };
 

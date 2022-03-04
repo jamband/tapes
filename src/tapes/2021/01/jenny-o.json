@@ -9,6 +9,8 @@
       "provider": "Bandcamp",
       "provider_key": "1460499814",
       "image": "https://f4.bcbits.com/img/a2004992130_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
       "slug": "jenny-o-well-ok-honey"
     },
     {
@@ -16,6 +18,8 @@
       "provider": "Bandcamp",
       "provider_key": "1610299004",
       "image": "https://f4.bcbits.com/img/a2004992130_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
       "slug": "jenny-o-wont-let-you-leave"
     },
     {
@@ -23,6 +27,8 @@
       "provider": "Bandcamp",
       "provider_key": "4192247988",
       "image": "https://f4.bcbits.com/img/a0601900076_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
       "slug": "jenny-o-be-here-now"
     },
     {
@@ -30,6 +36,8 @@
       "provider": "Bandcamp",
       "provider_key": "3011455212",
       "image": "https://f4.bcbits.com/img/a1397817808_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
       "slug": "jenny-o-learned-my-lessons"
     },
     {
@@ -37,6 +45,8 @@
       "provider": "Bandcamp",
       "provider_key": "3724009242",
       "image": "https://f4.bcbits.com/img/a0925050719_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
       "slug": "jennyo-funeral-for-my-former-self"
     },
     {
@@ -44,6 +54,8 @@
       "provider": "Bandcamp",
       "provider_key": "1278875270",
       "image": "https://f4.bcbits.com/img/a2027277185_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
       "slug": "jenny-o-even-if-i-tried"
     }
   ]

@@ -9,6 +9,8 @@
       "provider": "Bandcamp",
       "provider_key": "3158639415",
       "image": "https://f4.bcbits.com/img/a1894322872_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
       "slug": "lake-street-dive-hypotheticals"
     },
     {
@@ -16,6 +18,8 @@
       "provider": "SoundCloud",
       "provider_key": "330956170",
       "image": "https://i1.sndcdn.com/artworks-000231390685-0l3oi1-t300x300.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
       "slug": "nicole-atkins-sleepwalking"
     },
     {
@@ -23,6 +27,8 @@
       "provider": "Bandcamp",
       "provider_key": "2630286717",
       "image": "https://f4.bcbits.com/img/a2178908541_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
       "slug": "tanika-charles-endless-chain"
     },
     {
@@ -30,6 +36,8 @@
       "provider": "SoundCloud",
       "provider_key": "402549141",
       "image": "https://i1.sndcdn.com/artworks-000305529183-wswyut-t300x300.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
       "slug": "prep-dont-bring-me-down"
     },
     {
@@ -37,6 +45,8 @@
       "provider": "SoundCloud",
       "provider_key": "586911741",
       "image": "https://i1.sndcdn.com/artworks-000500926578-xt3k4i-t300x300.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
       "slug": "grace-gillespie-human-heart"
     },
     {
@@ -44,6 +54,8 @@
       "provider": "SoundCloud",
       "provider_key": "406595985",
       "image": "https://i1.sndcdn.com/artworks-000309186852-d9tuld-t300x300.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
       "slug": "natalie-prass-short-court-style"
     }
   ]

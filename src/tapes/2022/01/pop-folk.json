@@ -9,6 +9,8 @@
       "provider": "Bandcamp",
       "provider_key": "2069946023",
       "image": "https://f4.bcbits.com/img/a3587684738_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
       "slug": "julia-holter-feel-you"
     },
     {
@@ -16,6 +18,8 @@
       "provider": "SoundCloud",
       "provider_key": "799869877",
       "image": "https://i1.sndcdn.com/artworks-niM37i4KT9Hxur9F-X1sEWw-t300x300.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
       "slug": "a-girl-called-eddy-finest-actor"
     },
     {
@@ -23,6 +27,8 @@
       "provider": "SoundCloud",
       "provider_key": "518731563",
       "image": "https://i1.sndcdn.com/artworks-000427030950-a2wkmt-t300x300.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
       "slug": "faye-webster-kingston"
     },
     {
@@ -30,6 +36,8 @@
       "provider": "Bandcamp",
       "provider_key": "2171484271",
       "image": "https://f4.bcbits.com/img/a4115822752_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
       "slug": "sweet-whirl-weirdo"
     },
     {
@@ -37,6 +45,8 @@
       "provider": "SoundCloud",
       "provider_key": "429805962",
       "image": "https://i1.sndcdn.com/artworks-000335300742-wg0ly0-t300x300.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
       "slug": "matt-maltese-like-a-fish"
     },
     {
@@ -44,6 +54,8 @@
       "provider": "Bandcamp",
       "provider_key": "3660151376",
       "image": "https://f4.bcbits.com/img/a0543376922_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
       "slug": "mary-glenn-hours-are-the-new-days"
     }
   ]
