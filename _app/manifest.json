@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-bdf35110.js",
+    "file": "start-389e5ce9.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -21,7 +21,7 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-25338531.js",
+    "file": "pages/__layout.svelte-4ed911ea.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -31,13 +31,14 @@
       "_paths-4b3c6e7e.js",
       "_component-95f9998d.js",
       "_tape-172bc740.js",
-      "_track-6a2eeca4.js",
+      "_track-a2d5c63a.js",
+      "_dynamic-002f194d.js",
       "_app-433b3401.js",
       "_component-7c1a2bba.js",
       "_singletons-d1fb5791.js"
     ],
     "css": [
-      "assets/pages/__layout.svelte-da39ff7c.css"
+      "assets/pages/__layout.svelte-ca59a468.css"
     ]
   },
   "src/routes/__error.svelte": {
@@ -109,7 +110,7 @@
     ]
   },
   "src/routes/[year]/[month]/[tape]/[track].svelte": {
-    "file": "pages/_year_/_month_/_tape_/_track_.svelte-47e53478.js",
+    "file": "pages/_year_/_month_/_tape_/_track_.svelte-3d17133f.js",
     "src": "src/routes/[year]/[month]/[tape]/[track].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -118,11 +119,11 @@
       "_app-433b3401.js",
       "_component-ab96ee73.js",
       "_tape-172bc740.js",
-      "_track-6a2eeca4.js"
+      "_track-a2d5c63a.js"
     ]
   },
   "src/routes/[year]/[month]/[tape].svelte": {
-    "file": "pages/_year_/_month_/_tape_.svelte-7dde7dbe.js",
+    "file": "pages/_year_/_month_/_tape_.svelte-bff7c681.js",
     "src": "src/routes/[year]/[month]/[tape].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -134,7 +135,8 @@
       "_app-433b3401.js",
       "_component-7c1a2bba.js",
       "_component-ab96ee73.js",
-      "_track-6a2eeca4.js",
+      "_track-a2d5c63a.js",
+      "_dynamic-002f194d.js",
       "__external-link-3a49af21.js"
     ]
   },
@@ -185,11 +187,14 @@
       "_vendor-05420902.js"
     ]
   },
-  "_track-6a2eeca4.js": {
-    "file": "chunks/track-6a2eeca4.js",
+  "_track-a2d5c63a.js": {
+    "file": "chunks/track-a2d5c63a.js",
     "imports": [
       "_vendor-05420902.js"
     ]
+  },
+  "_dynamic-002f194d.js": {
+    "file": "chunks/dynamic-002f194d.js"
   },
   "_component-7c1a2bba.js": {
     "file": "chunks/component-7c1a2bba.js",
