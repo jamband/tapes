@@ -13,8 +13,8 @@
     "clean": "rm -rf .svelte-kit build node_modules"
   },
   "devDependencies": {
-    "@sveltejs/adapter-static": "^1.0.0-next.28",
-    "@sveltejs/kit": "^1.0.0-next.291",
+    "@sveltejs/adapter-static": "^1.0.0-next.29",
+    "@sveltejs/kit": "^1.0.0-next.294",
     "@types/glob": "^7.1.4",
     "@types/html-minifier-terser": "^6.1.0",
     "@typescript-eslint/eslint-plugin": "^5.13.0",
