@@ -38,7 +38,7 @@
     </li>
   {/each}
 </ul>
-<SectionDivider />
-<div class="mt-12 text-center">
+<SectionDivider class="my-10" />
+<div class="text-center">
   <a href="{base}/" class="p-3 font-semibold">← Back to Home</a>
 </div>
