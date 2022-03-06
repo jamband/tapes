@@ -18,7 +18,8 @@
       "provider": "Bandcamp",
       "provider_key": "1401411230",
       "image": "https://f4.bcbits.com/img/a3393371199_4.jpg",
-      "aspect_ratio": "1/1",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
       "slug": "kero-kero-bonito-try-me"
     },
     {
