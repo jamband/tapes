@@ -17,7 +17,7 @@
 <div class="flex flex-col min-h-screen">
   <Loading />
   <Header />
-  <main class="-mb-16 pt-28 flex-grow container mx-auto">
+  <main class="-mb-20 pt-28 flex-grow container mx-auto">
     <div class:hidden={!$page.params.track}>
       <Track />
     </div>
