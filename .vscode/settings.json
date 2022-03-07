@@ -11,6 +11,5 @@
   },
   "editor.formatOnSave": true,
   "eslint.validate": ["svelte"],
-  "stylelint.validate": ["css", "postcss", "svelte"],
   "typescript.preferences.importModuleSpecifier": "non-relative"
 }
