@@ -14,13 +14,13 @@
 
 <footer class="fixed bottom-0 w-full bg-gray-800">
   {#if $track.path && !$page.params.track}
-    <div class="py-3 md:container md:mx-auto flex items-center justify-center">
-      <span class="ml-4 font-bold text-violet-700 text-xxs align-top"
+    <div class="flex items-center justify-center py-3 md:container md:mx-auto">
+      <span class="ml-4 align-top text-xxs font-bold text-violet-700"
         >&#9679</span
       >
       <a
         sveltekit:prefetch
-        class="ml-4 mr-1 py-1 whitespace-nowrap text-ellipsis overflow-hidden font-semibold text-sm no-underline"
+        class="ml-4 mr-1 overflow-hidden text-ellipsis whitespace-nowrap py-1 text-sm font-semibold no-underline"
         href="{base}{$track.path}">{$track.title}</a
       >
       <button class="mr-2 p-2" on:click={clearTapeAndTrack}

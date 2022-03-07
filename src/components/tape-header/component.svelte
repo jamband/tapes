@@ -5,7 +5,7 @@
   export let title: string;
 </script>
 
-<h1 class="mb-0 font-bold text-center">
+<h1 class="mb-0 text-center font-bold">
   {title}
 </h1>
 <div class="text-center text-xs text-gray-400">

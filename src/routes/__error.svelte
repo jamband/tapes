@@ -22,7 +22,7 @@
 </script>
 
 <Page title="Not Found" />
-<div class="flex items-center justify-center h-70vh">
+<div class="flex h-70vh items-center justify-center">
   <div class="text-center">
     <h1>{title}</h1>
     <div class="text-sm text-gray-400">{message}</div>

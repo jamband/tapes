@@ -27,15 +27,15 @@
 <Page {title} />
 <TapeHeader {title} />
 <SectionDivider class="my-10" />
-<div class="mb-10 grid grid-cols-1 md:grid-cols-2 gap-6">
+<div class="mb-10 grid grid-cols-1 gap-6 md:grid-cols-2">
   {#each tape.items as item (item.slug)}
     <a
       sveltekit:prefetch
-      class="mb-1 relative shadow active:text-gray-100"
+      class="relative mb-1 shadow active:text-gray-100"
       href="{base}{tape.path}/{item.slug}"
     >
       <img
-        class="w-full object-cover bg-gray-800 rounded opacity-70 {aspectRatio(
+        class="w-full rounded bg-gray-800 object-cover opacity-70 {aspectRatio(
           item.image_aspect_ratio
         )}"
         src={item.image}
@@ -49,9 +49,9 @@
           <IconPlay class="h-12 w-12 lg:h-14 lg:w-14" />
         {/if}
       </div>
-      <div class="px-2 py-1 absolute bottom-0 w-full font-semibold text-right">
-        <h4 class="leading-tight truncate">{item.title}</h4>
-        <div class="text-xxs truncate">{title}</div>
+      <div class="absolute bottom-0 w-full px-2 py-1 text-right font-semibold">
+        <h4 class="truncate leading-tight">{item.title}</h4>
+        <div class="truncate text-xxs">{title}</div>
       </div>
     </a>
   {/each}

@@ -14,10 +14,10 @@
   <meta property="og:site_name" content={APP_NAME} />
 </svelte:head>
 
-<div class="flex flex-col min-h-screen">
+<div class="flex min-h-screen flex-col">
   <Loading />
   <Header />
-  <main class="-mb-20 pt-28 flex-grow container mx-auto">
+  <main class="container mx-auto -mb-20 flex-grow pt-28">
     <div class:hidden={!$page.params.track}>
       <Track />
     </div>

@@ -4,7 +4,7 @@
   width="900"
   height="180"
   preserveAspectRatio="xMidYMid slice"
-  class="w-full h-80 pointer-events-none"
+  class="pointer-events-none h-80 w-full"
   role="img"
   aria-label="landscape image"
 >

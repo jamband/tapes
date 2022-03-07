@@ -14,7 +14,7 @@
 
 <Page title="Contact" />
 <div class="grid lg:grid-cols-6 lg:gap-4">
-  <div class="lg:col-start-2 lg:col-span-4">
+  <div class="lg:col-span-4 lg:col-start-2">
     <h1>Contact</h1>
     <p>
       Please to the message via

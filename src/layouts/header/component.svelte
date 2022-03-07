@@ -6,11 +6,11 @@
   const [name, repository] = APP_NAME.split("/");
 </script>
 
-<header class="z-10 fixed w-full font-mono text-center bg-gray-800">
+<header class="fixed z-10 w-full bg-gray-800 text-center font-mono">
   <nav class="font-semibold" aria-label="Header navigation">
     <a
       href="{base}/"
-      class="m-1 px-5 py-3 inline-block no-underline tracking-tight"
+      class="m-1 inline-block px-5 py-3 tracking-tight no-underline"
     >
       <span class="text-xs text-gray-400" class:inject-name={$page.params.track}
         >{name}/</span
