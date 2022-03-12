@@ -1,19 +1,15 @@
 @layer base {
   html,
   body {
-    @apply bg-gray-900 text-base text-gray-100;
+    @apply bg-gray-800 text-base text-gray-400;
   }
 
   h1 {
-    @apply mb-2 text-4xl font-semibold;
+    @apply mb-2 text-4xl font-bold text-gray-100;
   }
 
   h2 {
-    @apply text-3xl font-semibold;
-  }
-
-  h3 {
-    @apply text-2xl font-semibold;
+    @apply text-3xl font-bold text-gray-100;
   }
 
   p {
@@ -21,6 +17,6 @@
   }
 
   a {
-    @apply underline decoration-[0.05em] underline-offset-[0.25em] active:text-violet-500;
+    @apply underline decoration-[0.05em] underline-offset-[0.25em] active:text-purple-400;
   }
 }

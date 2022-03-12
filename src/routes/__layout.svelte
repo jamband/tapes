@@ -5,7 +5,6 @@
   import { APP_NAME } from "~/constants/app";
   import { Footer } from "~/layouts/footer";
   import { Header } from "~/layouts/header";
-  import { Landscape } from "~/layouts/landscape";
   import { Loading } from "~/layouts/loading";
 </script>
 
@@ -17,12 +16,11 @@
 <div class="flex min-h-screen flex-col">
   <Loading />
   <Header />
-  <main class="container mx-auto -mb-20 flex-grow pt-28">
+  <main class="container mx-auto flex-grow pb-32 pt-28">
     <div class:hidden={!$page.params.track}>
       <Track />
     </div>
     <slot />
   </main>
-  <Landscape />
   <Footer />
 </div>

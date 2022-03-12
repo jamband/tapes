@@ -20,13 +20,13 @@
       Please to the message via
       <LinkExternal
         href="https://twitter.com/livejam_db"
-        class="inline-flex items-center text-violet-500"
+        class="inline-flex items-center text-purple-400"
         >Twitter<IconExternalLink class="ml-0.5 h-4 w-4" /></LinkExternal
       >
       or
       <LinkExternal
         href="https://github.com/jamband/tapes/issues"
-        class="inline-flex items-center text-violet-500"
+        class="inline-flex items-center text-purple-400"
         >GitHub<IconExternalLink class="ml-0.5 h-4 w-4" /></LinkExternal
       >
       Issues. Thank you.

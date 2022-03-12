@@ -48,7 +48,7 @@
           class="pointer-events-none absolute inset-0 flex items-center justify-center"
           class:hidden={!playerLoading}
         >
-          <IconLoading class="h-6 w-6 text-violet-500" />
+          <IconLoading class="h-6 w-6 text-purple-500" />
         </div>
         <iframe
           src={$player}
@@ -61,12 +61,12 @@
     </div>
   </div>
   <div class="text-center">
-    <h3>{$track.title}</h3>
-    <div class="text-xs text-gray-400">
+    <h1 class="mb-0 text-2xl">{$track.title}</h1>
+    <div class="text-sm text-gray-400">
       via {$track.provider}
     </div>
     <SectionDivider class="my-10" />
-    <div class="text-sm font-semibold">
+    <div class="text-sm text-gray-200">
       <a sveltekit:prefetch class="p-3" href="{base}{tapePath}"
         >← {$tape.title}</a
       >

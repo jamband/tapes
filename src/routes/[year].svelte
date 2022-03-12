@@ -24,15 +24,12 @@
 <ul>
   {#each tapes as tape (tape.path)}
     <li class="mb-3">
-      <span class="mr-1 align-top text-xxs font-bold text-violet-900"
-        >&#9679</span
-      >
       <a
         sveltekit:prefetch
-        class="text-2xl font-semibold"
+        class="text-2xl font-semibold text-gray-100"
         href="{base}{tape.path}">{tape.title} →</a
       >
-      <div class="ml-5 text-xs text-gray-400">
+      <div class="text-xs text-gray-400">
         {tape.date}
       </div>
     </li>
@@ -40,5 +37,5 @@
 </ul>
 <SectionDivider class="my-10" />
 <div class="text-center">
-  <a href="{base}/" class="p-3 font-semibold">← Back to Home</a>
+  <a href="{base}/" class="p-3 text-gray-200">← Back to Home</a>
 </div>

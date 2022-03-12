@@ -21,7 +21,7 @@
       The music introduced here is selected from
       <LinkExternal
         href="https://plusarchive.com"
-        class="inline-flex items-center text-violet-500"
+        class="inline-flex items-center text-purple-400"
         >PlusArchive<IconExternalLink class="ml-0.5 h-4 w-4" /></LinkExternal
       >.
     </p>
@@ -29,7 +29,7 @@
       This website is an open source project. See following for details.
       <LinkExternal
         href="https://github.com/jamband/tapes"
-        class="inline-flex items-center text-violet-500"
+        class="inline-flex items-center text-purple-400"
         >GitHub: {APP_NAME}<IconExternalLink
           class="ml-0.5 h-4 w-4"
         /></LinkExternal

@@ -31,11 +31,11 @@
   {#each tape.items as item (item.slug)}
     <a
       sveltekit:prefetch
-      class="relative mb-1 shadow active:text-gray-100"
+      class="relative mb-1 text-gray-200 shadow active:text-gray-100"
       href="{base}{tape.path}/{item.slug}"
     >
       <img
-        class="w-full rounded bg-gray-800 object-cover opacity-70 {aspectRatio(
+        class="w-full rounded bg-gray-700 object-cover opacity-70 {aspectRatio(
           item.image_aspect_ratio
         )}"
         src={item.image}
@@ -58,7 +58,7 @@
 </div>
 <SectionDivider />
 <div class="mt-12 text-center">
-  <a href="{base}/{year}" class="p-3 font-semibold"
+  <a href="{base}/{year}" class="p-3 text-gray-200"
     >← Monthly Favorite Tracks of {year}</a
   >
 </div>

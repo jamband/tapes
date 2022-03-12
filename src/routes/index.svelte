@@ -23,8 +23,10 @@
     <a
       sveltekit:prefetch
       href="{base}/{year}"
-      class="mx-2 rounded bg-gray-700 px-4 py-1 font-mono text-sm no-underline shadow-sm active:text-violet-500"
-      ><span class="text-xs text-gray-400">#</span>{year}</a
+      class="mx-2 rounded bg-gray-700 px-4 py-1 font-mono text-sm no-underline shadow-sm"
+      ><span class="text-xs text-gray-400">#</span><span
+        class="text-gray-100 active:text-purple-400">{year}</span
+      ></a
     >
   {/each}
 </div>
