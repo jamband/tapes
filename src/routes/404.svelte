@@ -18,6 +18,6 @@
     <h1>Not Found</h1>
     <div class="text-sm text-gray-400">The page does not exist.</div>
     <SectionDivider class="my-10" />
-    <a class="font-semibold" href="{base}/">Go digging →</a>
+    <a class="text-gray-200" href="{base}/">Go Digging →</a>
   </div>
 </div>
