@@ -1,6 +1,7 @@
 <script lang="ts">
   import { base } from "$app/paths";
   import { page } from "$app/stores";
+  import { LinkHome } from "~/components/link-home";
   import { SectionDivider } from "~/components/section-divider";
   import { TapeHeader } from "~/components/tape-header";
   import { APP_NAME, APP_URL } from "~/constants/app";
@@ -36,6 +37,4 @@
   {/each}
 </ul>
 <SectionDivider class="my-10" />
-<div class="text-center">
-  <a href="{base}/" class="p-3 text-gray-200">← Back to Home</a>
-</div>
+<LinkHome />
