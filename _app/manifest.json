@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-c585c53b.js",
+    "file": "start-dece1c7d.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -21,7 +21,7 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-bbdc13d2.js",
+    "file": "pages/__layout.svelte-6d84a8cf.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -71,29 +71,35 @@
     ]
   },
   "src/routes/contact.svelte": {
-    "file": "pages/contact.svelte-fd543157.js",
+    "file": "pages/contact.svelte-6fea14e2.js",
     "src": "src/routes/contact.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_vendor-9576af93.js",
       "_component-054caeee.js",
+      "_component-d2e38567.js",
+      "_component-486df73d.js",
       "_app-433b3401.js",
       "__external-link-b5e8e191.js",
-      "_component-151cb873.js"
+      "_component-151cb873.js",
+      "_paths-396f020f.js"
     ]
   },
   "src/routes/about.svelte": {
-    "file": "pages/about.svelte-49df2498.js",
+    "file": "pages/about.svelte-79fad337.js",
     "src": "src/routes/about.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_vendor-9576af93.js",
       "_component-054caeee.js",
+      "_component-d2e38567.js",
+      "_component-486df73d.js",
       "_app-433b3401.js",
       "__external-link-b5e8e191.js",
-      "_component-151cb873.js"
+      "_component-151cb873.js",
+      "_paths-396f020f.js"
     ]
   },
   "src/routes/404.svelte": {
@@ -110,7 +116,7 @@
     ]
   },
   "src/routes/[year]/index.svelte": {
-    "file": "pages/_year_/index.svelte-32e44e1d.js",
+    "file": "pages/_year_/index.svelte-3c84111b.js",
     "src": "src/routes/[year]/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -118,6 +124,7 @@
       "_vendor-9576af93.js",
       "_paths-396f020f.js",
       "_stores-2a460dd9.js",
+      "_component-d2e38567.js",
       "_component-486df73d.js",
       "_component-bbfaac92.js",
       "_app-433b3401.js",
@@ -222,6 +229,13 @@
     "imports": [
       "_vendor-9576af93.js",
       "_component-054caeee.js"
+    ]
+  },
+  "_component-d2e38567.js": {
+    "file": "chunks/component-d2e38567.js",
+    "imports": [
+      "_vendor-9576af93.js",
+      "_paths-396f020f.js"
     ]
   }
 }
