@@ -1,0 +1,62 @@
+{
+  "id": 16,
+  "title": "Allison Young / Mikayla McVey",
+  "path": "/2022/04/allison-young-mikayla-mcvey",
+  "date": "Apr 02, 2022",
+  "items": [
+    {
+      "title": "Allison Young - Just Let Go",
+      "provider": "Bandcamp",
+      "provider_key": "104272250",
+      "image": "https://f4.bcbits.com/img/a0124515860_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "allison-young-just-let-go"
+    },
+    {
+      "title": "Allison Young - Old Friend",
+      "provider": "Bandcamp",
+      "provider_key": "113059041",
+      "image": "https://f4.bcbits.com/img/a0124515860_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "allison-young-old-friend"
+    },
+    {
+      "title": "Allison Young - Would You",
+      "provider": "Bandcamp",
+      "provider_key": "936985497",
+      "image": "https://f4.bcbits.com/img/a0124515860_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "allison-young-would-you"
+    },
+    {
+      "title": "Mikayla McVey - June",
+      "provider": "Bandcamp",
+      "provider_key": "729119069",
+      "image": "https://f4.bcbits.com/img/a3695836396_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "mikayla-mcvey-june"
+    },
+    {
+      "title": "Mikayla McVey - California",
+      "provider": "Bandcamp",
+      "provider_key": "3713037705",
+      "image": "https://f4.bcbits.com/img/a3695836396_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "mikayla-mcvey-california"
+    },
+    {
+      "title": "Mikayla McVey - Dark Underground",
+      "provider": "Bandcamp",
+      "provider_key": "2254767338",
+      "image": "https://f4.bcbits.com/img/a3695836396_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "mikayla-mcvey-dark-underground"
+    }
+  ]
+}
