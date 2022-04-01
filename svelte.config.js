@@ -19,10 +19,6 @@ const config = {
       default: true,
     },
     vite: {
-      optimizeDeps: {
-        include: ["svelte/internal"],
-        exclude: ["svelte/animate"],
-      },
       resolve: {
         alias: {
           "~": resolve("src"),
