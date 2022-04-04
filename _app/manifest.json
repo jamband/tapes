@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-0a27efc4.js",
+    "file": "start-80e7a3de.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -16,9 +16,9 @@
       "src/routes/contact.svelte",
       "src/routes/about.svelte",
       "src/routes/404.svelte",
-      "src/routes/[year]/index.svelte",
-      "src/routes/[year]/[month]/[tape]/index.svelte",
-      "src/routes/[year]/[month]/[tape]/[track]/index.svelte"
+      "src/routes/[year=year]/index.svelte",
+      "src/routes/[year=year]/[month]/[tape=slug]/index.svelte",
+      "src/routes/[year=year]/[month]/[tape=slug]/[track=slug]/index.svelte"
     ]
   },
   "src/routes/__layout.svelte": {
@@ -117,9 +117,9 @@
       "_component-6764bdbd.js"
     ]
   },
-  "src/routes/[year]/index.svelte": {
-    "file": "pages/_year_/index.svelte-14613ee3.js",
-    "src": "src/routes/[year]/index.svelte",
+  "src/routes/[year=year]/index.svelte": {
+    "file": "pages/_year_year_/index.svelte-3361e4be.js",
+    "src": "src/routes/[year=year]/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
@@ -135,9 +135,9 @@
       "__external-link-6cf2027c.js"
     ]
   },
-  "src/routes/[year]/[month]/[tape]/index.svelte": {
-    "file": "pages/_year_/_month_/_tape_/index.svelte-12b32502.js",
-    "src": "src/routes/[year]/[month]/[tape]/index.svelte",
+  "src/routes/[year=year]/[month]/[tape=slug]/index.svelte": {
+    "file": "pages/_year_year_/_month_/_tape_slug_/index.svelte-7d002110.js",
+    "src": "src/routes/[year=year]/[month]/[tape=slug]/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
@@ -154,9 +154,9 @@
       "_index-e7165968.js"
     ]
   },
-  "src/routes/[year]/[month]/[tape]/[track]/index.svelte": {
-    "file": "pages/_year_/_month_/_tape_/_track_/index.svelte-3111a450.js",
-    "src": "src/routes/[year]/[month]/[tape]/[track]/index.svelte",
+  "src/routes/[year=year]/[month]/[tape=slug]/[track=slug]/index.svelte": {
+    "file": "pages/_year_year_/_month_/_tape_slug_/_track_slug_/index.svelte-bb5c1a70.js",
+    "src": "src/routes/[year=year]/[month]/[tape=slug]/[track=slug]/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
