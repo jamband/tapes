@@ -8,7 +8,7 @@
 <h1 class="mb-0 text-center">
   {title}
 </h1>
-<div class="text-center text-xs text-gray-400">
+<div class="text-center text-sm text-gray-400">
   selected from
   <LinkExternal href="https://plusarchive.com" class="inline-flex items-center"
     >PlusArchive<IconExternalLink class="ml-0.5 h-4 w-4" /></LinkExternal

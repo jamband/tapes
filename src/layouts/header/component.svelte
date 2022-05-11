@@ -7,8 +7,11 @@
 </script>
 
 <header class="fixed z-10 w-full bg-gray-700 text-center font-mono">
-  <nav aria-label="Header navigation">
-    <a href="{base}/" class="m-1 inline-block px-5 py-3 no-underline">
+  <nav class="my-1" aria-label="Header navigation">
+    <a
+      href="{base}/"
+      class="m-1 inline-block rounded px-4 py-2 no-underline active:bg-gray-600"
+    >
       <span
         class="text-xs font-semibold text-gray-400"
         class:inject-name={$page.params.track}>{name}/</span
