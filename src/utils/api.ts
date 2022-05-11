@@ -1,5 +1,5 @@
-import fs from "fs";
-import glob from "glob";
+import * as fs from "fs";
+import * as glob from "glob";
 import { join } from "path";
 import { initialValue as trackInitialValue } from "~/stores/track";
 import type { Params } from "~/types/params";
