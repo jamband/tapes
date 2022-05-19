@@ -11,7 +11,6 @@ const config = {
   ],
   kit: {
     adapter: adapter(),
-    trailingSlash: "always",
     paths: {
       base: process.env["VITE_GITHUB_ACTIONS"] ? "/tapes" : "",
     },
