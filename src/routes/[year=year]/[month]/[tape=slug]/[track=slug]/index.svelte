@@ -10,7 +10,7 @@
   export let track: Track;
 
   const title = `${tapeTitle} ･ ${track.title}`;
-  const currentUrl = `${APP_URL.slice(0, -1)}${track.path}/`;
+  const currentUrl = `${APP_URL.slice(0, -1)}${track.path}`;
 
   onMount(() => {
     tape.set({ title: tapeTitle });

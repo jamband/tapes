@@ -13,7 +13,7 @@
   export let tape: Tape;
   export let year: string;
 
-  const currentUrl = `${APP_URL.slice(0, -1)}${tape.path}/`;
+  const currentUrl = `${APP_URL.slice(0, -1)}${tape.path}`;
 </script>
 
 <svelte:head>
