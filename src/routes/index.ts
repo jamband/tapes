@@ -1,5 +1,5 @@
 import { getYears } from "~/utils/api";
-import type { RequestHandler } from "./index.d";
+import type { RequestHandler } from "./__types/index.d";
 
 export const get: RequestHandler = () => {
   return {
