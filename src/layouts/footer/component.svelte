@@ -1,7 +1,7 @@
 <script lang="ts">
   import { base } from "$app/paths";
   import { page } from "$app/stores";
-  import { LinkExternal } from "../../components/link-external";
+  import { ExternalLink } from "../../components/external-link";
   import { IconX } from "../../icons";
   import { tape } from "../../stores/tape";
   import { track } from "../../stores/track";
@@ -38,9 +38,9 @@
           class="rounded px-5 py-2 text-gray-400 no-underline active:bg-gray-600 active:text-gray-100"
           href="{base}/contact">Contact</a
         >
-        <LinkExternal
+        <ExternalLink
           class="rounded px-5 py-2 text-gray-400 no-underline active:bg-gray-600 active:text-gray-100"
-          href="https://github.com/jamband/tapes">GitHub</LinkExternal
+          href="https://github.com/jamband/tapes">GitHub</ExternalLink
         >
       </div>
     </nav>

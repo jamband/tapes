@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { LinkExternal } from "../components/link-external";
+  import { ExternalLink } from "../components/external-link";
   import { LinkHome } from "../components/link-home";
   import { SectionDivider } from "../components/section-divider";
   import { APP_DESCRIPTION, APP_NAME, APP_URL } from "../constants/app";
@@ -20,16 +20,16 @@
     <h1>Contact</h1>
     <p>
       Please to the message via
-      <LinkExternal
+      <ExternalLink
         href="https://twitter.com/livejam_db"
         class="inline-flex items-center text-purple-400"
-        >Twitter<IconExternalLink class="ml-0.5 h-4 w-4" /></LinkExternal
+        >Twitter<IconExternalLink class="ml-0.5 h-4 w-4" /></ExternalLink
       >
       or
-      <LinkExternal
+      <ExternalLink
         href="https://github.com/jamband/tapes/issues"
         class="inline-flex items-center text-purple-400"
-        >GitHub<IconExternalLink class="ml-0.5 h-4 w-4" /></LinkExternal
+        >GitHub<IconExternalLink class="ml-0.5 h-4 w-4" /></ExternalLink
       >
       Issues. Thank you.
     </p>
