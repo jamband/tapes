@@ -1,6 +1,6 @@
 <script lang="ts">
   import { ExternalLink } from "../components/external-link";
-  import { LinkHome } from "../components/link-home";
+  import { HomeLink } from "../components/home-link";
   import { SectionDivider } from "../components/section-divider";
   import { APP_DESCRIPTION, APP_NAME, APP_URL } from "../constants/app";
   import { IconExternalLink } from "../icons";
@@ -40,4 +40,4 @@
   </div>
 </div>
 <SectionDivider class="my-10" />
-<LinkHome />
+<HomeLink />

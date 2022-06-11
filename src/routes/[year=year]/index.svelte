@@ -1,7 +1,7 @@
 <script lang="ts">
   import { base } from "$app/paths";
   import { page } from "$app/stores";
-  import { LinkHome } from "../../components/link-home";
+  import { HomeLink } from "../../components/home-link";
   import { SectionDivider } from "../../components/section-divider";
   import { TapeHeader } from "../../components/tape-header";
   import { APP_NAME, APP_URL } from "../../constants/app";
@@ -37,4 +37,4 @@
   {/each}
 </ul>
 <SectionDivider class="my-10" />
-<LinkHome />
+<HomeLink />
