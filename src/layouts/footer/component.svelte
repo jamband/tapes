@@ -20,8 +20,10 @@
         class="ml-4 mr-1 overflow-hidden text-ellipsis whitespace-nowrap py-2 text-sm font-semibold text-gray-100 no-underline"
         href="{base}{$track.path}">{$track.title}</a
       >
-      <button class="mr-2 p-2" on:click={clearTapeAndTrack} aria-label="close"
-        ><IconX class="h-5 w-5 align-[-0.3em] text-gray-500" /></button
+      <button
+        class="mr-2 rounded p-2 active:bg-gray-600 active:text-purple-400"
+        on:click={clearTapeAndTrack}
+        aria-label="close"><IconX class="h-5 w-5 align-[-0.3em]" /></button
       >
     </div>
   {:else}
