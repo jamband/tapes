@@ -16,7 +16,7 @@
   <meta name="description" content={title} />
   <meta property="og:title" content="{title} ･ {APP_NAME}" />
   <meta property="og:description" content={title} />
-  <meta property="og:url" content="{APP_URL}{$page.params.year}" />
+  <meta property="og:url" content="{APP_URL}{$page.params.year}/" />
 </svelte:head>
 
 <Page {title} />
