@@ -1,12 +1,12 @@
 <script lang="ts">
   import { base } from "$app/paths";
   import { page } from "$app/stores";
-  import { LinkHome } from "~/components/link-home";
-  import { SectionDivider } from "~/components/section-divider";
-  import { TapeHeader } from "~/components/tape-header";
-  import { APP_NAME, APP_URL } from "~/constants/app";
-  import { Page } from "~/layouts/page";
-  import type { Tapes } from "~/types/tape";
+  import { LinkHome } from "../../components/link-home";
+  import { SectionDivider } from "../../components/section-divider";
+  import { TapeHeader } from "../../components/tape-header";
+  import { APP_NAME, APP_URL } from "../../constants/app";
+  import { Page } from "../../layouts/page";
+  import type { Tapes } from "../../types/tape";
 
   export let tapes: Tapes;
   export let title: string;

@@ -1,6 +1,6 @@
 <script lang="ts">
-  import { LinkExternal } from "~/components/link-external";
-  import { IconExternalLink } from "~/icons";
+  import { IconExternalLink } from "../../icons";
+  import { LinkExternal } from "../link-external";
 
   export let title: string;
 </script>

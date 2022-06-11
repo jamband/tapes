@@ -1,10 +1,10 @@
 import fs from "fs";
 import glob from "glob";
 import { join } from "path";
-import { initialValue as trackInitialValue } from "~/stores/track";
-import type { Params } from "~/types/params";
-import type { Tape, Tapes } from "~/types/tape";
-import type { Track } from "~/types/track";
+import { initialValue as trackInitialValue } from "../stores/track";
+import type { Params } from "../types/params";
+import type { Tape, Tapes } from "../types/tape";
+import type { Track } from "../types/track";
 
 const baseDir = join(process.cwd(), "src/tapes");
 

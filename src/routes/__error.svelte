@@ -1,8 +1,8 @@
 <script lang="ts" context="module">
   import { base } from "$app/paths";
   import type { Load } from "@sveltejs/kit";
-  import { SectionDivider } from "~/components/section-divider";
-  import { Page } from "~/layouts/page";
+  import { SectionDivider } from "../components/section-divider";
+  import { Page } from "../layouts/page";
 
   export const load: Load = ({ error, status }) => {
     const isNotFound = status === 404;

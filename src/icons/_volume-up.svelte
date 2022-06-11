@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Icon from "~/icons/icon.svelte";
+  import Icon from "./icon.svelte";
 </script>
 
 <Icon {...$$restProps}>

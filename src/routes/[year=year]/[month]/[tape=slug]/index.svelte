@@ -1,13 +1,13 @@
 <script lang="ts">
   import { base } from "$app/paths";
-  import { SectionDivider } from "~/components/section-divider";
-  import { TapeHeader } from "~/components/tape-header";
-  import { APP_NAME, APP_URL } from "~/constants/app";
-  import { IconPause, IconPlay } from "~/icons";
-  import { Page } from "~/layouts/page";
-  import { track } from "~/stores/track";
-  import { aspectRatio } from "~/styles/dynamic";
-  import type { Tape } from "~/types/tape";
+  import { SectionDivider } from "../../../../components/section-divider";
+  import { TapeHeader } from "../../../../components/tape-header";
+  import { APP_NAME, APP_URL } from "../../../../constants/app";
+  import { IconPause, IconPlay } from "../../../../icons";
+  import { Page } from "../../../../layouts/page";
+  import { track } from "../../../../stores/track";
+  import { aspectRatio } from "../../../../styles/dynamic";
+  import type { Tape } from "../../../../types/tape";
 
   export let title: string;
   export let tape: Tape;

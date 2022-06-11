@@ -10,9 +10,6 @@ const config = {
   ],
   kit: {
     adapter: adapter(),
-    alias: {
-      "~": "src",
-    },
     paths: {
       base: process.env["VITE_GITHUB_ACTIONS"] ? "/tapes" : "",
     },

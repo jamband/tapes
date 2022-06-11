@@ -1,4 +1,4 @@
-import { getTape, getTrack } from "~/utils/api";
+import { getTape, getTrack } from "../../../../../utils/api";
 import type { RequestHandler } from "./__types/index.d";
 
 export const get: RequestHandler = ({ params }) => {

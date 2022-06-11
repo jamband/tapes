@@ -1,9 +1,9 @@
 <script lang="ts">
   import { base } from "$app/paths";
-  import { SectionDivider } from "~/components/section-divider";
-  import { TapeHeader } from "~/components/tape-header";
-  import { APP_DESCRIPTION, APP_NAME, APP_URL } from "~/constants/app";
-  import { Page } from "~/layouts/page";
+  import { SectionDivider } from "../components/section-divider";
+  import { TapeHeader } from "../components/tape-header";
+  import { APP_DESCRIPTION, APP_NAME, APP_URL } from "../constants/app";
+  import { Page } from "../layouts/page";
 
   export let years: Array<string>;
 </script>
