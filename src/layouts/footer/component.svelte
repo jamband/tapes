@@ -21,7 +21,7 @@
         href="{base}{$track.path}">{$track.title}</a
       >
       <button class="mr-2 p-2" on:click={clearTapeAndTrack} aria-label="close"
-        ><IconX class="h-5 w-5 text-gray-500" /></button
+        ><IconX class="h-5 w-5 align-[-0.3em] text-gray-500" /></button
       >
     </div>
   {:else}

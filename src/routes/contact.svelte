@@ -22,14 +22,18 @@
       Please to the message via
       <ExternalLink
         href="https://twitter.com/livejam_db"
-        class="inline-flex items-center text-purple-400"
-        >Twitter<IconExternalLink class="ml-0.5 h-4 w-4" /></ExternalLink
+        class="text-purple-400"
+        >Twitter<IconExternalLink
+          class="h-4 w-4 align-[-0.125em]"
+        /></ExternalLink
       >
       or
       <ExternalLink
         href="https://github.com/jamband/tapes/issues"
-        class="inline-flex items-center text-purple-400"
-        >GitHub<IconExternalLink class="ml-0.5 h-4 w-4" /></ExternalLink
+        class="text-purple-400"
+        >GitHub<IconExternalLink
+          class="h-4 w-4 align-[-0.125em]"
+        /></ExternalLink
       >
       Issues. Thank you.
     </p>

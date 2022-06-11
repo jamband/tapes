@@ -21,19 +21,19 @@
     <p>
       {APP_DESCRIPTION}
       The music introduced here is selected from
-      <ExternalLink
-        href="https://plusarchive.com"
-        class="inline-flex items-center text-purple-400"
-        >PlusArchive<IconExternalLink class="ml-0.5 h-4 w-4" /></ExternalLink
+      <ExternalLink href="https://plusarchive.com" class="text-purple-400"
+        >PlusArchive<IconExternalLink
+          class="h-4 w-4 align-[-0.125em]"
+        /></ExternalLink
       >.
     </p>
     <p>
       This website is an open source project. See following for details.
       <ExternalLink
         href="https://github.com/jamband/tapes"
-        class="inline-flex items-center text-purple-400"
+        class="text-purple-400"
         >GitHub: {APP_NAME}<IconExternalLink
-          class="ml-0.5 h-4 w-4"
+          class="h-4 w-4 align-[-0.125em]"
         /></ExternalLink
       >
     </p>

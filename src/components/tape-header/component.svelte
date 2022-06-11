@@ -10,7 +10,9 @@
 </h1>
 <div class="text-center text-sm text-gray-400">
   selected from
-  <ExternalLink href="https://plusarchive.com" class="inline-flex items-center"
-    >PlusArchive<IconExternalLink class="ml-0.5 h-4 w-4" /></ExternalLink
+  <ExternalLink href="https://plusarchive.com"
+    >PlusArchive<IconExternalLink
+      class="h-4 w-4 align-[-0.2em]"
+    /></ExternalLink
   >
 </div>
