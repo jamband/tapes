@@ -8,8 +8,8 @@
       "title": "Frank Fairfield - NPR Music Tiny Desk Concert",
       "provider": "YouTube",
       "provider_key": "4-v1CKP4khE",
-      "image": "https://i.ytimg.com/vi/4-v1CKP4khE/mqdefault.jpg",
-      "image_aspect_ratio": "4/3",
+      "image": "https://i.ytimg.com/vi/4-v1CKP4khE/hqdefault.jpg",
+      "image_aspect_ratio": "16/9",
       "embed_aspect_ratio": "16/9",
       "slug": "frank-fairfield-npr-music-tiny-desk-concert"
     },
@@ -17,8 +17,8 @@
       "title": "Los Hacheros - NPR Music Tiny Desk Concert",
       "provider": "YouTube",
       "provider_key": "bWdZP2Qj6wA",
-      "image": "https://i.ytimg.com/vi/bWdZP2Qj6wA/mqdefault.jpg",
-      "image_aspect_ratio": "4/3",
+      "image": "https://i.ytimg.com/vi/bWdZP2Qj6wA/hqdefault.jpg",
+      "image_aspect_ratio": "16/9",
       "embed_aspect_ratio": "16/9",
       "slug": "los-hacheros-npr-music-tiny-desk-concert"
     },
@@ -26,8 +26,8 @@
       "title": "Jacob Collier - NPR Music Tiny Desk Concert",
       "provider": "YouTube",
       "provider_key": "vPBirt1YhuM",
-      "image": "https://i.ytimg.com/vi/vPBirt1YhuM/mqdefault.jpg",
-      "image_aspect_ratio": "4/3",
+      "image": "https://i.ytimg.com/vi/vPBirt1YhuM/hqdefault.jpg",
+      "image_aspect_ratio": "16/9",
       "embed_aspect_ratio": "16/9",
       "slug": "jacob-collier-npr-music-tiny-desk-concert"
     },
@@ -35,8 +35,8 @@
       "title": "Natalia Lafourcade - NPR Music Tiny Desk Concert",
       "provider": "YouTube",
       "provider_key": "JODaYjDyjyQ",
-      "image": "https://i.ytimg.com/vi/JODaYjDyjyQ/mqdefault.jpg",
-      "image_aspect_ratio": "4/3",
+      "image": "https://i.ytimg.com/vi/JODaYjDyjyQ/hqdefault.jpg",
+      "image_aspect_ratio": "16/9",
       "embed_aspect_ratio": "16/9",
       "slug": "natalia-lafourcade-npr-music-tiny-desk-concert"
     },
@@ -44,8 +44,8 @@
       "title": "Mariachi Flor De Toloache - NPR Music Tiny Desk Concert",
       "provider": "YouTube",
       "provider_key": "-rl26QKPHtE",
-      "image": "https://i.ytimg.com/vi/-rl26QKPHtE/mqdefault.jpg",
-      "image_aspect_ratio": "4/3",
+      "image": "https://i.ytimg.com/vi/-rl26QKPHtE/hqdefault.jpg",
+      "image_aspect_ratio": "16/9",
       "embed_aspect_ratio": "16/9",
       "slug": "mariachi-flor-de-toloache-npr-music-tiny-desk-concert"
     },
@@ -53,8 +53,8 @@
       "title": "Monsieur Periné - NPR Music Tiny Desk Concert",
       "provider": "YouTube",
       "provider_key": "JGL-eQAAxGs",
-      "image": "https://i.ytimg.com/vi/JGL-eQAAxGs/mqdefault.jpg",
-      "image_aspect_ratio": "4/3",
+      "image": "https://i.ytimg.com/vi/JGL-eQAAxGs/hqdefault.jpg",
+      "image_aspect_ratio": "16/9",
       "embed_aspect_ratio": "16/9",
       "slug": "monsieur-perine-npr-music-tiny-desk-concert"
     }
