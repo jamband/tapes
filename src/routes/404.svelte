@@ -13,7 +13,7 @@
 </svelte:head>
 
 <Page title="Not Found" />
-<div class="flex h-70vh items-center justify-center">
+<div class="flex h-[70vh] items-center justify-center">
   <div class="text-center">
     <h1>Not Found</h1>
     <div class="text-sm text-gray-400">The page does not exist.</div>
