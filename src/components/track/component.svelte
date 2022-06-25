@@ -66,7 +66,7 @@
       via {$track.provider}
     </div>
     <SectionDivider class="my-10" />
-    <div class="text-sm text-gray-200">
+    <div class="text-gray-200">
       <a sveltekit:prefetch class="p-3" href="{base}{tapePath}"
         >← {$tape.title}</a
       >
