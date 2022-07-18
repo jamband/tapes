@@ -5,7 +5,7 @@
     "prepare": "svelte-kit sync",
     "dev": "vite dev",
     "build": "vite build",
-    "postbuild": "mv build/404/index.html build/404.html && rmdir build/404",
+    "postbuild": "node scripts/postbuild.js",
     "checks": "svelte-check --tsconfig ./tsconfig.json",
     "lint": "eslint .",
     "format": "prettier --check .",
