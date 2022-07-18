@@ -1,0 +1,62 @@
+{
+  "id": 19,
+  "title": "Vulfpeck",
+  "path": "/2022/07/vulfpeck",
+  "date": "Jul 18, 2022",
+  "items": [
+    {
+      "title": "Vulfpeck - For Survival (ft. Mike Viola)",
+      "provider": "YouTube",
+      "provider_key": "VSBxCgj3Vck",
+      "image": "https://i.ytimg.com/vi/VSBxCgj3Vck/hqdefault.jpg",
+      "image_aspect_ratio": "16/9",
+      "embed_aspect_ratio": "16/9",
+      "slug": "vulfpeck-for-survival-ft-mike-viola"
+    },
+    {
+      "title": "Vulfpeck - Love is a Beautiful Thing (feat. Theo Katzman & Monica Martin)",
+      "provider": "YouTube",
+      "provider_key": "x0vgMl6n7m0",
+      "image": "https://i.ytimg.com/vi/x0vgMl6n7m0/hqdefault.jpg",
+      "image_aspect_ratio": "16/9",
+      "embed_aspect_ratio": "16/9",
+      "slug": "vulfpeck-love-is-a-beautiful-thing-feat-theo-katzman-monica-martin"
+    },
+    {
+      "title": "Vulfpeck - Captain Hook (feat. Baby Theo, Bootsy Collins & Mushy Kay)",
+      "provider": "YouTube",
+      "provider_key": "csJ7mBWb2Zo",
+      "image": "https://i.ytimg.com/vi/csJ7mBWb2Zo/hqdefault.jpg",
+      "image_aspect_ratio": "16/9",
+      "embed_aspect_ratio": "4/3",
+      "slug": "vulfpeck-captain-hook-feat-baby-theo-bootsy-collins-mushy-kay"
+    },
+    {
+      "title": "Vulfpeck - Business Casual (feat. Coco O.)",
+      "provider": "YouTube",
+      "provider_key": "EK6Yyxg5P-M",
+      "image": "https://i.ytimg.com/vi/EK6Yyxg5P-M/hqdefault.jpg",
+      "image_aspect_ratio": "16/9",
+      "embed_aspect_ratio": "16/9",
+      "slug": "vulfpeck-business-casual-feat-coco-o"
+    },
+    {
+      "title": "Vulfpeck - Mr. Finish Line (feat. Christine Hucal & Theo Katzman)",
+      "provider": "YouTube",
+      "provider_key": "AwssQtRvB8k",
+      "image": "https://i.ytimg.com/vi/AwssQtRvB8k/hqdefault.jpg",
+      "image_aspect_ratio": "16/9",
+      "embed_aspect_ratio": "16/9",
+      "slug": "vulfpeck-mr-finish-line-feat-christine-hucal-theo-katzman"
+    },
+    {
+      "title": "Vulfpeck - Birds of a Feather (Mocky Cover)",
+      "provider": "YouTube",
+      "provider_key": "WQm4R0LM2mE",
+      "image": "https://i.ytimg.com/vi/WQm4R0LM2mE/hqdefault.jpg",
+      "image_aspect_ratio": "16/9",
+      "embed_aspect_ratio": "4/3",
+      "slug": "vulfpeck-birds-of-a-feather-mocky-cover"
+    }
+  ]
+}
