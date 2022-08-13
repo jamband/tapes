@@ -1,0 +1,62 @@
+{
+  "id": 20,
+  "title": "Jonny Nash / Suzanne Kraft",
+  "path": "/2022/08/jonny-nash-suzanne-kraft",
+  "date": "Aug 13, 2022",
+  "items": [
+    {
+      "title": "Jonny Nash - Exit Three",
+      "provider": "Bandcamp",
+      "provider_key": "845908353",
+      "image": "https://f1.bcbits.com/img/a1459791081_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "jonny-nash-exit-three"
+    },
+    {
+      "title": "Jonny Nash - Exit Seven",
+      "provider": "Bandcamp",
+      "provider_key": "2746054070",
+      "image": "https://f4.bcbits.com/img/a1459791081_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "jonny-nash-exit-seven"
+    },
+    {
+      "title": "Suzanne Kraft - Two Chord Wake",
+      "provider": "Bandcamp",
+      "provider_key": "3387299981",
+      "image": "https://f4.bcbits.com/img/a0736372377_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "suzanne-kraft-two-chord-wake"
+    },
+    {
+      "title": "Suzanne Kraft - Renee Sleeping",
+      "provider": "Bandcamp",
+      "provider_key": "4240179786",
+      "image": "https://f4.bcbits.com/img/a0736372377_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "suzanne-kraft-renee-sleeping"
+    },
+    {
+      "title": "Jonny Nash & Suzanne Kraft - Time, Being",
+      "provider": "Bandcamp",
+      "provider_key": "437577229",
+      "image": "https://f4.bcbits.com/img/a2814706147_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "jonny-nash-suzanne-kraft-time-being"
+    },
+    {
+      "title": "Jonny Nash & Suzanne Kraft - Breath Chant (Extended Mix)",
+      "provider": "Bandcamp",
+      "provider_key": "683208210",
+      "image": "https://f4.bcbits.com/img/a2978327447_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "jonny-nash-suzanne-kraft-breath-chant-extended-mix"
+    }
+  ]
+}
