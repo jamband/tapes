@@ -6,24 +6,23 @@
   import { TapeHeader } from "../../components/tape-header";
   import { APP_NAME, APP_URL } from "../../constants/app";
   import { Page } from "../../layouts/page";
-  import type { Tapes } from "../../types/tape";
+  import type { PageData } from "./$types";
 
-  export let tapes: Tapes;
-  export let title: string;
+  export let data: PageData;
 </script>
 
 <svelte:head>
-  <meta name="description" content={title} />
-  <meta property="og:title" content="{title} ･ {APP_NAME}" />
-  <meta property="og:description" content={title} />
+  <meta name="description" content={data.title} />
+  <meta property="og:title" content="{data.title} ･ {APP_NAME}" />
+  <meta property="og:description" content={data.title} />
   <meta property="og:url" content="{APP_URL}{$page.params.year}/" />
 </svelte:head>
 
-<Page {title} />
+<Page title={data.title} />
 <TapeHeader title="Monthly Favorite Tracks of {$page.params.year}" />
 <SectionDivider class="my-10" />
 <ul>
-  {#each tapes as tape (tape.path)}
+  {#each data.tapes as tape (tape.path)}
     <li class="mb-3">
       <a
         sveltekit:prefetch

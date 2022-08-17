@@ -1,13 +1,11 @@
 import { getTape, getTrack } from "../../../../../utils/api";
-import type { RequestHandler } from "./__types";
+import type { PageServerLoad } from "./$types";
 
-export const GET: RequestHandler = ({ params }) => {
+export const load: PageServerLoad = ({ params }) => {
   const { date: tapeDate, title: tapeTitle } = getTape(params);
 
   return {
-    body: {
-      tapeTitle: `${tapeDate} ${tapeTitle}`,
-      track: getTrack(params),
-    },
+    tapeTitle: `${tapeDate} ${tapeTitle}`,
+    track: getTrack(params),
   };
 };

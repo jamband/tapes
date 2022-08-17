@@ -1,10 +1,8 @@
 import { getYears } from "../utils/api";
-import type { RequestHandler } from "./__types";
+import type { PageServerLoad } from "./$types";
 
-export const GET: RequestHandler = () => {
+export const load: PageServerLoad = () => {
   return {
-    body: {
-      years: getYears,
-    },
+    years: getYears,
   };
 };

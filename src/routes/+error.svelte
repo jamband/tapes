@@ -1,24 +1,12 @@
-<script lang="ts" context="module">
+<script lang="ts">
   import { base } from "$app/paths";
-  import type { Load } from "@sveltejs/kit";
+  import { page } from "$app/stores";
   import { SectionDivider } from "../components/section-divider";
   import { Page } from "../layouts/page";
 
-  export const load: Load = ({ error, status }) => {
-    const isNotFound = status === 404;
-
-    return {
-      props: {
-        title: isNotFound ? "Not Found" : "An Error occured",
-        message: isNotFound ? "The page does not exist." : error?.message,
-      },
-    };
-  };
-</script>
-
-<script lang="ts">
-  export let title: string;
-  export let message: string;
+  const isNotFound = $page.status === 404;
+  const title = isNotFound ? "Not Found" : "An Error occured";
+  const message = isNotFound ? "The page does not exist." : $page.error.message;
 </script>
 
 <Page title="Not Found" />

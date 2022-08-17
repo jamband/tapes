@@ -1,11 +1,9 @@
 import { getTapes } from "../../utils/api";
-import type { RequestHandler } from "./__types";
+import type { PageServerLoad } from "./$types";
 
-export const GET: RequestHandler = ({ params }) => {
+export const load: PageServerLoad = ({ params }) => {
   return {
-    body: {
-      tapes: getTapes(Number(params.year)),
-      title: `Tapes of ${params.year}`,
-    },
+    tapes: getTapes(Number(params.year)),
+    title: `Tapes of ${params.year}`,
   };
 };

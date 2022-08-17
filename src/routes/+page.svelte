@@ -4,8 +4,9 @@
   import { TapeHeader } from "../components/tape-header";
   import { APP_DESCRIPTION, APP_NAME, APP_URL } from "../constants/app";
   import { Page } from "../layouts/page";
+  import type { PageData } from "./$types";
 
-  export let years: Array<string>;
+  export let data: PageData;
 </script>
 
 <svelte:head>
@@ -19,7 +20,7 @@
 <TapeHeader title="Monthly Favorite Tracks" />
 <SectionDivider class="my-10" />
 <div class="flex items-center justify-center">
-  {#each years as year}
+  {#each data.years as year}
     <a
       sveltekit:prefetch
       href="{base}/{year}"

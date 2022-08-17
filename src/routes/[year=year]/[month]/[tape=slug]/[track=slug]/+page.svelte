@@ -4,17 +4,16 @@
   import { Page } from "../../../../../layouts/page";
   import { tape } from "../../../../../stores/tape";
   import { track as __track } from "../../../../../stores/track";
-  import type { Track } from "../../../../../types/track";
+  import type { PageData } from "./$types";
 
-  export let tapeTitle: string;
-  export let track: Track;
+  export let data: PageData;
 
-  const title = `${tapeTitle} ･ ${track.title}`;
-  const currentUrl = `${APP_URL.slice(0, -1)}${track.path}/`;
+  const title = `${data.tapeTitle} ･ ${data.track.title}`;
+  const currentUrl = `${APP_URL.slice(0, -1)}${data.track.path}/`;
 
   onMount(() => {
-    tape.set({ title: tapeTitle });
-    __track.set(track);
+    tape.set({ title: data.tapeTitle });
+    __track.set(data.track);
   });
 </script>
 
@@ -22,7 +21,7 @@
   <meta name="description" content={title} />
   <meta property="og:title" content="{title} ･ {APP_NAME}" />
   <meta property="og:description" content={title} />
-  <meta property="og:image" content={track.image} />
+  <meta property="og:image" content={data.track.image} />
   <meta property="og:url" content={currentUrl} />
 </svelte:head>
 
