@@ -13,17 +13,17 @@
   },
   "devDependencies": {
     "@sveltejs/adapter-static": "^1.0.0-next.39",
-    "@sveltejs/kit": "^1.0.0-next.405",
+    "@sveltejs/kit": "^1.0.0-next.415",
     "@types/glob": "^7.1.4",
-    "@types/html-minifier-terser": "^6.1.0",
-    "@typescript-eslint/eslint-plugin": "^5.33.0",
-    "@typescript-eslint/parser": "^5.33.0",
+    "@types/html-minifier-terser": "^7.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.33.1",
+    "@typescript-eslint/parser": "^5.33.1",
     "autoprefixer": "^10.4.8",
-    "eslint": "^8.21.0",
+    "eslint": "^8.22.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-svelte3": "^4.0.0",
     "glob": "^8.0.3",
-    "html-minifier-terser": "^6.1.0",
+    "html-minifier-terser": "^7.0.0",
     "postcss": "^8.4.16",
     "prettier": "2.7.1",
     "prettier-plugin-tailwindcss": "^0.1.13",
@@ -33,6 +33,6 @@
     "tailwindcss": "^3.1.8",
     "tslib": "^2.4.0",
     "typescript": "^4.7.4",
-    "vite": "^3.0.7"
+    "vite": "^3.0.8"
   }
 }
