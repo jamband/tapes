@@ -22,7 +22,6 @@
 <div class="flex items-center justify-center">
   {#each data.years as year}
     <a
-      sveltekit:prefetch
       href="{base}/{year}"
       class="mx-2 rounded bg-gray-700 px-4 py-1 font-mono text-sm no-underline shadow-sm"
       ><span class="text-xs text-gray-400">#</span><span

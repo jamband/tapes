@@ -16,7 +16,6 @@
   {#if $track.path && !$page.params.track}
     <div class="flex items-center justify-center py-2 md:container md:mx-auto">
       <a
-        sveltekit:prefetch
         class="ml-4 mr-1 overflow-hidden text-ellipsis whitespace-nowrap py-2 text-sm font-semibold text-gray-100 no-underline"
         href="{base}{$track.path}">{$track.title}</a
       >

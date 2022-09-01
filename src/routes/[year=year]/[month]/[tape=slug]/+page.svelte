@@ -28,7 +28,6 @@
 <div class="mb-10 grid grid-cols-1 gap-6 md:grid-cols-2">
   {#each data.tape.items as item (item.slug)}
     <a
-      sveltekit:prefetch
       class="relative mb-1 text-gray-200 shadow active:text-gray-100"
       href="{base}{data.tape.path}/{item.slug}"
     >
