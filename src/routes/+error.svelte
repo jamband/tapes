@@ -6,7 +6,9 @@
 
   const isNotFound = $page.status === 404;
   const title = isNotFound ? "Not Found" : "An Error occured";
-  const message = isNotFound ? "The page does not exist." : $page.error.message;
+  const message = isNotFound
+    ? "The page does not exist."
+    : $page.error?.message;
 </script>
 
 <Page title="Not Found" />
