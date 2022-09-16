@@ -2,12 +2,12 @@
   import { base } from "$app/paths";
   import { page } from "$app/stores";
   import { beforeUpdate } from "svelte";
+  import { SectionDivider } from "~/components/section-divider";
   import { IconLoading } from "~/icons";
   import { tape } from "~/stores/tape";
   import { player, track } from "~/stores/track";
   import { aspectRatio } from "~/styles/dynamic";
   import type { Params } from "~/types/params";
-  import { SectionDivider } from "../section-divider";
 
   let title = "";
   let playerLoading = true;
