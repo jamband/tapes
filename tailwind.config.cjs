@@ -1,6 +1,9 @@
 /** @type import("tailwindcss").Config */
 module.exports = {
   content: ["./src/**/*.{html,js,svelte,ts}"],
+  future: {
+    hoverOnlyWhenSupported: true,
+  },
   theme: {
     container: {
       padding: "1rem",

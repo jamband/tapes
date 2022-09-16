@@ -10,7 +10,7 @@
 </h1>
 <div class="text-center text-sm text-gray-400">
   selected from
-  <ExternalLink href="https://plusarchive.com"
+  <ExternalLink href="https://plusarchive.com" class="hover:text-purple-400"
     >PlusArchive<IconExternalLink
       class="h-4 w-4 align-[-0.2em]"
     /></ExternalLink

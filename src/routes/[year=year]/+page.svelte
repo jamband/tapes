@@ -24,8 +24,9 @@
 <ul>
   {#each data.tapes as tape (tape.path)}
     <li class="mb-3">
-      <a class="text-2xl font-semibold text-gray-100" href="{base}{tape.path}"
-        >{tape.title} →</a
+      <a
+        class="text-2xl font-semibold text-gray-100 hover:text-purple-400"
+        href="{base}{tape.path}">{tape.title} →</a
       >
       <div class="text-xs text-gray-400">
         {tape.date}

@@ -55,7 +55,7 @@
 </div>
 <SectionDivider />
 <div class="mt-12 text-center">
-  <a href="{base}/{data.year}" class="p-3 text-gray-200"
+  <a href="{base}/{data.year}" class="p-3 text-gray-200 hover:text-purple-400"
     >← Monthly Favorite Tracks of {data.year}</a
   >
 </div>
