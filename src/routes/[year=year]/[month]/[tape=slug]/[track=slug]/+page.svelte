@@ -1,9 +1,9 @@
 <script lang="ts">
   import { onMount } from "svelte";
-  import { APP_NAME, APP_URL } from "../../../../../constants/app";
-  import { Page } from "../../../../../layouts/page";
-  import { tape } from "../../../../../stores/tape";
-  import { track as __track } from "../../../../../stores/track";
+  import { APP_NAME, APP_URL } from "~/constants/app";
+  import { Page } from "~/layouts/page";
+  import { tape } from "~/stores/tape";
+  import { track as __track } from "~/stores/track";
   import type { PageData } from "./$types";
 
   export let data: PageData;

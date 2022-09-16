@@ -1,10 +1,10 @@
 <script lang="ts">
   import { base } from "$app/paths";
   import { page } from "$app/stores";
-  import { ExternalLink } from "../../components/external-link";
-  import { IconX } from "../../icons";
-  import { tape } from "../../stores/tape";
-  import { track } from "../../stores/track";
+  import { ExternalLink } from "~/components/external-link";
+  import { IconX } from "~/icons";
+  import { tape } from "~/stores/tape";
+  import { track } from "~/stores/track";
 
   const clearTapeAndTrack = () => {
     tape.clear();

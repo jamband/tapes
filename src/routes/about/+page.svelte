@@ -1,10 +1,10 @@
 <script lang="ts">
-  import { ExternalLink } from "../../components/external-link";
-  import { HomeLink } from "../../components/home-link";
-  import { SectionDivider } from "../../components/section-divider";
-  import { APP_DESCRIPTION, APP_NAME, APP_URL } from "../../constants/app";
-  import { IconExternalLink } from "../../icons";
-  import { Page } from "../../layouts/page";
+  import { ExternalLink } from "~/components/external-link";
+  import { HomeLink } from "~/components/home-link";
+  import { SectionDivider } from "~/components/section-divider";
+  import { APP_DESCRIPTION, APP_NAME, APP_URL } from "~/constants/app";
+  import { IconExternalLink } from "~/icons";
+  import { Page } from "~/layouts/page";
 </script>
 
 <svelte:head>

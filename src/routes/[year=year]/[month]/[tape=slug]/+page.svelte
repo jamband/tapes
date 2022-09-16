@@ -1,12 +1,12 @@
 <script lang="ts">
   import { base } from "$app/paths";
-  import { SectionDivider } from "../../../../components/section-divider";
-  import { TapeHeader } from "../../../../components/tape-header";
-  import { APP_NAME, APP_URL } from "../../../../constants/app";
-  import { IconPause, IconPlay } from "../../../../icons";
-  import { Page } from "../../../../layouts/page";
-  import { track } from "../../../../stores/track";
-  import { aspectRatio } from "../../../../styles/dynamic";
+  import { SectionDivider } from "~/components/section-divider";
+  import { TapeHeader } from "~/components/tape-header";
+  import { APP_NAME, APP_URL } from "~/constants/app";
+  import { IconPause, IconPlay } from "~/icons";
+  import { Page } from "~/layouts/page";
+  import { track } from "~/stores/track";
+  import { aspectRatio } from "~/styles/dynamic";
   import type { PageData } from "./$types";
 
   export let data: PageData;

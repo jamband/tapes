@@ -1,5 +1,5 @@
 import { writable } from "svelte/store";
-import type { Tape } from "../types/tape";
+import type { Tape } from "~/types/tape";
 
 type State = Pick<Tape, "title">;
 
