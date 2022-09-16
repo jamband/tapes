@@ -1,5 +1,5 @@
 import fs from "fs";
-import glob from "glob";
+import fg from "fast-glob";
 import { join } from "path";
 import { initialValue as trackInitialValue } from "~/stores/track";
 import type { Params } from "~/types/params";
@@ -17,7 +17,7 @@ const tapePath = (params: Params) => {
 };
 
 export const getTapes = (year: number): Tapes => {
-  const tapes = glob.sync(`${baseDir}/${year}/**/*.json`).map((file) => {
+  const tapes = fg.sync(`${baseDir}/${year}/**/*.json`).map((file) => {
     const { id, title, path, date }: Tape = JSON.parse(contents(file));
     return { id, title, path, date };
   });
