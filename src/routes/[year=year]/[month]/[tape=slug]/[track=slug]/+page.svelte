@@ -3,7 +3,7 @@
   import { APP_NAME, APP_URL } from "~/constants/app";
   import { Page } from "~/layouts/page";
   import { tape } from "~/stores/tape";
-  import { track as __track } from "~/stores/track";
+  import { track } from "~/stores/track";
   import type { PageData } from "./$types";
 
   export let data: PageData;
@@ -13,7 +13,7 @@
 
   onMount(() => {
     tape.set({ title: data.tapeTitle });
-    __track.set(data.track);
+    track.set(data.track);
   });
 </script>
 
