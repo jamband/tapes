@@ -6,6 +6,12 @@
   import { tape } from "~/stores/tape";
   import { track } from "~/stores/track";
 
+  $: showPlayerTitle =
+    $track.path &&
+    !$page.params.track &&
+    $page.routeId !== "contact" &&
+    $page.routeId !== "about";
+
   const clearTapeAndTrack = () => {
     tape.clear();
     track.clear();
@@ -13,7 +19,7 @@
 </script>
 
 <footer class="fixed bottom-0 w-full bg-gray-700">
-  {#if $track.path && !$page.params.track}
+  {#if showPlayerTitle}
     <div class="flex items-center justify-center py-2 md:container md:mx-auto">
       <a
         class="ml-4 mr-1 overflow-hidden text-ellipsis whitespace-nowrap py-2 text-sm font-semibold text-gray-100 no-underline"
