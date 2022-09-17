@@ -18,18 +18,6 @@
     title = $track.title;
   };
 
-  $: responsiveCol = () => {
-    if ($track.embed_aspect_ratio === "1/1") {
-      return "md:col-start-3 md:col-span-8";
-    }
-
-    if ($track.embed_aspect_ratio === "4/3") {
-      return "md:col-start-2 md:col-span-10";
-    }
-
-    return "";
-  };
-
   $: params = $page.params;
   $: tapePath = `/${params.year}/${params.month}/${params.tape}`;
 
@@ -42,7 +30,13 @@
 
 {#if $track.path}
   <div class="mb-3 grid grid-cols-12">
-    <div class="relative col-span-12 {responsiveCol()}">
+    <div
+      class="relative col-span-12 {$track.embed_aspect_ratio === '1/1'
+        ? 'md:col-span-8 md:col-start-3'
+        : ''} {$track.embed_aspect_ratio === '4/3'
+        ? 'md:col-span-10 md:col-start-2'
+        : ''}"
+    >
       {#key $track.path}
         <div
           class="pointer-events-none absolute inset-0 flex items-center justify-center"
@@ -62,10 +56,10 @@
   </div>
   <div class="text-center">
     <h1 class="mb-0 text-2xl">{$track.title}</h1>
-    <div class="text-sm text-gray-400">
+    <div class="mb-10 text-sm text-gray-400">
       via {$track.provider}
     </div>
-    <SectionDivider class="my-10" />
+    <SectionDivider class="mb-10" />
     <div class="text-gray-200">
       <a class="p-3 hover:text-purple-400" href="{base}{tapePath}"
         >← {$tape.title}</a

@@ -19,9 +19,12 @@
 </svelte:head>
 
 <Page title={data.title} />
-<TapeHeader title="Monthly Favorite Tracks of {$page.params.year}" />
-<SectionDivider class="my-10" />
-<ul>
+<TapeHeader
+  title="Monthly Favorite Tracks of {$page.params.year}"
+  class="mb-10"
+/>
+<SectionDivider class="mb-10" />
+<ul class="mb-10">
   {#each data.tapes as tape (tape.path)}
     <li class="mb-3">
       <a
@@ -34,5 +37,5 @@
     </li>
   {/each}
 </ul>
-<SectionDivider class="my-10" />
+<SectionDivider class="mb-10" />
 <HomeLink />

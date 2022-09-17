@@ -17,8 +17,8 @@
 </svelte:head>
 
 <Page />
-<TapeHeader title="Monthly Favorite Tracks" />
-<SectionDivider class="my-10" />
+<TapeHeader title="Monthly Favorite Tracks" class="mb-10" />
+<SectionDivider class="mb-10" />
 <div class="flex items-center justify-center">
   {#each data.years as year}
     <a

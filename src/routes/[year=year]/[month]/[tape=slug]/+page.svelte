@@ -23,8 +23,8 @@
 </svelte:head>
 
 <Page title={data.title} />
-<TapeHeader title={data.title} />
-<SectionDivider class="my-10" />
+<TapeHeader title={data.title} class="mb-10" />
+<SectionDivider class="mb-10" />
 <div class="mb-10 grid grid-cols-1 gap-6 md:grid-cols-2">
   {#each data.tape.items as item (item.slug)}
     <a
@@ -53,8 +53,8 @@
     </a>
   {/each}
 </div>
-<SectionDivider />
-<div class="mt-12 text-center">
+<SectionDivider class="mb-12" />
+<div class="flex justify-center">
   <a href="{base}/{data.year}" class="p-3 text-gray-200 hover:text-purple-400"
     >← Monthly Favorite Tracks of {data.year}</a
   >

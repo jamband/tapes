@@ -16,8 +16,10 @@
 <div class="flex h-[70vh] items-center justify-center">
   <div class="text-center">
     <h1>Not Found</h1>
-    <div class="text-sm text-gray-400">The page does not exist.</div>
-    <SectionDivider class="my-10" />
-    <a class="text-gray-200" href="{base}/">Go Digging →</a>
+    <div class="mb-10 text-sm text-gray-400">The page does not exist.</div>
+    <SectionDivider class="mb-10" />
+    <a class="text-gray-200 hover:text-purple-400" href="{base}/"
+      >Go Digging →</a
+    >
   </div>
 </div>

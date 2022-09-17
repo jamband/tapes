@@ -15,7 +15,7 @@
 </svelte:head>
 
 <Page title="About" />
-<div class="grid lg:grid-cols-6 lg:gap-4">
+<div class="mb-10 grid lg:grid-cols-6 lg:gap-4">
   <div class="lg:col-span-4 lg:col-start-2">
     <h1>About</h1>
     <p>
@@ -39,5 +39,5 @@
     </p>
   </div>
 </div>
-<SectionDivider class="my-10" />
+<SectionDivider class="mb-10" />
 <HomeLink />

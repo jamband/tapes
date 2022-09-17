@@ -6,7 +6,7 @@
   const [name, repository] = APP_NAME.split("/");
 </script>
 
-<header class="fixed z-10 w-full bg-gray-700 text-center font-mono">
+<header class="fixed z-10 flex w-full justify-center bg-gray-700 font-mono">
   <nav class="my-2" aria-label="Header navigation">
     <a
       href="{base}/"
