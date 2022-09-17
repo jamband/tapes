@@ -24,8 +24,8 @@
     <a
       href="{base}/{year}"
       class="mx-2 rounded bg-gray-700 px-4 py-1 font-mono text-sm no-underline shadow-sm hover:bg-purple-600"
-      ><span class="text-xs text-gray-400">#</span><span
-        class="text-gray-100 active:text-purple-400">{year}</span
+      ><span class="text-xs text-gray-400">#</span><span class="text-gray-100"
+        >{year}</span
       ></a
     >
   {/each}
