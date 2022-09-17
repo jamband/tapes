@@ -1,4 +1,5 @@
 import { derived, writable } from "svelte/store";
+import { APP_PRIMARY_COLOR } from "~/constants/app";
 import type { Track } from "~/types/track";
 
 export const initialValue: Track = {
@@ -24,17 +25,15 @@ const createTrack = () => {
 
 export const track = createTrack();
 
-export const player = derived(track, ($track) => {
-  if ($track.provider === "Bandcamp") {
-    return `https://bandcamp.com/EmbeddedPlayer/track=${$track.provider_key}/size=large/tracklist=false/bgcol=333333/linkcol=c084fc`;
+export const player = derived(track, ({ provider, provider_key }) => {
+  if (provider === "Bandcamp") {
+    return `https://bandcamp.com/EmbeddedPlayer/track=${provider_key}/size=large/tracklist=false/bgcol=333333/linkcol=${APP_PRIMARY_COLOR}`;
   }
-  if ($track.provider === "SoundCloud") {
-    return `https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/${$track.provider_key}&show_comments=false&color=ff5500&hide_related=true&visual=true`;
+  if (provider === "SoundCloud") {
+    return `https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/${provider_key}&show_comments=false&hide_related=true&visual=true`;
   }
-  if ($track.provider === "Vimeo") {
-    return `https://player.vimeo.com/video/${$track.provider_key}`;
+  if (provider === "Vimeo") {
+    return `https://player.vimeo.com/video/${provider_key}`;
   }
-  if ($track.provider === "YouTube") {
-    return `https://www.youtube.com/embed/${$track.provider_key}?rel=0&playsinline=1`;
-  }
+  return `https://www.youtube.com/embed/${provider_key}?rel=0&playsinline=1`;
 });
