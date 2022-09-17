@@ -125,12 +125,13 @@
   resolved "https://registry.yarnpkg.com/@sveltejs/adapter-static/-/adapter-static-1.0.0-next.43.tgz#1505075d9d6ee2e0bac3dde250a7264235e73015"
   integrity sha512-PAgSp1GA8HkYE4p30/sBvJme2nefhcTBJafqQdMNoUksWZF2WzuL8OEO8wa9ndE6cghcGk3j6Ve0Oskg/wtTOw==
 
-"@sveltejs/kit@^1.0.0-next.483":
-  version "1.0.0-next.483"
-  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.0.0-next.483.tgz#fddbbdeb9804765f03bb95a2c5c00203df7c4792"
-  integrity sha512-0aiVdVJSy1kiK7xp4bw81qjDkErVaA6oIPlpbjsIYe2UYfeg3aRtST41b6XzLbyg61qLlHVGoM5WTLTIdLnbAQ==
+"@sveltejs/kit@^1.0.0-next.484":
+  version "1.0.0-next.484"
+  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.0.0-next.484.tgz#159d65be7d596ab9e49a59d52799e0983d6d6923"
+  integrity sha512-Y3l8OmlgmfJX3m081rMUZmmEQWHtiSsj3+YWYK/CQ4V99jqoztXPz/4cAxUt5mC45jVF5Ee9ykmh6GzkYjvfAQ==
   dependencies:
     "@sveltejs/vite-plugin-svelte" "^1.0.5"
+    "@types/cookie" "^0.5.1"
     cookie "^0.5.0"
     devalue "^3.1.2"
     kleur "^4.1.4"
@@ -154,6 +155,11 @@
     kleur "^4.1.5"
     magic-string "^0.26.3"
     svelte-hmr "^0.14.12"
+
+"@types/cookie@^0.5.1":
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/@types/cookie/-/cookie-0.5.1.tgz#b29aa1f91a59f35e29ff8f7cb24faf1a3a750554"
+  integrity sha512-COUnqfB2+ckwXXSFInsFdOAWQzCCx+a5hq2ruyj+Vjund94RJQd4LG2u9hnvJrTgunKAaax7ancBYlDrNYxA0g==
 
 "@types/glob@^8.0.0":
   version "8.0.0"
@@ -585,9 +591,9 @@ dot-case@^3.0.4:
     tslib "^2.0.3"
 
 electron-to-chromium@^1.4.251:
-  version "1.4.253"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.253.tgz#3402fd2159530fc6d94237f1b9535fa7bebaf399"
-  integrity sha512-1pezJ2E1UyBTGbA7fUlHdPSXQw1k+82VhTFLG5G0AUqLGvsZqFzleOblceqegZzxYX4kC7hGEEdzIQI9RZ1Cuw==
+  version "1.4.254"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.254.tgz#c6203583890abf88dfc0be046cd72d3b48f8beb6"
+  integrity sha512-Sh/7YsHqQYkA6ZHuHMy24e6TE4eX6KZVsZb9E/DvU1nQRIrH4BflO/4k+83tfdYvDl+MObvlqHPRICzEdC9c6Q==
 
 entities@^4.3.1:
   version "4.4.0"
@@ -1848,10 +1854,10 @@ util-deprecate@^1.0.2:
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==
 
-vite@^3.1.1:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/vite/-/vite-3.1.1.tgz#fcfe12c3fe7e4c6def1fc52e4dc9cb0ccb2b1a59"
-  integrity sha512-hgxQWev/AL7nWYrqByYo8nfcH9n97v6oFsta9+JX8h6cEkni7nHKP2kJleNYV2kcGhE8jsbaY1aStwPZXzPbgA==
+vite@^3.1.2:
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/vite/-/vite-3.1.2.tgz#6b080f928490b1a46465ed3cbb4815f31f1a5376"
+  integrity sha512-wTDKPkiVbeT+drTPdkuvjVIC/2vKKUc1w3qNOuwgpyvPCZF6fvdxB5v5WEcCsqaYea0zrwA4+XialJKCHM3oVQ==
   dependencies:
     esbuild "^0.15.6"
     postcss "^8.4.16"
