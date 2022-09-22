@@ -13,14 +13,12 @@
   <meta property="og:site_name" content={APP_NAME} />
 </svelte:head>
 
-<div class="flex min-h-screen flex-col">
-  <Loading />
-  <Header />
-  <main class="container mx-auto flex-grow pb-32 pt-28">
-    <div class:hidden={!$page.params.track}>
-      <Track />
-    </div>
-    <slot />
-  </main>
-  <Footer />
-</div>
+<Loading />
+<Header />
+<main class="container mx-auto pb-32 pt-28">
+  <div class:hidden={!$page.params.track}>
+    <Track />
+  </div>
+  <slot />
+</main>
+<Footer />
