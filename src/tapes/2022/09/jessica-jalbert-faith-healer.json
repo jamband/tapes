@@ -1,0 +1,62 @@
+{
+  "id": 21,
+  "title": "Jessica Jalbert / Faith Healer",
+  "path": "/2022/09/jessica-jalbert-faith-healer",
+  "date": "Sep 28, 2022",
+  "items": [
+    {
+      "title": "Jessica Jalbert - Lack of a Lake",
+      "provider": "Bandcamp",
+      "provider_key": "584419945",
+      "image": "https://f4.bcbits.com/img/a1309505806_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "jessica-jalbert-lack-of-a-lake"
+    },
+    {
+      "title": "Jessica Jalbert - Paris Green",
+      "provider": "Bandcamp",
+      "provider_key": "545588050",
+      "image": "https://f4.bcbits.com/img/a1605477240_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "jessica-jalbert-paris-green"
+    },
+    {
+      "title": "Jessica Jalbert - Swingin' Party (The Replacements Cover)",
+      "provider": "Bandcamp",
+      "provider_key": "216177105",
+      "image": "https://f4.bcbits.com/img/a0698677407_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "jessica-jalbert-swingin-party-the-replacements-cover"
+    },
+    {
+      "title": "Faith Healer - Try ; - )",
+      "provider": "SoundCloud",
+      "provider_key": "332468250",
+      "image": "https://i1.sndcdn.com/artworks-000232971581-rwdq6g-t300x300.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "faith-healer-try"
+    },
+    {
+      "title": "Faith Healer - Again",
+      "provider": "SoundCloud",
+      "provider_key": "185945408",
+      "image": "https://i1.sndcdn.com/artworks-000103274899-px0cbq-t300x300.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "faith-healer-again"
+    },
+    {
+      "title": "Faith Healer - Until The World Lets Me Go",
+      "provider": "Bandcamp",
+      "provider_key": "3174807048",
+      "image": "https://f4.bcbits.com/img/a2967602571_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "faith-healer-until-the-world-lets-me-go"
+    }
+  ]
+}
