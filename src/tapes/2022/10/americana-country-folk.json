@@ -1,0 +1,62 @@
+{
+  "id": "22",
+  "title": "Americana / Country / Folk",
+  "path": "/2022/10/americana-country-folk",
+  "date": "Oct 09, 2022",
+  "items": [
+    {
+      "title": "Sierra Ferrell - Jeremiah",
+      "provider": "Bandcamp",
+      "provider_key": "3956969720",
+      "image": "https://f4.bcbits.com/img/a2673230898_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "sierra-ferrell-jeremiah"
+    },
+    {
+      "title": "The Lostines - It's Been Wrong",
+      "provider": "Bandcamp",
+      "provider_key": "3325868433",
+      "image": "https://f4.bcbits.com/img/a3838347893_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "the-lostines-its-been-wrong"
+    },
+    {
+      "title": "Mapache - Me Voy Pa'l Pueblo (Los Panchos Cover)",
+      "provider": "Bandcamp",
+      "provider_key": "4277680264",
+      "image": "https://f4.bcbits.com/img/a0542745720_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "mapache-me-voy-pal-pueblo-los-panchos-cover"
+    },
+    {
+      "title": "Nikki Lane - Down To The Wire",
+      "provider": "SoundCloud",
+      "provider_key": "21893036",
+      "image": "https://i1.sndcdn.com/artworks-000010809930-pdtmh0-t300x300.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "nikki-lane-down-to-the-wire"
+    },
+    {
+      "title": "Izaak Opatz - Goin' Through the Big D",
+      "provider": "Bandcamp",
+      "provider_key": "3079401648",
+      "image": "https://f4.bcbits.com/img/a4248799568_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "izaak-opatz-goin-through-the-big-d"
+    },
+    {
+      "title": "Sierra Ferrell - Little Bird",
+      "provider": "Bandcamp",
+      "provider_key": "3820356965",
+      "image": "https://f4.bcbits.com/img/a0248927186_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "sierra-ferrell-little-bird"
+    }
+  ]
+}
