@@ -1,0 +1,62 @@
+{
+  "id": 23,
+  "title": "Experimental Pop",
+  "path": "/2022/11/experimental-pop",
+  "date": "Nov 03, 2022",
+  "items": [
+    {
+      "title": "Fievel Is Glauque - Go Down Softly",
+      "provider": "Bandcamp",
+      "provider_key": "615507473",
+      "image": "https://f4.bcbits.com/img/a3454089904_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "fievel-is-glauque-go-down-softly"
+    },
+    {
+      "title": "Fievel Is Glauque - the River",
+      "provider": "Bandcamp",
+      "provider_key": "1131301475",
+      "image": "https://f4.bcbits.com/img/a3454089904_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "fievel-is-glauque-the-river"
+    },
+    {
+      "title": "Ryan Power - The Cavalry",
+      "provider": "Bandcamp",
+      "provider_key": "3194244419",
+      "image": "https://f4.bcbits.com/img/a2513130906_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "ryan-power-the-cavalry"
+    },
+    {
+      "title": "PERFECT ANGELS - What Am I Gonna Do With You?",
+      "provider": "Bandcamp",
+      "provider_key": "2802146146",
+      "image": "https://f4.bcbits.com/img/a3002831180_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "perfect-angels-what-am-i-gonna-do-with-you"
+    },
+    {
+      "title": "Fievel Is Glauque - Decoy",
+      "provider": "Bandcamp",
+      "provider_key": "2551444848",
+      "image": "https://f4.bcbits.com/img/a3442827175_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "fievel-is-glauque-decoy"
+    },
+    {
+      "title": "Zach Phillips - Know What? (feat. Genevieve Artadi)",
+      "provider": "Bandcamp",
+      "provider_key": "336222136",
+      "image": "https://f4.bcbits.com/img/a1761789496_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "zach-phillips-know-what-feat-genevieve-artadi"
+    }
+  ]
+}
