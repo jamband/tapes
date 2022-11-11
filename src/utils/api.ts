@@ -1,6 +1,6 @@
-import fs from "fs";
 import fg from "fast-glob";
-import { join } from "path";
+import { readdirSync, readFileSync } from "node:fs";
+import { join } from "node:path";
 import { initialValue as trackInitialValue } from "~/stores/track";
 import type { Params } from "~/types/params";
 import type { Tape, Tapes } from "~/types/tape";
@@ -9,7 +9,7 @@ import type { Track } from "~/types/track";
 const baseDir = join(process.cwd(), "src/tapes");
 
 const contents = (path: string) => {
-  return fs.readFileSync(path, "utf8");
+  return readFileSync(path, "utf8");
 };
 
 const tapePath = (params: Params) => {
@@ -27,8 +27,7 @@ export const getTapes = (year: number): Tapes => {
   });
 };
 
-export const getYears = fs
-  .readdirSync(baseDir, { withFileTypes: true })
+export const getYears = readdirSync(baseDir, { withFileTypes: true })
   .filter((dir) => dir.isDirectory())
   .map((dir) => dir.name)
   .reverse();

@@ -1,5 +1,5 @@
 import { sveltekit } from "@sveltejs/kit/vite";
-import { resolve } from "path";
+import { resolve } from "node:path";
 
 /** @type {import("vite").UserConfig} */
 const config = {
