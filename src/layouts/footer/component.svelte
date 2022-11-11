@@ -9,8 +9,8 @@
   $: showPlayerTitle =
     $track.path &&
     !$page.params.track &&
-    $page.routeId !== "contact" &&
-    $page.routeId !== "about";
+    $page.route.id !== "contact" &&
+    $page.route.id !== "about";
 
   const clearTapeAndTrack = () => {
     tape.clear();
