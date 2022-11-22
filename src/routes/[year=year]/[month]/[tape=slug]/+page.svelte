@@ -29,7 +29,7 @@
   {#each data.tape.items as item (item.slug)}
     <a
       class="relative mb-1 text-gray-200 shadow active:text-gray-100"
-      href="{base}{data.tape.path}/{item.slug}"
+      href="{base}{data.tape.path}/{item.slug}/"
     >
       <img
         class="w-full rounded bg-gray-700 object-cover opacity-70 {aspectRatio(
@@ -55,7 +55,7 @@
 </div>
 <SectionDivider class="mb-12" />
 <div class="flex justify-center">
-  <a href="{base}/{data.year}" class="p-3 text-gray-200 hover:text-purple-400"
+  <a href="{base}/{data.year}/" class="p-3 text-gray-200 hover:text-purple-400"
     >← Monthly Favorite Tracks of {data.year}</a
   >
 </div>

@@ -61,7 +61,7 @@
     </div>
     <SectionDivider class="mb-10" />
     <div class="text-gray-200">
-      <a class="p-3 hover:text-purple-400" href="{base}{tapePath}"
+      <a class="p-3 hover:text-purple-400" href="{base}{tapePath}/"
         >← {$tape.title}</a
       >
     </div>
