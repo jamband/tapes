@@ -6,7 +6,7 @@
     "build": "vite build",
     "preview": "vite preview --open",
     "postbuild": "node scripts/postbuild.js",
-    "checks": "svelte-check --tsconfig ./tsconfig.json",
+    "checks": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
     "lint": "eslint .",
     "format": "prettier --check .",
     "clear": "node scripts/clear.js",
