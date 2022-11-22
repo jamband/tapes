@@ -27,6 +27,6 @@ module.exports = {
   },
   ignorePatterns: ["*.cjs"],
   rules: {
-    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "no-console": ["error", { allow: ["warn", "error"] }],
   },
 };
