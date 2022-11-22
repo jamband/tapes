@@ -6,15 +6,14 @@
   import { Loading } from "~/layouts/loading";
   import { Track } from "~/layouts/track";
   import "~/styles/app.css";
+
+  const currentUrl = APP_URL.replace("/tapes/", "") + $page.url.pathname;
 </script>
 
 <svelte:head>
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content={APP_NAME} />
-  <meta
-    property="og:url"
-    content={`${APP_URL.slice(0, -1)}${$page.url.pathname}`}
-  />
+  <meta property="og:url" content={currentUrl} />
 </svelte:head>
 
 <Loading />
