@@ -11,7 +11,10 @@
   export let data: PageData;
 </script>
 
-<Head title={data.title}>
+<Head
+  title={data.title}
+  description={`${data.title}, selected from PlusArchive`}
+>
   <meta property="og:image" content={data.tape.items[0].image} />
 </Head>
 <TapeHeader title={data.title} class="mb-10" />

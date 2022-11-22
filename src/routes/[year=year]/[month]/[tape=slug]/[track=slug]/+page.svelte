@@ -15,6 +15,6 @@
   });
 </script>
 
-<Head {title}>
+<Head {title} description={`${data.track.title} (via ${data.track.provider})`}>
   <meta property="og:image" content={data.track.image} />
 </Head>

@@ -10,7 +10,7 @@
 
 <svelte:head>
   <meta name="description" content={_description} />
-  <meta property="og:title" content={APP_NAME} />
+  <meta property="og:title" content={_title} />
   <meta property="og:description" content={_description} />
   <slot />
   <title>{_title}</title>
