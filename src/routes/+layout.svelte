@@ -1,6 +1,6 @@
 <script lang="ts">
   import { page } from "$app/stores";
-  import { APP_NAME } from "~/constants/app";
+  import { APP_NAME, APP_URL } from "~/constants/app";
   import { Footer } from "~/layouts/footer";
   import { Header } from "~/layouts/header";
   import { Loading } from "~/layouts/loading";
@@ -11,6 +11,10 @@
 <svelte:head>
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content={APP_NAME} />
+  <meta
+    property="og:url"
+    content={`${APP_URL.slice(0, -1)}${$page.url.pathname}`}
+  />
 </svelte:head>
 
 <Loading />

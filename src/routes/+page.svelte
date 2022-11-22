@@ -2,21 +2,13 @@
   import { base } from "$app/paths";
   import { SectionDivider } from "~/components/section-divider";
   import { TapeHeader } from "~/components/tape-header";
-  import { APP_DESCRIPTION, APP_NAME, APP_URL } from "~/constants/app";
-  import { Page } from "~/layouts/page";
+  import { Head } from "~/layouts/head";
   import type { PageData } from "./$types";
 
   export let data: PageData;
 </script>
 
-<svelte:head>
-  <meta name="description" content={APP_DESCRIPTION} />
-  <meta property="og:title" content={APP_NAME} />
-  <meta property="og:description" content={APP_DESCRIPTION} />
-  <meta property="og:url" content={APP_URL} />
-</svelte:head>
-
-<Page />
+<Head />
 <TapeHeader title="Monthly Favorite Tracks" class="mb-10" />
 <SectionDivider class="mb-10" />
 <div class="flex items-center justify-center">

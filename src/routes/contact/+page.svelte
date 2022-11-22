@@ -2,19 +2,11 @@
   import { ExternalLink } from "~/components/external-link";
   import { HomeLink } from "~/components/home-link";
   import { SectionDivider } from "~/components/section-divider";
-  import { APP_DESCRIPTION, APP_NAME, APP_URL } from "~/constants/app";
   import { IconExternalLink } from "~/icons";
-  import { Page } from "~/layouts/page";
+  import { Head } from "~/layouts/head";
 </script>
 
-<svelte:head>
-  <meta name="description" content={APP_DESCRIPTION} />
-  <meta property="og:title" content="Contact ･ {APP_NAME}" />
-  <meta property="og:description" content={APP_DESCRIPTION} />
-  <meta property="og:url" content="{APP_URL}contact/" />
-</svelte:head>
-
-<Page title="Contact" />
+<Head title="Contact" />
 <div class="mb-10 grid lg:grid-cols-6 lg:gap-4">
   <div class="lg:col-span-4 lg:col-start-2">
     <h1>Contact</h1>

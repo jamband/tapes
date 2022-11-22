@@ -2,7 +2,7 @@
   import { base } from "$app/paths";
   import { page } from "$app/stores";
   import { SectionDivider } from "~/components/section-divider";
-  import { Page } from "~/layouts/page";
+  import { Head } from "~/layouts/head";
 
   const isNotFound = $page.status === 404;
   const title = isNotFound ? "Not Found" : "An Error occured";
@@ -11,7 +11,7 @@
     : $page.error?.message;
 </script>
 
-<Page title="Not Found" />
+<Head title="Not Found" />
 <div class="flex h-[70vh] items-center justify-center">
   <div class="text-center">
     <h1>{title}</h1>

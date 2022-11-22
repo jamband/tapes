@@ -2,27 +2,18 @@
   import { base } from "$app/paths";
   import { SectionDivider } from "~/components/section-divider";
   import { TapeHeader } from "~/components/tape-header";
-  import { APP_NAME, APP_URL } from "~/constants/app";
   import { IconPause, IconPlay } from "~/icons";
-  import { Page } from "~/layouts/page";
+  import { Head } from "~/layouts/head";
   import { track } from "~/stores/track";
   import { aspectRatio } from "~/styles/dynamic";
   import type { PageData } from "./$types";
 
   export let data: PageData;
-
-  const currentUrl = `${APP_URL.slice(0, -1)}${data.tape.path}/`;
 </script>
 
-<svelte:head>
-  <meta name="description" content={data.title} />
-  <meta property="og:title" content={`${data.title} ･ ${APP_NAME}`} />
-  <meta property="og:description" content={data.title} />
+<Head title={data.title}>
   <meta property="og:image" content={data.tape.items[0].image} />
-  <meta property="og:url" content={currentUrl} />
-</svelte:head>
-
-<Page title={data.title} />
+</Head>
 <TapeHeader title={data.title} class="mb-10" />
 <SectionDivider class="mb-10" />
 <div class="mb-10 grid grid-cols-1 gap-6 md:grid-cols-2">

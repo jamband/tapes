@@ -1,18 +1,10 @@
 <script lang="ts">
   import { base } from "$app/paths";
   import { SectionDivider } from "~/components/section-divider";
-  import { APP_DESCRIPTION, APP_NAME, APP_URL } from "~/constants/app";
-  import { Page } from "~/layouts/page";
+  import { Head } from "~/layouts/head";
 </script>
 
-<svelte:head>
-  <meta name="description" content={APP_DESCRIPTION} />
-  <meta property="og:title" content={`Not Found ･ ${APP_NAME}`} />
-  <meta property="og:description" content={APP_DESCRIPTION} />
-  <meta property="og:url" content={APP_URL} />
-</svelte:head>
-
-<Page title="Not Found" />
+<Head title="Not Found" />
 <div class="flex h-[70vh] items-center justify-center">
   <div class="text-center">
     <h1>Not Found</h1>
