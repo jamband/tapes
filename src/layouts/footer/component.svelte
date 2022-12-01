@@ -1,7 +1,6 @@
 <script lang="ts">
   import { base } from "$app/paths";
   import { page } from "$app/stores";
-  import { ExternalLink } from "~/components/external-link";
   import { IconX } from "~/icons";
   import { tape } from "~/stores/tape";
   import { track } from "~/stores/track";
@@ -45,9 +44,11 @@
           class="rounded px-4 py-1 text-gray-400 no-underline hover:bg-gray-600 hover:text-gray-100 active:bg-gray-600 active:text-gray-100"
           href="{base}/contact/">Contact</a
         >
-        <ExternalLink
+        <a
           class="rounded px-4 py-1 text-gray-400 no-underline hover:bg-gray-600 hover:text-gray-100 active:bg-gray-600 active:text-gray-100"
-          href="https://github.com/jamband/tapes">GitHub</ExternalLink
+          href="https://github.com/jamband/tapes"
+          target="_blank"
+          rel="noreferrer">GitHub</a
         >
       </div>
     </nav>

@@ -1,5 +1,4 @@
 <script lang="ts">
-  import { ExternalLink } from "~/components/external-link";
   import { HomeLink } from "~/components/home-link";
   import { SectionDivider } from "~/components/section-divider";
   import { APP_DESCRIPTION, APP_NAME } from "~/constants/app";
@@ -14,20 +13,24 @@
     <p>
       {APP_DESCRIPTION}
       The music introduced here is selected from
-      <ExternalLink href="https://plusarchive.com" class="text-purple-400"
-        >PlusArchive<IconExternalLink
-          class="h-4 w-4 align-[-0.125em]"
-        /></ExternalLink
+      <a
+        href="https://plusarchive.com"
+        class="text-purple-400"
+        target="_blank"
+        rel="noreferrer"
+        >PlusArchive<IconExternalLink class="h-4 w-4 align-[-0.125em]" /></a
       >.
     </p>
     <p>
       This website is an open source project. See following for details.
-      <ExternalLink
+      <a
         href="https://github.com/jamband/tapes"
         class="text-purple-400"
+        target="_blank"
+        rel="noreferrer"
         >GitHub: {APP_NAME}<IconExternalLink
           class="h-4 w-4 align-[-0.125em]"
-        /></ExternalLink
+        /></a
       >
     </p>
   </div>

@@ -1,5 +1,4 @@
 <script lang="ts">
-  import { ExternalLink } from "~/components/external-link";
   import { HomeLink } from "~/components/home-link";
   import { SectionDivider } from "~/components/section-divider";
   import { IconExternalLink } from "~/icons";
@@ -12,20 +11,20 @@
     <h1>Contact</h1>
     <p>
       Please to the message via
-      <ExternalLink
+      <a
         href="https://twitter.com/livejam_db"
         class="text-purple-400"
-        >Twitter<IconExternalLink
-          class="h-4 w-4 align-[-0.125em]"
-        /></ExternalLink
+        target="_blank"
+        rel="noreferrer"
+        >Twitter<IconExternalLink class="h-4 w-4 align-[-0.125em]" /></a
       >
       or
-      <ExternalLink
+      <a
         href="https://github.com/jamband/tapes/issues"
         class="text-purple-400"
-        >GitHub<IconExternalLink
-          class="h-4 w-4 align-[-0.125em]"
-        /></ExternalLink
+        target="_blank"
+        rel="noreferrer"
+        >GitHub<IconExternalLink class="h-4 w-4 align-[-0.125em]" /></a
       >
       Issues. Thank you.
     </p>
