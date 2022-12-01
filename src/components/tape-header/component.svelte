@@ -1,10 +1,12 @@
 <script lang="ts">
   import { IconExternalLink } from "~/icons";
 
+  let className = "";
+  export { className as class };
   export let title: string;
 </script>
 
-<div class={$$props.class}>
+<div class={className || undefined}>
   <h1 class="text-center md:mb-0">
     {title}
   </h1>

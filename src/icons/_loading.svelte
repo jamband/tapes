@@ -1,8 +1,10 @@
 <script lang="ts">
+  let className = "";
+  export { className as class };
 </script>
 
 <svg
-  class="animate-spin {$$props.class || ''}"
+  class="animate-spin {className}"
   xmlns="http://www.w3.org/2000/svg"
   fill="none"
   viewBox="0 0 24 24"
