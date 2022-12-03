@@ -1,0 +1,62 @@
+{
+  "id": 24,
+  "title": "Bluegrass",
+  "path": "/2022/12/bluegrass",
+  "date": "Dec 03, 2022",
+  "items": [
+    {
+      "title": "George Jackson - Mississippi Sawyer",
+      "provider": "Bandcamp",
+      "provider_key": "2803149727",
+      "image": "https://f4.bcbits.com/img/a2863855472_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "george-jackson-mississippi-sawyer"
+    },
+    {
+      "title": "The Onlies - Still Looking for You",
+      "provider": "Bandcamp",
+      "provider_key": "3515104166",
+      "image": "https://f4.bcbits.com/img/a3162850058_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "the-onlies-still-looking-for-you"
+    },
+    {
+      "title": "Bill and the Belles - Hum Your Troubles Away",
+      "provider": "Bandcamp",
+      "provider_key": "4163376869",
+      "image": "https://f4.bcbits.com/img/a2096935200_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "bill-and-the-belles-hum-your-troubles-away"
+    },
+    {
+      "title": "Corn Potato String Band - Put On Your Old Grey Bonnet",
+      "provider": "Bandcamp",
+      "provider_key": "2174797051",
+      "image": "https://f4.bcbits.com/img/a2883905246_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "corn-potato-string-band-put-on-your-old-grey-bonnet"
+    },
+    {
+      "title": "The Ephemeral Stringband with Tatiana Hargreaves - Josie Girl",
+      "provider": "Bandcamp",
+      "provider_key": "216064238",
+      "image": "https://f4.bcbits.com/img/a3275566746_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "the-ephemeral-stringband-with-tatiana-hargreaves-josie-girl"
+    },
+    {
+      "title": "The Lowest Pair - Irene",
+      "provider": "Bandcamp",
+      "provider_key": "2046673677",
+      "image": "https://f4.bcbits.com/img/a2188124598_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "the-lowest-pair-irene"
+    }
+  ]
+}
