@@ -19,7 +19,7 @@
 </Head>
 <TapeHeader title={data.title} class="mb-10" />
 <SectionDivider class="mb-10" />
-<div class="mb-10 grid grid-cols-1 gap-6 md:grid-cols-2">
+<div class="mb-12 grid grid-cols-1 gap-6 md:grid-cols-2">
   {#each data.tape.items as item (item.slug)}
     <a
       class="relative mb-1 text-gray-200 shadow active:text-gray-100"
@@ -47,7 +47,7 @@
     </a>
   {/each}
 </div>
-<SectionDivider class="mb-12" />
+<SectionDivider class="mb-8" />
 <div class="flex justify-center">
   <a href="{base}/{data.year}/" class="p-3 text-gray-200 hover:text-purple-400"
     >← Monthly Favorite Tracks of {data.year}</a

@@ -29,5 +29,5 @@
     </li>
   {/each}
 </ul>
-<SectionDivider class="mb-10" />
+<SectionDivider class="mb-8" />
 <HomeLink />
