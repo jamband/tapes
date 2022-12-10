@@ -15,21 +15,23 @@
       The music introduced here is selected from
       <a
         href="https://plusarchive.com"
-        class="text-purple-400"
+        class="text-purple-400 decoration-purple-400/70"
         target="_blank"
         rel="noreferrer"
-        >PlusArchive<IconExternalLink class="h-4 w-4 align-[-0.125em]" /></a
+        >PlusArchive<IconExternalLink
+          class="h-4 w-4 align-[-0.125em] text-purple-400/70"
+        /></a
       >.
     </p>
     <p>
       This website is an open source project. See following for details.
       <a
         href="https://github.com/jamband/tapes"
-        class="text-purple-400"
+        class="text-purple-400 decoration-purple-400/70"
         target="_blank"
         rel="noreferrer"
         >GitHub: {APP_NAME}<IconExternalLink
-          class="h-4 w-4 align-[-0.125em]"
+          class="h-4 w-4 align-[-0.125em] text-purple-400/70"
         /></a
       >
     </p>

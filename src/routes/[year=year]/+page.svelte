@@ -18,10 +18,14 @@
 <SectionDivider class="mb-10" />
 <ul class="mb-10">
   {#each data.tapes as tape (tape.path)}
-    <li class="mb-3">
+    <li class="mb-4">
       <a
-        class="text-2xl font-semibold text-gray-100 hover:text-purple-400"
-        href="{base}{tape.path}/">{tape.title} →</a
+        class="group pb-0.5 text-2xl font-bold text-gray-100 no-underline hover:text-purple-400 shadow-[0_2px_0_0_rgba(236,239,244,0.7)] hover:shadow-[0_2px_0_0_rgba(192,132,252,0.7)] active:shadow-[0_2px_0_0_rgba(192,132,252,0.7)]"
+        href="{base}{tape.path}/"
+        >{tape.title}<span
+          class="ml-2 text-base align-top text-gray-100/70 group-hover:text-purple-400/70 group-active:text-purple-400/70"
+          >→</span
+        ></a
       >
       <div class="text-xs text-gray-400">
         {tape.date}

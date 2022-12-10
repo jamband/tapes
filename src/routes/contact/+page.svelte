@@ -13,18 +13,22 @@
       Please to the message via
       <a
         href="https://twitter.com/livejam_db"
-        class="text-purple-400"
+        class="text-purple-400 decoration-purple-400/70"
         target="_blank"
         rel="noreferrer"
-        >Twitter<IconExternalLink class="h-4 w-4 align-[-0.125em]" /></a
+        >Twitter<IconExternalLink
+          class="h-4 w-4 align-[-0.125em] text-purple-400/70"
+        /></a
       >
       or
       <a
         href="https://github.com/jamband/tapes/issues"
-        class="text-purple-400"
+        class="text-purple-400 decoration-purple-400/70"
         target="_blank"
         rel="noreferrer"
-        >GitHub<IconExternalLink class="h-4 w-4 align-[-0.125em]" /></a
+        >GitHub<IconExternalLink
+          class="h-4 w-4 align-[-0.125em] text-purple-400/70"
+        /></a
       >
       Issues. Thank you.
     </p>

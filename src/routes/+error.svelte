@@ -12,13 +12,16 @@
 </script>
 
 <Head title="Not Found" />
-<div class="flex h-[70vh] items-center justify-center">
-  <div class="text-center">
-    <h1>{title}</h1>
-    <div class="mb-10 text-sm text-gray-400">{message}</div>
-    <SectionDivider class="mb-10" />
-    <a class="text-gray-200 hover:text-purple-400" href="{base}/"
-      >Go Digging →</a
-    >
-  </div>
+<div class="flex flex-col h-[70vh] items-center justify-center text-center">
+  <h1>{title}</h1>
+  <div class="mb-10">{message}</div>
+  <SectionDivider class="mb-10" />
+  <a
+    class="group p-3 text-gray-200 decoration-gray-200/70 hover:text-purple-400 hover:decoration-purple-400/70 active:decoration-purple-400/70"
+    href="{base}/"
+    >Go Digging <span
+      class="text-sm align-top text-gray-200/70 group-hover:text-purple-400/70 group-active:text-purple-400/70"
+      >→</span
+    ></a
+  >
 </div>

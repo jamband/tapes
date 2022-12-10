@@ -49,7 +49,13 @@
 </div>
 <SectionDivider class="mb-8" />
 <div class="flex justify-center">
-  <a href="{base}/{data.year}/" class="p-3 text-gray-200 hover:text-purple-400"
-    >← Monthly Favorite Tracks of {data.year}</a
+  <a
+    href="{base}/{data.year}/"
+    class="group p-3 text-gray-200 hover:text-purple-400 decoration-gray-200/70 hover:decoration-purple-400/70"
+    ><span
+      class="text-sm align-top text-gray-200/70 group-hover:text-purple-400/70 group-active:text-purple-400/70"
+      >←</span
+    >
+    Monthly Favorite Tracks of {data.year}</a
   >
 </div>

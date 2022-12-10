@@ -61,8 +61,14 @@
     </div>
     <SectionDivider class="mb-10" />
     <div class="text-gray-200">
-      <a class="p-3 hover:text-purple-400" href="{base}{tapePath}/"
-        >← {$tape.title}</a
+      <a
+        class="group p-3 hover:text-purple-400 decoration-gray-200/70 hover:decoration-purple-400/70"
+        href="{base}{tapePath}/"
+        ><span
+          class="text-sm align-top text-gray-200/70 group-hover:text-purple-400/70 group-active:text-purple-400/70"
+          >←</span
+        >
+        {$tape.title}</a
       >
     </div>
   </div>
