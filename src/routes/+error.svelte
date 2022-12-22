@@ -12,7 +12,7 @@
 </script>
 
 <Head title="Not Found" />
-<div class="flex flex-col h-[70vh] items-center justify-center text-center">
+<div class="flex h-[70vh] flex-col items-center justify-center text-center">
   <h1>{title}</h1>
   <div class="mb-10">{message}</div>
   <SectionDivider class="mb-10" />
@@ -20,7 +20,7 @@
     class="group p-3 text-gray-200 decoration-gray-200/70 hover:text-purple-400 hover:decoration-purple-400/70 active:decoration-purple-400/70"
     href="{base}/"
     >Go Digging <span
-      class="text-sm align-top text-gray-200/70 group-hover:text-purple-400/70 group-active:text-purple-400/70"
+      class="align-top text-sm text-gray-200/70 group-hover:text-purple-400/70 group-active:text-purple-400/70"
       >→</span
     ></a
   >

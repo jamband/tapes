@@ -14,11 +14,11 @@
     selected from
     <a
       href="https://plusarchive.com"
-      class="group hover:text-purple-400 hover:decoration-purple-400/70 decoration-gray-400/70"
+      class="group decoration-gray-400/70 hover:text-purple-400 hover:decoration-purple-400/70"
       target="_blank"
       rel="noreferrer"
       >PlusArchive<IconExternalLink
-        class="text-gray-400/70 h-4 w-4 align-[-0.2em] group-hover:text-purple-400/70 group-active:text-purple-400/70"
+        class="h-4 w-4 align-[-0.2em] text-gray-400/70 group-hover:text-purple-400/70 group-active:text-purple-400/70"
       /></a
     >
   </div>

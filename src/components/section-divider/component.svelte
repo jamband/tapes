@@ -4,7 +4,7 @@
 </script>
 
 <div
-  class="flex gap-x-1 items-center justify-center {className}"
+  class="flex items-center justify-center gap-x-1 {className}"
   role="separator"
 >
   <span class="h-1 w-1 rounded-[1px] bg-purple-500" />
