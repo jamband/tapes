@@ -13,15 +13,14 @@
       class="m-1 inline-block rounded px-4 py-1 no-underline hover:bg-gray-600 active:bg-gray-600"
     >
       <span
-        class="text-xs font-semibold text-gray-400"
-        class:inject-name={$page.params.track}>{name}/</span
+        class="text-xs font-semibold text-gray-400 {$page.params.track
+          ? 'text-gray-100 duration-1000'
+          : ''}">{name}/</span
       ><span
-        class="font-bold text-gray-100"
-        class:inject-repository={$page.params.track}>{repository}</span
+        class="font-bold text-gray-100 {$page.params.track
+          ? 'text-purple-400 duration-1000'
+          : ''}">{repository}</span
       >
     </a>
   </nav>
 </header>
-
-<style src="./style.css">
-</style>
