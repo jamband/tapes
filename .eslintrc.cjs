@@ -25,7 +25,7 @@ module.exports = {
   settings: {
     "svelte3/typescript": () => require("typescript"),
   },
-  ignorePatterns: ["*.cjs"],
+  ignorePatterns: ["build", "*.cjs"],
   rules: {
     "no-console": ["error", { allow: ["warn", "error"] }],
   },
