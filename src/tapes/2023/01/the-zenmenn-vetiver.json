@@ -1,0 +1,62 @@
+{
+  "id": 25,
+  "title": "The Zenmenn / Vetiver",
+  "path": "/2023/01/the-zenmenn-vetiver",
+  "date": "Jan 16, 2023",
+  "items": [
+    {
+      "title": "The Zenmenn - Flags Of The World",
+      "provider": "Bandcamp",
+      "provider_key": "344035943",
+      "image": "https://f4.bcbits.com/img/a2997515377_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "the-zenmenn-flags-of-the-world"
+    },
+    {
+      "title": "The Zenmenn - Bamboo Garden",
+      "provider": "Bandcamp",
+      "provider_key": "2897285592",
+      "image": "https://f4.bcbits.com/img/a2997515377_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "the-zenmenn-bamboo-garden"
+    },
+    {
+      "title": "The Zenmenn - Topaz (The Days Of Our Lives)",
+      "provider": "Bandcamp",
+      "provider_key": "426356782",
+      "image": "https://f4.bcbits.com/img/a2997515377_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "the-zenmenn-topaz-the-days-of-our-lives"
+    },
+    {
+      "title": "Vetiver - Current Carry",
+      "provider": "SoundCloud",
+      "provider_key": "186357818",
+      "image": "https://i1.sndcdn.com/artworks-000103556835-kj2f24-t300x300.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "vetiver-current-carry"
+    },
+    {
+      "title": "Vetiver - From Now On",
+      "provider": "SoundCloud",
+      "provider_key": "195737248",
+      "image": "https://i1.sndcdn.com/artworks-000109925745-kef932-t300x300.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "vetiver-from-now-on"
+    },
+    {
+      "title": "Vetiver - Can't You Tell",
+      "provider": "SoundCloud",
+      "provider_key": "13974446",
+      "image": "https://i1.sndcdn.com/artworks-000006591395-eqp7vw-t300x300.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "vetiver-cant-you-tell"
+    }
+  ]
+}
