@@ -1,7 +1,7 @@
 <script lang="ts">
   import { base } from "$app/paths";
-  import { SectionDivider } from "~/components/section-divider";
-  import { Head } from "~/layouts/head";
+  import { SectionDivider } from "@/components/section-divider";
+  import { Head } from "@/layouts/head";
 </script>
 
 <Head title="Not Found" />

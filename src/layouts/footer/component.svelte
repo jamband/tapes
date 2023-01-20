@@ -1,9 +1,9 @@
 <script lang="ts">
   import { base } from "$app/paths";
   import { page } from "$app/stores";
-  import { IconX } from "~/icons";
-  import { tape } from "~/stores/tape";
-  import { track } from "~/stores/track";
+  import { IconX } from "@/icons";
+  import { tape } from "@/stores/tape";
+  import { track } from "@/stores/track";
 
   $: showPlayerTitle =
     $track.path &&

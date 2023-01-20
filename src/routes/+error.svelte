@@ -1,8 +1,8 @@
 <script lang="ts">
   import { base } from "$app/paths";
   import { page } from "$app/stores";
-  import { SectionDivider } from "~/components/section-divider";
-  import { Head } from "~/layouts/head";
+  import { SectionDivider } from "@/components/section-divider";
+  import { Head } from "@/layouts/head";
 
   const isNotFound = $page.status === 404;
   const title = isNotFound ? "Not Found" : "An Error occured";

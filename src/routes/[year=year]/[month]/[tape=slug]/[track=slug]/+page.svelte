@@ -1,8 +1,8 @@
 <script lang="ts">
+  import { Head } from "@/layouts/head";
+  import { tape } from "@/stores/tape";
+  import { track } from "@/stores/track";
   import { onMount } from "svelte";
-  import { Head } from "~/layouts/head";
-  import { tape } from "~/stores/tape";
-  import { track } from "~/stores/track";
   import type { PageData } from "./$types";
 
   export let data: PageData;

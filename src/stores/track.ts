@@ -1,6 +1,6 @@
+import { APP_PRIMARY_COLOR } from "@/constants/app";
+import type { Track } from "@/types/track";
 import { derived, writable } from "svelte/store";
-import { APP_PRIMARY_COLOR } from "~/constants/app";
-import type { Track } from "~/types/track";
 
 export const initialValue: Track = {
   title: "",

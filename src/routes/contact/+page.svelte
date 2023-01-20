@@ -1,8 +1,8 @@
 <script lang="ts">
-  import { HomeLink } from "~/components/home-link";
-  import { SectionDivider } from "~/components/section-divider";
-  import { IconExternalLink } from "~/icons";
-  import { Head } from "~/layouts/head";
+  import { HomeLink } from "@/components/home-link";
+  import { SectionDivider } from "@/components/section-divider";
+  import { IconExternalLink } from "@/icons";
+  import { Head } from "@/layouts/head";
 </script>
 
 <Head title="Contact" />

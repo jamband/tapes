@@ -1,9 +1,9 @@
 <script lang="ts">
-  import { HomeLink } from "~/components/home-link";
-  import { SectionDivider } from "~/components/section-divider";
-  import { APP_DESCRIPTION, APP_NAME } from "~/constants/app";
-  import { IconExternalLink } from "~/icons";
-  import { Head } from "~/layouts/head";
+  import { HomeLink } from "@/components/home-link";
+  import { SectionDivider } from "@/components/section-divider";
+  import { APP_DESCRIPTION, APP_NAME } from "@/constants/app";
+  import { IconExternalLink } from "@/icons";
+  import { Head } from "@/layouts/head";
 </script>
 
 <Head title="About" />

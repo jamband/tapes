@@ -1,11 +1,11 @@
 <script lang="ts">
   import { page } from "$app/stores";
-  import { APP_NAME, APP_URL } from "~/constants/app";
-  import { Footer } from "~/layouts/footer";
-  import { Header } from "~/layouts/header";
-  import { Loading } from "~/layouts/loading";
-  import { Track } from "~/layouts/track";
-  import "~/styles/app.css";
+  import { APP_NAME, APP_URL } from "@/constants/app";
+  import { Footer } from "@/layouts/footer";
+  import { Header } from "@/layouts/header";
+  import { Loading } from "@/layouts/loading";
+  import { Track } from "@/layouts/track";
+  import "@/styles/app.css";
 
   const currentUrl = APP_URL.replace("/tapes/", "") + $page.url.pathname;
 </script>

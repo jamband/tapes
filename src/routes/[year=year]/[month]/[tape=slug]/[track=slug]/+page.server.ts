@@ -1,4 +1,4 @@
-import { getTape, getTrack } from "~/utils/api";
+import { getTape, getTrack } from "@/utils/api";
 import type { PageServerLoad } from "./$types";
 
 export const load: PageServerLoad = ({ params }) => {

@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { APP_DESCRIPTION, APP_NAME } from "~/constants/app";
+  import { APP_DESCRIPTION, APP_NAME } from "@/constants/app";
 
   export let title = "";
   export let description = "";
