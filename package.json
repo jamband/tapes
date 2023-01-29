@@ -9,7 +9,7 @@
     "prechecks": "svelte-kit sync",
     "checks": "svelte-check --tsconfig ./tsconfig.json",
     "lint": "eslint .",
-    "format": "prettier --check .",
+    "format": "prettier --check --plugin-search-dir=. .",
     "clear": "node scripts/clear.js",
     "clean": "node scripts/clean.js"
   },
