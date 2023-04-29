@@ -1,0 +1,62 @@
+{
+  "id": 28,
+  "title": "Natalia Lafourcade",
+  "path": "/2023/04/natalia-lafourcade",
+  "date": "Apr 29, 2023",
+  "items": [
+    {
+      "title": "Natalia Lafourcade - Soledad y el Mar (En Manos de los Macorinos)",
+      "provider": "YouTube",
+      "provider_key": "31q9ogWJnxc",
+      "image": "https://i.ytimg.com/vi/31q9ogWJnxc/hqdefault.jpg",
+      "image_aspect_ratio": "16/9",
+      "embed_aspect_ratio": "16/9",
+      "slug": "natalia-lafourcade-soledad-y-el-mar-en-manos-de-los-macorinos"
+    },
+    {
+      "title": "Natalia Lafourcade - Mi Tierra Veracruzana (Ft. Los Macorinos)",
+      "provider": "YouTube",
+      "provider_key": "kWUOPns_UJc",
+      "image": "https://i.ytimg.com/vi/kWUOPns_UJc/hqdefault.jpg",
+      "image_aspect_ratio": "16/9",
+      "embed_aspect_ratio": "16/9",
+      "slug": "natalia-lafourcade-mi-tierra-veracruzana-ft-los-macorinos"
+    },
+    {
+      "title": "Natalia Lafourcade - Te Vi Pasar (En Manos de Los Macorinos)",
+      "provider": "YouTube",
+      "provider_key": "JIi_RuAFa8Q",
+      "image": "https://i.ytimg.com/vi/JIi_RuAFa8Q/hqdefault.jpg",
+      "image_aspect_ratio": "16/9",
+      "embed_aspect_ratio": "16/9",
+      "slug": "natalia-lafourcade-te-vi-pasar-en-manos-de-los-macorinos"
+    },
+    {
+      "title": "Natalia Lafourcade - Canta la arena",
+      "provider": "YouTube",
+      "provider_key": "pkBz5HwnZLU",
+      "image": "https://i.ytimg.com/vi/pkBz5HwnZLU/hqdefault.jpg",
+      "image_aspect_ratio": "16/9",
+      "embed_aspect_ratio": "16/9",
+      "slug": "natalia-lafourcade-canta-la-arena"
+    },
+    {
+      "title": "Natalia Lafourcade - El lugar correcto",
+      "provider": "YouTube",
+      "provider_key": "KpwSV1QBd8M",
+      "image": "https://i.ytimg.com/vi/KpwSV1QBd8M/hqdefault.jpg",
+      "image_aspect_ratio": "16/9",
+      "embed_aspect_ratio": "16/9",
+      "slug": "natalia-lafourcade-el-lugar-correcto"
+    },
+    {
+      "title": "Natalia Lafourcade - Caminar bonito",
+      "provider": "YouTube",
+      "provider_key": "lFxBlFbtGLo",
+      "image": "https://i.ytimg.com/vi/lFxBlFbtGLo/hqdefault.jpg",
+      "image_aspect_ratio": "16/9",
+      "embed_aspect_ratio": "16/9",
+      "slug": "natalia-lafourcade-caminar-bonito"
+    }
+  ]
+}
