@@ -29,8 +29,8 @@ dependencies:
     specifier: ^8.8.0
     version: 8.8.0(eslint@8.39.0)
   eslint-plugin-svelte:
-    specifier: ^2.27.1
-    version: 2.27.1(eslint@8.39.0)(svelte@3.58.0)
+    specifier: ^2.27.2
+    version: 2.27.2(eslint@8.39.0)(svelte@3.58.0)
   fast-glob:
     specifier: ^3.2.12
     version: 3.2.12
@@ -283,8 +283,8 @@ packages:
       eslint-visitor-keys: 3.4.0
     dev: false
 
-  /@eslint-community/regexpp@4.5.0:
-    resolution: {integrity: sha512-vITaYzIcNmjn5tF5uxcZ/ft7/RXGrMUIS9HalWckEOF6ESiwXKoMzAQf2UW0aVd6rnOeExTJVd5hmWXucBKGXQ==}
+  /@eslint-community/regexpp@4.5.1:
+    resolution: {integrity: sha512-Z5ba73P98O1KUYCCJTUeVpja9RcGoMdncZ6T49FCUl2lN38JtCJ+3WgIDBv0AuY4WChU5PmtJmOCTlN6FZTFKQ==}
     engines: {node: ^12.0.0 || ^14.0.0 || >=16.0.0}
     dev: false
 
@@ -486,7 +486,7 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@eslint-community/regexpp': 4.5.0
+      '@eslint-community/regexpp': 4.5.1
       '@typescript-eslint/parser': 5.59.1(eslint@8.39.0)(typescript@5.0.4)
       '@typescript-eslint/scope-manager': 5.59.1
       '@typescript-eslint/type-utils': 5.59.1(eslint@8.39.0)(typescript@5.0.4)
@@ -951,8 +951,8 @@ packages:
       eslint: 8.39.0
     dev: false
 
-  /eslint-plugin-svelte@2.27.1(eslint@8.39.0)(svelte@3.58.0):
-    resolution: {integrity: sha512-mGnJmT7YRx5YGGHPN7X8XBf43kiyAOrLSBmTq7zdzPhWusN7ZXlXSkiUgTgJsUessnYtpQlwQo2O508XOnRzNA==}
+  /eslint-plugin-svelte@2.27.2(eslint@8.39.0)(svelte@3.58.0):
+    resolution: {integrity: sha512-1tIl65TMF0MtY26+O/1Y5S5HEFc0vRzzoX3m9FHI6VuiruqFU9PBr8WzoqdaSPlcL/q7xPUzQYl4Fzg/3GBpcg==}
     engines: {node: ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0-0
@@ -1004,7 +1004,7 @@ packages:
     hasBin: true
     dependencies:
       '@eslint-community/eslint-utils': 4.4.0(eslint@8.39.0)
-      '@eslint-community/regexpp': 4.5.0
+      '@eslint-community/regexpp': 4.5.1
       '@eslint/eslintrc': 2.0.2
       '@eslint/js': 8.39.0
       '@humanwhocodes/config-array': 0.11.8
@@ -1692,7 +1692,7 @@ packages:
       postcss: ^8.2.14
     dependencies:
       postcss: 8.4.23
-      postcss-selector-parser: 6.0.11
+      postcss-selector-parser: 6.0.12
     dev: false
 
   /postcss-safe-parser@6.0.0(postcss@8.4.23):
@@ -1704,8 +1704,8 @@ packages:
       postcss: 8.4.23
     dev: false
 
-  /postcss-selector-parser@6.0.11:
-    resolution: {integrity: sha512-zbARubNdogI9j7WY4nQJBiNqQf3sLS3wCP4WfOidu+p28LofJqDH1tcXypGrcmMHhDk2t9wGhCsYe/+szLTy1g==}
+  /postcss-selector-parser@6.0.12:
+    resolution: {integrity: sha512-NdxGCAZdRrwVI1sy59+Wzrh+pMMHxapGnpfenDVlMEXoOcvt4pGE0JLK9YY2F5dLxcFYA/YbVQKhcGU+FtSYQg==}
     engines: {node: '>=4'}
     dependencies:
       cssesc: 3.0.0
@@ -1859,8 +1859,8 @@ packages:
       glob: 7.2.3
     dev: false
 
-  /rollup@3.21.0:
-    resolution: {integrity: sha512-ANPhVcyeHvYdQMUyCbczy33nbLzI7RzrBje4uvNiTDJGIMtlKoOStmympwr9OtS1LZxiDmE2wvxHyVhoLtf1KQ==}
+  /rollup@3.21.1:
+    resolution: {integrity: sha512-GpUgqWCw56OSiBKf7lcAITstYiBV1/EKaKYPl9r8HgAxc6/qYAVw1PaHWnvHWFziRaf4HsVCDLq/IGtBi1K/Zw==}
     engines: {node: '>=14.18.0', npm: '>=8.0.0'}
     hasBin: true
     optionalDependencies:
@@ -2132,7 +2132,7 @@ packages:
       postcss-js: 4.0.1(postcss@8.4.23)
       postcss-load-config: 4.0.1(postcss@8.4.23)
       postcss-nested: 6.0.1(postcss@8.4.23)
-      postcss-selector-parser: 6.0.11
+      postcss-selector-parser: 6.0.12
       postcss-value-parser: 4.2.0
       resolve: 1.22.2
       sucrase: 3.32.0
@@ -2283,7 +2283,7 @@ packages:
       '@types/node': 16.18.25
       esbuild: 0.17.18
       postcss: 8.4.23
-      rollup: 3.21.0
+      rollup: 3.21.1
     optionalDependencies:
       fsevents: 2.3.2
     dev: false
