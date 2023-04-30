@@ -16,8 +16,8 @@
   "dependencies": {
     "@sveltejs/adapter-static": "^2.0.2",
     "@sveltejs/kit": "^1.15.9",
-    "@types/glob": "^8.1.0",
     "@types/html-minifier-terser": "^7.0.0",
+    "@types/node": "^16.18.25",
     "@typescript-eslint/eslint-plugin": "^5.59.1",
     "@typescript-eslint/parser": "^5.59.1",
     "autoprefixer": "^10.4.14",
