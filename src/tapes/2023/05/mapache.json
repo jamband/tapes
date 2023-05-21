@@ -1,0 +1,62 @@
+{
+  "id": 29,
+  "title": "Mapache",
+  "path": "/2023/05/mapache",
+  "date": "May 21, 2023",
+  "items": [
+    {
+      "title": "Mapache - Like A Stone",
+      "provider": "Bandcamp",
+      "provider_key": "71448076",
+      "image": "https://f4.bcbits.com/img/a0870361132_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "mapache-like-a-stone"
+    },
+    {
+      "title": "Mapache - Me Voy Pa'l Pueblo (Los Panchos Cover)",
+      "provider": "Bandcamp",
+      "provider_key": "4277680264",
+      "image": "https://f4.bcbits.com/img/a0542745720_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "mapache-me-voy-pal-pueblo-los-panchos-cover"
+    },
+    {
+      "title": "Mapache - People Please",
+      "provider": "Bandcamp",
+      "provider_key": "2418221551",
+      "image": "https://f4.bcbits.com/img/a0897048554_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "mapache-people-please"
+    },
+    {
+      "title": "Mapache - All About Our Love",
+      "provider": "Bandcamp",
+      "provider_key": "2562916856",
+      "image": "https://f4.bcbits.com/img/a1155244398_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "mapache-all-about-our-love"
+    },
+    {
+      "title": "Mapache - Chico River",
+      "provider": "Bandcamp",
+      "provider_key": "2689277319",
+      "image": "https://f4.bcbits.com/img/a0870361132_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "mapache-chico-river"
+    },
+    {
+      "title": "Mapache - Sandy Babe",
+      "provider": "Bandcamp",
+      "provider_key": "1777258143",
+      "image": "https://f4.bcbits.com/img/a1155244398_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "mapache-sandy-babe"
+    }
+  ]
+}
