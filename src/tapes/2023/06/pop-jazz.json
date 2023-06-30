@@ -1,0 +1,62 @@
+{
+  "id": 30,
+  "title": "Pop / Jazz",
+  "path": "/2023/06/pop-jazz",
+  "date": "Jun 30, 2023",
+  "items": [
+    {
+      "title": "Ala.ni - To The River",
+      "provider": "Bandcamp",
+      "provider_key": "3322061006",
+      "image": "https://f4.bcbits.com/img/a1494823105_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "alani-to-the-river"
+    },
+    {
+      "title": "Hohnen Ford - Infinity",
+      "provider": "Bandcamp",
+      "provider_key": "3122900218",
+      "image": "https://f4.bcbits.com/img/a0168645506_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "hohnen-ford-infinity"
+    },
+    {
+      "title": "Sachal Vasandani - Summer No School",
+      "provider": "Bandcamp",
+      "provider_key": "2013110902",
+      "image": "https://f4.bcbits.com/img/a2418225747_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "sachal-vasandani-summer-no-school"
+    },
+    {
+      "title": "Barbra Lica - Because I Say So",
+      "provider": "SoundCloud",
+      "provider_key": "169039809",
+      "image": "https://i1.sndcdn.com/artworks-000105403327-fnrx1j-t300x300.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "barbra-lica-because-i-say-so"
+    },
+    {
+      "title": "Rumer - Roses",
+      "provider": "Bandcamp",
+      "provider_key": "2713221020",
+      "image": "https://f4.bcbits.com/img/a2990663043_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "rumer-roses"
+    },
+    {
+      "title": "Roos Jonker - Man In The Middle",
+      "provider": "Bandcamp",
+      "provider_key": "2627669444",
+      "image": "https://f4.bcbits.com/img/a2914315653_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "roos-jonker-man-in-the-middle"
+    }
+  ]
+}
