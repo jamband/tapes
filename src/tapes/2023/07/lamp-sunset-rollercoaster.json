@@ -1,0 +1,62 @@
+{
+  "id": 31,
+  "title": "Lamp / Sunset Rollercoaster",
+  "path": "/2023/07/lamp-sunset-rollercoaster",
+  "date": "Jul 31, 2023",
+  "items": [
+    {
+      "title": "Lamp - HIROGARU-NAMIDA",
+      "provider": "Bandcamp",
+      "provider_key": "1336580910",
+      "image": "https://f4.bcbits.com/img/a1909961652_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "lamp-hirogaru-namida"
+    },
+    {
+      "title": "Lamp - 1998",
+      "provider": "Bandcamp",
+      "provider_key": "4086020388",
+      "image": "https://f4.bcbits.com/img/a2340832422_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "lamp-1998"
+    },
+    {
+      "title": "Lamp - Tabibito",
+      "provider": "Bandcamp",
+      "provider_key": "681868135",
+      "image": "https://f4.bcbits.com/img/a2108139630_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "lamp-tabibito"
+    },
+    {
+      "title": "Sunset Rollercoaster - Almost Mature '87",
+      "provider": "Bandcamp",
+      "provider_key": "2294351969",
+      "image": "https://f4.bcbits.com/img/a2038608335_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "sunset-rollercoaster-almost-mature-87"
+    },
+    {
+      "title": "Sunset Rollercoaster - Burgundy Red",
+      "provider": "Bandcamp",
+      "provider_key": "1828379071",
+      "image": "https://f4.bcbits.com/img/a1228324630_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "sunset-rollercoaster-burgundy-red"
+    },
+    {
+      "title": "Sunset Rollercoaster - 10-Year-Taipei (Matured '17)",
+      "provider": "Bandcamp",
+      "provider_key": "2453906288",
+      "image": "https://f4.bcbits.com/img/a2038608335_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "sunset-rollercoaster-10-year-taipei-matured-17"
+    }
+  ]
+}
