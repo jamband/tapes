@@ -1,4 +1,2 @@
-/.svelte-kit
-/build
 *.html
 pnpm-lock.yaml
