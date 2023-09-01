@@ -27,7 +27,7 @@
     >
       <img
         class="w-full rounded bg-gray-700 object-cover opacity-70 {aspectRatio(
-          item.image_aspect_ratio
+          item.image_aspect_ratio,
         )}"
         src={item.image}
         loading="lazy"
