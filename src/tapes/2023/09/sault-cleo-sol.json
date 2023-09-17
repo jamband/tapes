@@ -1,0 +1,62 @@
+{
+  "id": 33,
+  "title": "SAULT / Cleo Sol",
+  "path": "/2023/09/sault-cleo-sol",
+  "date": "Sep 17, 2023",
+  "items": [
+    {
+      "title": "SAULT - Faith",
+      "provider": "Bandcamp",
+      "provider_key": "2626645954",
+      "image": "https://f4.bcbits.com/img/a1854340172_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "sault-faith"
+    },
+    {
+      "title": "SAULT - Never Feel Fear",
+      "provider": "Bandcamp",
+      "provider_key": "481302044",
+      "image": "https://f4.bcbits.com/img/a1854340172_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "sault-never-feel-fear"
+    },
+    {
+      "title": "SAULT - I Surrender",
+      "provider": "Bandcamp",
+      "provider_key": "2238582187",
+      "image": "https://f4.bcbits.com/img/a1854340172_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "sault-i-surrender"
+    },
+    {
+      "title": "Cleo Sol - Golden Child (Jealous)",
+      "provider": "Bandcamp",
+      "provider_key": "3047408840",
+      "image": "https://f4.bcbits.com/img/a1376900736_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "cleo-sol-golden-child-jealous"
+    },
+    {
+      "title": "Cleo Sol - Heaven",
+      "provider": "Bandcamp",
+      "provider_key": "3428885619",
+      "image": "https://f4.bcbits.com/img/a1376900736_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "cleo-sol-heaven"
+    },
+    {
+      "title": "Cleo Sol - Music",
+      "provider": "Bandcamp",
+      "provider_key": "3794096787",
+      "image": "https://f4.bcbits.com/img/a1554886129_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "cleo-sol-music"
+    }
+  ]
+}
