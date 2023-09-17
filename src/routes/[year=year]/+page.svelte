@@ -19,17 +19,27 @@
 <ul class="mb-10">
   {#each data.tapes as tape (tape.path)}
     <li class="mb-4">
-      <a
-        class="group pb-0.5 text-2xl font-bold text-gray-100 no-underline shadow-[0_2px_0_0_rgba(236,239,244,0.7)] hover:text-purple-400 hover:shadow-[0_2px_0_0_rgba(192,132,252,0.7)] active:shadow-[0_2px_0_0_rgba(192,132,252,0.7)]"
-        href="{base}{tape.path}/"
-        >{tape.title}<span
-          class="ml-2 align-top text-base text-gray-100/70 group-hover:text-purple-400/70 group-active:text-purple-400/70"
-          >→</span
-        ></a
-      >
-      <div class="text-xs text-gray-400">
-        {tape.date}
-      </div>
+      {#if tape.path === ""}
+        <span
+          class="pb-0.5 text-2xl font-bold text-gray-500 shadow-[0_2px_0_0_rgba(236,239,244,0.3)]"
+          >:: {tape.title} ::</span
+        >
+        <div class="text-xs text-gray-500">
+          {tape.date}
+        </div>
+      {:else}
+        <a
+          class="group pb-0.5 text-2xl font-bold text-gray-100 no-underline shadow-[0_2px_0_0_rgba(236,239,244,0.7)] hover:text-purple-400 hover:shadow-[0_2px_0_0_rgba(192,132,252,0.7)] active:shadow-[0_2px_0_0_rgba(192,132,252,0.7)]"
+          href="{base}{tape.path}/"
+          >{tape.title}<span
+            class="ml-2 align-top text-base text-gray-100/70 group-hover:text-purple-400/70 group-active:text-purple-400/70"
+            >→</span
+          ></a
+        >
+        <div class="text-xs text-gray-400">
+          {tape.date}
+        </div>
+      {/if}
     </li>
   {/each}
 </ul>
