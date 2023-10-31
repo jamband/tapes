@@ -1,0 +1,62 @@
+{
+  "id": 34,
+  "title": "The Scrub Jay Orchestra",
+  "path": "/2023/10/the-scrub-jay-orchestra",
+  "date": "Oct 31, 2023",
+  "items": [
+    {
+      "title": "The Scrub Jay Orchestra - Chattanooga Papa",
+      "provider": "Bandcamp",
+      "provider_key": "1820129934",
+      "image": "https://f4.bcbits.com/img/a2450748221_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "the-scrub-jay-orchestra-chattanooga-papa"
+    },
+    {
+      "title": "The Scrub Jay Orchestra - Handful Of Rain",
+      "provider": "Bandcamp",
+      "provider_key": "2171926166",
+      "image": "https://f4.bcbits.com/img/a2450748221_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "the-scrub-jay-orchestra-handful-of-rain"
+    },
+    {
+      "title": "The Scrub Jay Orchestra - South Coast Bound",
+      "provider": "Bandcamp",
+      "provider_key": "1245940600",
+      "image": "https://f4.bcbits.com/img/a2450748221_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "the-scrub-jay-orchestra-south-coast-bound"
+    },
+    {
+      "title": "The Scrub Jay Orchestra - Going Across The Mountains",
+      "provider": "Bandcamp",
+      "provider_key": "3705016339",
+      "image": "https://f4.bcbits.com/img/a2450748221_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "the-scrub-jay-orchestra-going-across-the-mountains"
+    },
+    {
+      "title": "The Scrub Jay Orchestra - Hobo Bill's Last Ride",
+      "provider": "Bandcamp",
+      "provider_key": "134189223",
+      "image": "https://f4.bcbits.com/img/a2450748221_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "the-scrub-jay-orchestra-hobo-bills-last-ride"
+    },
+    {
+      "title": "The Scrub Jay Orchestra - I Can't Be Satisfied",
+      "provider": "Bandcamp",
+      "provider_key": "1579127139",
+      "image": "https://f4.bcbits.com/img/a2450748221_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "the-scrub-jay-orchestra-i-cant-be-satisfied"
+    }
+  ]
+}
