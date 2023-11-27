@@ -48,8 +48,8 @@
           src={$player}
           class="w-full rounded {aspectRatio($track.embed_aspect_ratio)}"
           title="{$track.title} ･ {$track.provider}"
-          allowfullscreen
           on:load={() => playerLoaded()}
+          allow="fullscreen"
         />
       {/key}
     </div>
