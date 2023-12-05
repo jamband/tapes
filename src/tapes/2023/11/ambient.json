@@ -1,0 +1,62 @@
+{
+  "id": 35,
+  "title": "Ambient",
+  "path": "/2023/11/ambient",
+  "date": "Nov 30, 2023",
+  "items": [
+    {
+      "title": "Jogging House - Champion",
+      "provider": "Bandcamp",
+      "provider_key": "34369903",
+      "image": "https://f4.bcbits.com/img/a4070098317_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "jogging-house-champion"
+    },
+    {
+      "title": "Jonny Nash - Ditto",
+      "provider": "Bandcamp",
+      "provider_key": "800896108",
+      "image": "https://f4.bcbits.com/img/a3290768231_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "jonny-nash-ditto"
+    },
+    {
+      "title": "Steve Gunn & David Moore - Over the Dune",
+      "provider": "Bandcamp",
+      "provider_key": "3217688761",
+      "image": "https://f4.bcbits.com/img/a3231105504_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "steve-gunn-david-moore-over-the-dune"
+    },
+    {
+      "title": "The Zenmenn - The Invisible Landscape",
+      "provider": "Bandcamp",
+      "provider_key": "2526633255",
+      "image": "https://f4.bcbits.com/img/a1679754927_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "the-zenmenn-the-invisible-landscape"
+    },
+    {
+      "title": "YAMAAN - 冷帯雨林",
+      "provider": "Bandcamp",
+      "provider_key": "2648415706",
+      "image": "https://f4.bcbits.com/img/a1939140308_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "yamaan-reitai-urin"
+    },
+    {
+      "title": "Finis Africae - Triciclos en La Chopera (La Chopera Tricycles)",
+      "provider": "Bandcamp",
+      "provider_key": "2654946596",
+      "image": "https://f4.bcbits.com/img/a0744460576_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "finis-africae-triciclos-en-la-chopera-la-chopera-tricycles"
+    }
+  ]
+}
