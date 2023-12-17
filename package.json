@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@sveltejs/adapter-static": "3.0.0",
-    "@sveltejs/kit": "2.0.0",
+    "@sveltejs/kit": "2.0.1",
     "@sveltejs/vite-plugin-svelte": "3.0.1",
     "@types/html-minifier-terser": "7.0.2",
     "@types/node": "18.19.3",
