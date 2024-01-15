@@ -5,7 +5,7 @@ import { vitePreprocess } from "@sveltejs/vite-plugin-svelte";
 const config = {
   preprocess: [vitePreprocess()],
   kit: {
-    adapter: adapter(),
+    adapter: adapter({ fallback: "404.html" }),
     alias: { "@/*": "src/*" },
     paths: {
       base: process.env["VITE_GITHUB_ACTIONS"] ? "/tapes" : "",
