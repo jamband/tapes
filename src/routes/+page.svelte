@@ -14,7 +14,7 @@
 <div class="flex items-center justify-center">
   {#each data.years as year}
     <a
-      href="{base}/{year}/"
+      href="{base}/{year}"
       class="mx-2 rounded bg-gray-700 px-4 py-1 font-mono text-sm leading-7 no-underline shadow-sm hover:bg-purple-600 active:bg-purple-600"
       ><span class="ext-gray-400 align-top text-xs">#</span><span
         class="text-gray-100">{year}</span

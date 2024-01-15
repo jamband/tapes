@@ -63,7 +63,7 @@
     <div class="text-gray-200">
       <a
         class="group p-3 decoration-gray-200/70 hover:text-purple-400 hover:decoration-purple-400/70"
-        href="{base}{tapePath}/"
+        href="{base}{tapePath}"
         ><span
           class="align-top text-sm text-gray-200/70 group-hover:text-purple-400/70 group-active:text-purple-400/70"
           >←</span

@@ -22,7 +22,7 @@
     <div class="flex items-center justify-center py-2 md:container md:mx-auto">
       <a
         class="ml-4 mr-1 overflow-hidden text-ellipsis whitespace-nowrap py-2 text-sm font-semibold text-gray-100 no-underline"
-        href="{base}{$track.path}/">{$track.title}</a
+        href="{base}{$track.path}">{$track.title}</a
       >
       <button
         class="mr-2 rounded px-2 py-1 hover:bg-gray-600 hover:text-gray-100 active:bg-gray-600 active:text-purple-400"
@@ -38,11 +38,11 @@
       <div class="flex flex-row justify-center gap-2 md:gap-10">
         <a
           class="rounded px-4 py-1 text-gray-400 no-underline hover:bg-gray-600 hover:text-gray-100 active:bg-gray-600 active:text-gray-100"
-          href="{base}/about/">About</a
+          href="{base}/about">About</a
         >
         <a
           class="rounded px-4 py-1 text-gray-400 no-underline hover:bg-gray-600 hover:text-gray-100 active:bg-gray-600 active:text-gray-100"
-          href="{base}/contact/">Contact</a
+          href="{base}/contact">Contact</a
         >
         <a
           class="rounded px-4 py-1 text-gray-400 no-underline hover:bg-gray-600 hover:text-gray-100 active:bg-gray-600 active:text-gray-100"

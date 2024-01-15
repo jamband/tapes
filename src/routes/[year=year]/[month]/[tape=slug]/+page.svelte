@@ -23,7 +23,7 @@
   {#each data.tape.items as item (item.slug)}
     <a
       class="relative mb-1 text-gray-200 shadow active:text-gray-100"
-      href="{base}{data.tape.path}/{item.slug}/"
+      href="{base}{data.tape.path}/{item.slug}"
     >
       <img
         class="w-full rounded bg-gray-700 object-cover opacity-70 {aspectRatio(
@@ -50,7 +50,7 @@
 <SectionDivider class="mb-8" />
 <div class="flex justify-center">
   <a
-    href="{base}/{data.year}/"
+    href="{base}/{data.year}"
     class="group p-3 text-gray-200 decoration-gray-200/70 hover:text-purple-400 hover:decoration-purple-400/70"
     ><span
       class="align-top text-sm text-gray-200/70 group-hover:text-purple-400/70 group-active:text-purple-400/70"
