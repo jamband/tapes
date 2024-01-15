@@ -8,7 +8,7 @@ const config = {
     adapter: adapter({ fallback: "404.html" }),
     alias: { "@/*": "src/*" },
     paths: {
-      base: process.env["VITE_GITHUB_ACTIONS"] ? "/tapes" : "",
+      base: process.argv.includes("dev") ? "" : process.env.BASE_PATH,
     },
   },
 };

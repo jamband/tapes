@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-22.04
 
     steps:
@@ -30,10 +30,26 @@ jobs:
       - name: build
         run: pnpm build
         env:
-          VITE_GITHUB_ACTIONS: true
+          BASE_PATH: "/${{ github.event.repository.name }}"
 
-      - name: deploy
-        uses: peaceiris/actions-gh-pages@v3
+      - name: upload artifacts
+        uses: actions/upload-pages-artifact@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: build
+          path: "build/"
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-22.04
+
+    permissions:
+      pages: write
+      id-token: write
+
+    evvironment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: deploy
+        id: deployment
+        uses: actions/deploy-pages@v4
