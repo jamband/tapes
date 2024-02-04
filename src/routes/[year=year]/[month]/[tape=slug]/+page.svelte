@@ -2,7 +2,8 @@
   import { base } from "$app/paths";
   import { SectionDivider } from "@/components/section-divider";
   import { TapeHeader } from "@/components/tape-header";
-  import { IconPause, IconPlay } from "@/icons";
+  import { IconPause } from "@/icons/pause";
+  import { IconPlay } from "@/icons/play";
   import { Head } from "@/layouts/head";
   import { track } from "@/stores/track";
   import type { PageData } from "./$types";

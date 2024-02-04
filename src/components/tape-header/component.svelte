@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { IconExternalLink } from "@/icons";
+  import { IconExternalLink } from "@/icons/external-link";
 
   export let title: string;
 </script>

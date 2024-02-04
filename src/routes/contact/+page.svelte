@@ -1,7 +1,7 @@
 <script lang="ts">
   import { HomeLink } from "@/components/home-link";
   import { SectionDivider } from "@/components/section-divider";
-  import { IconExternalLink } from "@/icons";
+  import { IconExternalLink } from "@/icons/external-link";
   import { Head } from "@/layouts/head";
 </script>
 

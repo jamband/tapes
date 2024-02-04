@@ -1,6 +1,6 @@
 <script lang="ts">
   import { base } from "$app/paths";
-  import { IconX } from "@/icons";
+  import { IconX } from "@/icons/x";
   import { tape } from "@/stores/tape";
   import { track } from "@/stores/track";
 

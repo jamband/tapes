@@ -2,7 +2,7 @@
   import { HomeLink } from "@/components/home-link";
   import { SectionDivider } from "@/components/section-divider";
   import { APP_DESCRIPTION, APP_NAME } from "@/constants/app";
-  import { IconExternalLink } from "@/icons";
+  import { IconExternalLink } from "@/icons/external-link";
   import { Head } from "@/layouts/head";
 </script>
 
