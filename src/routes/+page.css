@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.main {
+  align-items: center;
+  display: flex;
+  gap: 1.25rem;
+  justify-content: center;
+}
+
+.link {
+  align-items: center;
+  background: rgb(var(--gray-700));
+  border-radius: var(--rounded);
+  color: rgb(var(--gray-100));
+  display: flex;
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  gap: 0.075rem;
+  line-height: 1.75rem;
+  padding: 0.25rem 1rem;
+  text-decoration: none;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .link:hover {
+    background: rgb(var(--purple-600));
+  }
+}
+
+.link:active,
+.link:focus-visible {
+  background: rgb(var(--purple-600));
+}
+
+.linkSymbol {
+  color: rgb(var(--gray-400));
+  font-size: var(--text-xs);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .link:hover .linkSymbol {
+    color: rgb(var(--gray-200));
+  }
+}
+
+.link:active .linkSymbol,
+.link:focus-visible .linkSymbol {
+  color: rgb(var(--gray-200));
+}

@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.main {
+  display: grid;
+}
+
+@media (min-width: 1024px) {
+  .main {
+    gap: 1rem;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1024px) {
+  .mainInner {
+    grid-column: 2 / span 4;
+  }
+}
+
+.description {
+  margin: 1rem 0 0;
+}
+
+.link {
+  align-items: center;
+  color: rgb(var(--purple-400));
+  display: inline-flex;
+  text-decoration-color: rgb(var(--purple-400) / 50%);
+}
+
+.link :global(.linkIcon) {
+  color: rgb(var(--purple-400) / 70%);
+  height: 1rem;
+  width: 1rem;
+}

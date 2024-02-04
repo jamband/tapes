@@ -7,7 +7,7 @@
 <svg
   xmlns="http://www.w3.org/2000/svg"
   {viewBox}
-  class="inline-block {className}"
+  class={className}
   fill="currentColor"
 >
   <slot />

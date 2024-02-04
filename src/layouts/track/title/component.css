@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  text-align: center;
+}
+
+.title {
+  font-size: var(--text-2xl);
+  margin: 0.75rem 0 0;
+}
+
+.provider {
+  color: rgb(var(--gray-400));
+  font-size: var(--text-sm);
+}

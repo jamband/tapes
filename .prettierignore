@@ -1,1 +1,3 @@
 pnpm-lock.yaml
+/src/constants/app.ts
+/src/app.html

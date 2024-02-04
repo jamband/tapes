@@ -1,0 +1,70 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.tape {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.title {
+  box-shadow: 0 2px 0 0 rgb(var(--gray-100) / 70%);
+  color: rgb(var(--gray-100));
+  font-size: var(--text-2xl);
+  font-weight: 700;
+  line-height: 1.3;
+  text-decoration: none;
+}
+
+.blankTitle {
+  box-shadow: 0 2px 0 0 rgb(var(--gray-100) / 40%);
+  color: rgb(var(--gray-100) / 50%);
+  font-size: var(--text-2xl);
+  font-weight: 700;
+  line-height: 1.3;
+  text-decoration: none;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .title:hover {
+    box-shadow: 0 2px 0 0 rgb(var(--purple-400) / 50%);
+    color: rgb(var(--purple-400));
+  }
+}
+
+.title:active,
+.title:focus-visible {
+  box-shadow: 0 2px 0 0 rgb(var(--purple-400) / 50%);
+  color: rgb(var(--purple-400));
+}
+
+.titleSymbol {
+  color: rgb(var(--gray-100) / 70%);
+  font-size: var(--text-base);
+  margin: 0 0 0 0.5rem;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .title:hover .titleSymbol {
+    color: rgb(var(--purple-400));
+  }
+}
+
+.title:active .titleSymbol,
+.title:focus-visible .titleSymbol {
+  color: rgb(var(--purple-400));
+}
+
+.date {
+  font-size: var(--text-xs);
+}

@@ -18,10 +18,14 @@
 
 <Loading />
 <Header />
-<main class="container mx-auto pb-32 pt-28">
+<main class="main">
   <div class:hidden={!$page.params.track}>
     <Track />
   </div>
   <slot />
 </main>
 <Footer />
+
+<style>
+  @import "./+layout.css";
+</style>

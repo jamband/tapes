@@ -6,33 +6,33 @@
 </script>
 
 <Head title="Contact" />
-<div class="mb-10 grid lg:grid-cols-6 lg:gap-4">
-  <div class="lg:col-span-4 lg:col-start-2">
-    <h1>Contact</h1>
-    <p>
-      Please to the message via
-      <a
-        href="https://twitter.com/livejam_db"
-        class="text-purple-400 decoration-purple-400/70"
-        target="_blank"
-        rel="noreferrer"
-        >Twitter<IconExternalLink
-          class="h-4 w-4 align-[-0.125em] text-purple-400/70"
-        /></a
-      >
-      or
-      <a
-        href="https://github.com/jamband/tapes/issues"
-        class="text-purple-400 decoration-purple-400/70"
-        target="_blank"
-        rel="noreferrer"
-        >GitHub<IconExternalLink
-          class="h-4 w-4 align-[-0.125em] text-purple-400/70"
-        /></a
-      >
-      Issues. Thank you.
-    </p>
+<div class="container">
+  <div class="main">
+    <div class="mainInner">
+      <h1>Contact</h1>
+      <p class="description">
+        Please to the message via
+        <a
+          href="https://twitter.com/livejam_db"
+          class="link"
+          target="_blank"
+          rel="noreferrer">Twitter<IconExternalLink class="linkIcon" /></a
+        >
+        or
+        <a
+          href="https://github.com/jamband/tapes/issues"
+          class="link"
+          target="_blank"
+          rel="noreferrer">GitHub<IconExternalLink class="linkIcon" /></a
+        >
+        Issues. Thank you.
+      </p>
+    </div>
   </div>
+  <SectionDivider />
+  <HomeLink />
 </div>
-<SectionDivider class="mb-10" />
-<HomeLink />
+
+<style>
+  @import "./+page.css";
+</style>

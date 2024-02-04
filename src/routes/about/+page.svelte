@@ -7,35 +7,36 @@
 </script>
 
 <Head title="About" />
-<div class="mb-10 grid lg:grid-cols-6 lg:gap-4">
-  <div class="lg:col-span-4 lg:col-start-2">
-    <h1>About</h1>
-    <p>
-      {APP_DESCRIPTION}
-      The music introduced here is selected from
-      <a
-        href="https://plusarchive.com"
-        class="text-purple-400 decoration-purple-400/70"
-        target="_blank"
-        rel="noreferrer"
-        >PlusArchive<IconExternalLink
-          class="h-4 w-4 align-[-0.125em] text-purple-400/70"
-        /></a
-      >.
-    </p>
-    <p>
-      This website is an open source project. See following for details.
-      <a
-        href="https://github.com/jamband/tapes"
-        class="text-purple-400 decoration-purple-400/70"
-        target="_blank"
-        rel="noreferrer"
-        >GitHub: {APP_NAME}<IconExternalLink
-          class="h-4 w-4 align-[-0.125em] text-purple-400/70"
-        /></a
-      >
-    </p>
+<div class="container">
+  <div class="main">
+    <div class="mainInner">
+      <h1>About</h1>
+      <p class="description">
+        {APP_DESCRIPTION}
+        The music introduced here is selected from
+        <a
+          href="https://plusarchive.com"
+          class="link"
+          target="_blank"
+          rel="noreferrer">PlusArchive<IconExternalLink class="linkIcon" /></a
+        >.
+      </p>
+      <p class="description">
+        This website is an open source project. See following for details.
+        <a
+          href="https://github.com/jamband/tapes"
+          class="link"
+          target="_blank"
+          rel="noreferrer"
+          >GitHub: {APP_NAME}<IconExternalLink class="linkIcon" /></a
+        >
+      </p>
+    </div>
   </div>
+  <SectionDivider />
+  <HomeLink />
 </div>
-<SectionDivider class="mb-10" />
-<HomeLink />
+
+<style>
+  @import "./+page.css";
+</style>

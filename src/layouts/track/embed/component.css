@@ -1,0 +1,46 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  position: relative;
+}
+
+.containerInner {
+  grid-column: span 12 / span 12;
+}
+
+@media (min-width: 768px) {
+  .containerInnerAspect1x1 {
+    grid-column: 3 / span 8;
+  }
+}
+
+@media (min-width: 768px) {
+  .containerInnerAspect4x3 {
+    grid-column: 2 / span 10;
+  }
+}
+
+.loading {
+  align-items: center;
+  display: flex;
+  inset: 0;
+  justify-content: center;
+  pointer-events: none;
+  position: absolute;
+}
+
+.loadingHidden {
+  display: none;
+}
+
+.loading :global(.loadingIcon) {
+  color: rgb(var(--purple-500));
+  height: 1.75rem;
+  width: 1.75rem;
+}
+
+.embed {
+  background: rgb(var(--gray-700));
+  border-radius: var(--rounded);
+  width: 100%;
+}
