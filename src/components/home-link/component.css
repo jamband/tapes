@@ -16,6 +16,7 @@
   }
 }
 
+.link:active,
 .link:focus-visible {
   color: rgb(var(--purple-400));
   text-decoration-color: rgb(var(--purple-400) / 50%);
