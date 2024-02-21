@@ -16,7 +16,7 @@
           href="https://twitter.com/livejam_db"
           class="link"
           target="_blank"
-          rel="noreferrer">Twitter<IconExternalLink class="linkIcon" /></a
+          rel="noreferrer">X<IconExternalLink class="linkIcon" /></a
         >
         or
         <a
