@@ -23,8 +23,15 @@
   position: relative;
 }
 
-.track:active {
-  color: var(--gray-100);
+@media (hover: hover) and (pointer: fine) {
+  .track:hover {
+    color: rgb(var(--gray-100));
+  }
+}
+
+.track:active,
+.track:focus-visible {
+  color: rgb(var(--gray-100));
 }
 
 .trackImage {
