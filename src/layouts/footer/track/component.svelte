@@ -11,7 +11,7 @@
 </script>
 
 <div class="container">
-  <a class="link" href="{base}{$track.path}">{$track.title}</a>
+  <a class="link" href="{base}{$track.path}/">{$track.title}</a>
   <button class="close" on:click={clearTapeAndTrack} aria-label="close"
     ><IconX class="closeIcon" /></button
   >

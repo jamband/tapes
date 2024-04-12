@@ -11,7 +11,7 @@
 </script>
 
 <div class="container">
-  <a class="link" href="{base}{tapePath}"
+  <a class="link" href="{base}{tapePath}/"
     ><span class="linkSymbol">←</span>
     {$tape.title}</a
   >

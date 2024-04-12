@@ -14,7 +14,7 @@
   <SectionDivider />
   <div class="main">
     {#each data.years as year}
-      <a href="{base}/{year}" class="link"
+      <a href="{base}/{year}/" class="link"
         ><span class="linkSymbol">#</span>{year}</a
       >
     {/each}

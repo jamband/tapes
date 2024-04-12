@@ -21,7 +21,7 @@
           <span class="blankTitle">:: {tape.title} ::</span>
           <div class="date">{tape.date}</div>
         {:else}
-          <a class="title" href="{base}{tape.path}"
+          <a class="title" href="{base}{tape.path}/"
             >{tape.title}<span class="titleSymbol">→</span></a
           >
           <div class="date">{tape.date}</div>

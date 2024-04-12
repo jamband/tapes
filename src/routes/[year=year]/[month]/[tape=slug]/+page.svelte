@@ -22,7 +22,7 @@
   <SectionDivider />
   <div class="main">
     {#each data.tape.items as item (item.slug)}
-      <a class="track" href="{base}{data.tape.path}/{item.slug}">
+      <a class="track" href="{base}{data.tape.path}/{item.slug}/">
         <img
           class="trackImage"
           class:aspect1x1={item.image_aspect_ratio === "1/1"}
@@ -49,7 +49,7 @@
   </div>
   <SectionDivider />
   <div class="backToTape">
-    <a href="{base}/{data.year}" class="backToTapeLink"
+    <a href="{base}/{data.year}/" class="backToTapeLink"
       ><span class="backToTapeLinkSymbol">←</span>
       Monthly Favorite Tracks of {data.year}</a
     >
