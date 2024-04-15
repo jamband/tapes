@@ -1,0 +1,62 @@
+{
+  "id": 40,
+  "title": "Argentina",
+  "path": "/2024/04/argentina",
+  "date": "Apr 15, 2024",
+  "items": [
+    {
+      "title": "Cribas - Barrilete",
+      "provider": "Bandcamp",
+      "provider_key": "1429686097",
+      "image": "https://f4.bcbits.com/img/a1784292865_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "cribas-barrilete"
+    },
+    {
+      "title": "Ay Juanita - Ahicito la luna",
+      "provider": "Bandcamp",
+      "provider_key": "2010963934",
+      "image": "https://f4.bcbits.com/img/a2161720243_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "ay-juanita-ahicito-la-luna"
+    },
+    {
+      "title": "Fábulas del Monte - Sapo cantor",
+      "provider": "Bandcamp",
+      "provider_key": "3518507719",
+      "image": "https://f4.bcbits.com/img/a0174399991_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "fabulas-del-monte-sapo-cantor"
+    },
+    {
+      "title": "De Raíz Grupo - De Pena Y Chacarera",
+      "provider": "Bandcamp",
+      "provider_key": "2127720691",
+      "image": "https://f4.bcbits.com/img/a4070339853_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "de-raiz-grupo-de-pena-y-chacarera"
+    },
+    {
+      "title": "Guillermo Rizzotto - Y Se Escucha el Rio",
+      "provider": "Bandcamp",
+      "provider_key": "1275276164",
+      "image": "https://i1.sndcdn.com/artworks-000079392590-spgqi9-t300x300.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "guillermo-rizzotto-y-se-escucha-el-ri-o"
+    },
+    {
+      "title": "Vicky Lo Giudice - Chau",
+      "provider": "Bandcamp",
+      "provider_key": "3140963478",
+      "image": "https://f4.bcbits.com/img/a4146882508_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "vicky-lo-giudice-chau"
+    }
+  ]
+}
