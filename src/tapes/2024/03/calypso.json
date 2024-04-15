@@ -1,0 +1,62 @@
+{
+  "id": 39,
+  "title": "Calypso",
+  "path": "/2024/03/calypso",
+  "date": "Mar 31, 2024",
+  "items": [
+    {
+      "title": "The Eric Grant Orchestra - Take Her To Jamaica",
+      "provider": "Bandcamp",
+      "provider_key": "276697474",
+      "image": "https://f4.bcbits.com/img/a3335980349_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "the-eric-grant-orchestra-take-her-to-jamaica"
+    },
+    {
+      "title": "The Loire Valley Calypsos - Coconut Woman",
+      "provider": "Bandcamp",
+      "provider_key": "1454015503",
+      "image": "https://f4.bcbits.com/img/a1712800319_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "the-loire-valley-calypsos-coconut-woman"
+    },
+    {
+      "title": "Mighty Sparrow - Tour Of Jamaica",
+      "provider": "Bandcamp",
+      "provider_key": "2715638363",
+      "image": "https://f4.bcbits.com/img/a1052946503_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "mighty-sparrow-tour-of-jamaica"
+    },
+    {
+      "title": "Calypso Rose - You Must Get a Man",
+      "provider": "Bandcamp",
+      "provider_key": "2542759633",
+      "image": "https://f4.bcbits.com/img/a1560629786_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "calypso-rose-you-must-get-a-man"
+    },
+    {
+      "title": "Blind Blake - John B. Sail",
+      "provider": "Bandcamp",
+      "provider_key": "902807633",
+      "image": "https://f4.bcbits.com/img/a2283387120_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "blind-blake-john-b-sail"
+    },
+    {
+      "title": "Count Owen & His Calypsonians - Kingston Town",
+      "provider": "Bandcamp",
+      "provider_key": "607179166",
+      "image": "https://f4.bcbits.com/img/a3170604167_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "count-owen-his-calypsonians-kingston-town"
+    }
+  ]
+}
