@@ -14,24 +14,24 @@
   },
   "dependencies": {
     "@sveltejs/adapter-static": "3.0.1",
-    "@sveltejs/kit": "2.5.5",
+    "@sveltejs/kit": "2.5.6",
     "@sveltejs/vite-plugin-svelte": "3.1.0",
     "@types/node": "18.19.31",
-    "@typescript-eslint/eslint-plugin": "7.6.0",
-    "@typescript-eslint/parser": "7.6.0",
+    "@typescript-eslint/eslint-plugin": "7.7.0",
+    "@typescript-eslint/parser": "7.7.0",
     "eslint": "8.57.0",
     "eslint-plugin-svelte": "2.37.0",
     "fast-glob": "3.3.2",
     "prettier": "3.2.5",
-    "prettier-plugin-svelte": "3.2.2",
+    "prettier-plugin-svelte": "3.2.3",
     "stylelint": "16.3.1",
     "stylelint-config-standard": "36.0.0",
     "stylelint-order": "6.0.4",
-    "svelte": "4.2.13",
+    "svelte": "4.2.15",
     "svelte-check": "3.6.9",
     "the-new-css-reset": "1.11.2",
     "tslib": "2.6.2",
     "typescript": "5.4.5",
-    "vite": "5.2.8"
+    "vite": "5.2.9"
   }
 }
