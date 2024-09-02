@@ -1,4 +1,2 @@
-import type { PrerenderOption, TrailingSlash } from "@sveltejs/kit";
-
-export const prerender: PrerenderOption = true;
-export const trailingSlash: TrailingSlash = "always";
+export const prerender = true;
+export const trailingSlash = "always";
