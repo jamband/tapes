@@ -1,0 +1,62 @@
+{
+  "id": 45,
+  "title": "Phil Smith",
+  "path": "/2024/09/phil-smith",
+  "date": "Sep 09, 2024",
+  "items": [
+    {
+      "title": "Phil Smith - Januaries (Am Anfang)",
+      "provider": "Bandcamp",
+      "provider_key": "274189504",
+      "image": "https://f4.bcbits.com/img/a1669932120_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "phil-smith-januaries-am-anfang"
+    },
+    {
+      "title": "Phil Smith - To the Train",
+      "provider": "Bandcamp",
+      "provider_key": "2169877787",
+      "image": "https://f4.bcbits.com/img/a1669932120_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "phil-smith-to-the-train"
+    },
+    {
+      "title": "Phil Smith - At Least We Got to Sit on the Ground (Parts 1 & 2)",
+      "provider": "Bandcamp",
+      "provider_key": "2503158554",
+      "image": "https://f4.bcbits.com/img/a1669932120_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "phil-smith-at-least-we-got-to-sit-on-the-ground-parts-1-2"
+    },
+    {
+      "title": "Phil Smith - Made / Found (For C)",
+      "provider": "Bandcamp",
+      "provider_key": "3302900052",
+      "image": "https://f4.bcbits.com/img/a1669932120_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "phil-smith-made-found-for-c"
+    },
+    {
+      "title": "Phil Smith - Imperfect / Conditional",
+      "provider": "Bandcamp",
+      "provider_key": "389665014",
+      "image": "https://f4.bcbits.com/img/a1669932120_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "phil-smith-imperfect-conditional"
+    },
+    {
+      "title": "Phil Smith - She Translates",
+      "provider": "Bandcamp",
+      "provider_key": "1967959169",
+      "image": "https://f4.bcbits.com/img/a1669932120_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "phil-smith-she-translates"
+    }
+  ]
+}
