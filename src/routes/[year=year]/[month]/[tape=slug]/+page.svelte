@@ -6,9 +6,8 @@
   import { IconPlay } from "@/icons/play";
   import { Head } from "@/layouts/head";
   import { track } from "@/stores/track";
-  import type { PageData } from "./$types";
 
-  export let data: PageData;
+  let { data } = $props();
 </script>
 
 <Head

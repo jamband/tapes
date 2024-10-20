@@ -3,9 +3,8 @@
   import { tape } from "@/stores/tape";
   import { track } from "@/stores/track";
   import { onMount } from "svelte";
-  import type { PageData } from "./$types";
 
-  export let data: PageData;
+  let { data } = $props();
 
   const title = `${data.tapeTitle} ･ ${data.track.title}`;
 
