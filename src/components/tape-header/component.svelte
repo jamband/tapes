@@ -1,7 +1,8 @@
 <script lang="ts">
   import { IconExternalLink } from "@/icons/external-link";
+  import type { Props } from "./types";
 
-  export let title: string;
+  let { title }: Props = $props();
 </script>
 
 <header class="container">

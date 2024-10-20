@@ -1,8 +1,8 @@
 <script lang="ts">
   import { base } from "$app/paths";
+  import type { Props } from "./types";
 
-  let className = "";
-  export { className as class };
+  let { class: className }: Props = $props();
 </script>
 
 <div class="container {className}">
