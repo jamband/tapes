@@ -15,7 +15,7 @@
   <TapeHeader title="Monthly Favorite Tracks of {$page.params.year}" />
   <SectionDivider />
   <ul class="main">
-    {#each data.tapes as tape (tape.path)}
+    {#each data.tapes as tape (tape.id)}
       <li class="tape">
         {#if tape.path === ""}
           <span class="blankTitle">:: {tape.title} ::</span>
