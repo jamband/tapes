@@ -38,7 +38,7 @@
         title="{$track.title} ･ {$track.provider}"
         on:load={() => playerLoaded()}
         allow="fullscreen"
-      />
+      ></iframe>
     {/key}
   </div>
 </div>

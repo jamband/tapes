@@ -23,7 +23,7 @@
   class:start={state === "start"}
   class:complete={state === "complete"}
   role="status"
-/>
+></div>
 
 <style>
   @import "./component.css";
