@@ -7,6 +7,8 @@
   import { Track } from "@/layouts/track";
   import "@/styles/app.css";
 
+  let { children } = $props();
+
   const currentUrl = APP_URL.replace("/tapes/", "") + $page.url.pathname;
 </script>
 
@@ -22,7 +24,7 @@
   <div class:hidden={!$page.params.track}>
     <Track />
   </div>
-  <slot />
+  {@render children()}
 </main>
 <Footer />
 

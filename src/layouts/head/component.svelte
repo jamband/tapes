@@ -1,8 +1,8 @@
 <script lang="ts">
   import { APP_DESCRIPTION, APP_NAME } from "@/constants/app";
+  import type { Props } from "./types";
 
-  export let title = "";
-  export let description = "";
+  let { title, description, children }: Props = $props();
 
   const _title = title ? `${title} ･ ${APP_NAME}` : APP_NAME;
   const _description = description ? description : APP_DESCRIPTION;
@@ -12,6 +12,6 @@
   <meta name="description" content={_description} />
   <meta property="og:title" content={_title} />
   <meta property="og:description" content={_description} />
-  <slot />
+  {@render children?.()}
   <title>{_title}</title>
 </svelte:head>

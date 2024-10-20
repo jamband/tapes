@@ -1,6 +1,7 @@
 <script lang="ts">
-  let className = "";
-  export { className as class };
+  import type { Props } from "./types";
+
+  let { class: className }: Props = $props();
 </script>
 
 <svg
