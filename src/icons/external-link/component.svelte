@@ -1,11 +1,11 @@
 <script lang="ts">
   import { BaseIcon } from "../_base";
+  import type { IconProps } from "../_base/types";
 
-  let className = "";
-  export { className as class };
+  let { class: className }: IconProps = $props();
 </script>
 
-<BaseIcon viewBox="0 0 20 20" class={className || undefined}>
+<BaseIcon viewBox="0 0 20 20" class={className}>
   <path
     d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"
   />

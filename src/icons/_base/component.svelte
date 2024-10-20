@@ -1,7 +1,7 @@
 <script lang="ts">
-  let className = "";
-  export { className as class };
-  export let viewBox: `${number} ${number} ${number} ${number}`;
+  import type { Props } from "./types";
+
+  let { class: className, viewBox, children }: Props = $props();
 </script>
 
 <svg
@@ -10,5 +10,5 @@
   class={className}
   fill="currentColor"
 >
-  <slot />
+  {@render children()}
 </svg>
