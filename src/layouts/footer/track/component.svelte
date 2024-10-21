@@ -12,7 +12,7 @@
 
 <div class="container">
   <a class="link" href="{base}{track.value.path}/">{track.value.title}</a>
-  <button class="close" on:click={clearTapeAndTrack} aria-label="close"
+  <button class="close" onclick={clearTapeAndTrack} aria-label="close"
     ><IconX class="closeIcon" /></button
   >
 </div>
