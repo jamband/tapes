@@ -26,8 +26,9 @@
 
 .close {
   border-radius: var(--rounded);
-  margin: 0 0.5rem 0 0;
-  padding: 0.25rem 0.5rem;
+  line-height: 1;
+  margin: 0 0.25rem;
+  padding: 0.5rem 0.6rem;
 }
 
 @media (hover: hover) and (pointer: fine) {
