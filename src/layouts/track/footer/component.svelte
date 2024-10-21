@@ -4,10 +4,8 @@
   import { tape } from "@/stores/tape.svelte";
   import type { Params } from "@/types/params";
 
-  let params: Params;
-
-  $: params = $page.params;
-  $: tapePath = `/${params.year}/${params.month}/${params.tape}`;
+  let params = $derived<Params>($page.params);
+  let tapePath = $derived(`/${params.year}/${params.month}/${params.tape}`);
 </script>
 
 <div class="container">

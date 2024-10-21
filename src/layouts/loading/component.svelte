@@ -1,7 +1,7 @@
 <script lang="ts">
   import { afterNavigate, beforeNavigate } from "$app/navigation";
 
-  let state: "initial" | "start" | "complete" = "initial";
+  let state = $state<"initial" | "start" | "complete">("initial");
 
   beforeNavigate(() => {
     state = "start";
