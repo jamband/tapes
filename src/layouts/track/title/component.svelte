@@ -1,10 +1,10 @@
 <script lang="ts">
-  import { track } from "@/stores/track";
+  import { track } from "@/stores/track.svelte";
 </script>
 
 <div class="container">
-  <h1 class="title">{$track.title}</h1>
-  <div class="provider">via {$track.provider}</div>
+  <h1 class="title">{track.value.title}</h1>
+  <div class="provider">via {track.value.provider}</div>
 </div>
 
 <style>

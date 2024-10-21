@@ -1,16 +1,15 @@
 <script lang="ts">
   import { Head } from "@/layouts/head";
-  import { tape } from "@/stores/tape";
-  import { track } from "@/stores/track";
-  import { onMount } from "svelte";
+  import { tape } from "@/stores/tape.svelte";
+  import { track } from "@/stores/track.svelte";
 
   let { data } = $props();
 
   const title = `${data.tapeTitle} ･ ${data.track.title}`;
 
-  onMount(() => {
-    tape.set({ title: data.tapeTitle });
-    track.set(data.track);
+  $effect(() => {
+    tape.value = { title: data.tapeTitle };
+    track.value = data.track;
   });
 </script>
 

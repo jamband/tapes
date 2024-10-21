@@ -1,14 +1,15 @@
 <script lang="ts">
   import { page } from "$app/stores";
-  import { track } from "@/stores/track";
+  import { track } from "@/stores/track.svelte";
   import { FooterNavigation } from "./navigation";
   import { FooterTrack } from "./track";
 
-  $: showPlayerTitle =
-    $track.path &&
-    !$page.params.track &&
-    $page.route.id !== "contact" &&
-    $page.route.id !== "about";
+  let showPlayerTitle = $derived(
+    track.value.path &&
+      !$page.params.track &&
+      $page.route.id !== "contact" &&
+      $page.route.id !== "about",
+  );
 </script>
 
 <footer class="container">

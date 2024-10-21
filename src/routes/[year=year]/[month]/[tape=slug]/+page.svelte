@@ -5,7 +5,7 @@
   import { IconPause } from "@/icons/pause";
   import { IconPlay } from "@/icons/play";
   import { Head } from "@/layouts/head";
-  import { track } from "@/stores/track";
+  import { track } from "@/stores/track.svelte";
 
   let { data } = $props();
 </script>
@@ -33,7 +33,7 @@
           alt=""
         />
         <div class="trackIconStatus">
-          {#if `${data.tape.path}/${item.slug}` === $track.path}
+          {#if `${data.tape.path}/${item.slug}` === track.value.path}
             <IconPause class="trackIcon" />
           {:else}
             <IconPlay class="trackIcon" />
