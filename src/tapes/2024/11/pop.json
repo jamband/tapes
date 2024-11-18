@@ -1,0 +1,62 @@
+{
+  "id": 47,
+  "title": "Pop",
+  "path": "/2024/11/pop",
+  "date": "Nov 18, 2024",
+  "items": [
+    {
+      "title": "Men I Trust - Numb",
+      "provider": "YouTube",
+      "provider_key": "xAz_DzPUjrM",
+      "image": "https://i.ytimg.com/vi/xAz_DzPUjrM/hqdefault.jpg",
+      "image_aspect_ratio": "16/9",
+      "embed_aspect_ratio": "16/9",
+      "slug": "men-i-trust-numb"
+    },
+    {
+      "title": "Annika Kilkenny - It's Shaped You",
+      "provider": "YouTube",
+      "provider_key": "xIN5jqKw6Wc",
+      "image": "https://i.ytimg.com/vi/xIN5jqKw6Wc/hqdefault.jpg",
+      "image_aspect_ratio": "16/9",
+      "embed_aspect_ratio": "16/9",
+      "slug": "annika-kilkenny-its-shaped-you"
+    },
+    {
+      "title": "Patricia Lalor - Actually",
+      "provider": "YouTube",
+      "provider_key": "bbbp88IPRj8",
+      "image": "https://i.ytimg.com/vi/bbbp88IPRj8/hqdefault.jpg",
+      "image_aspect_ratio": "16/9",
+      "embed_aspect_ratio": "16/9",
+      "slug": "patricia-lalor-actually"
+    },
+    {
+      "title": "Holly Throsby - Aeroplane",
+      "provider": "YouTube",
+      "provider_key": "rOWUlTzB9K4",
+      "image": "https://i.ytimg.com/vi/rOWUlTzB9K4/hqdefault.jpg",
+      "image_aspect_ratio": "16/9",
+      "embed_aspect_ratio": "16/9",
+      "slug": "holly-throsby-aeroplane"
+    },
+    {
+      "title": "Gabi Hartmann - Baby",
+      "provider": "YouTube",
+      "provider_key": "5D6ZVELC2l0",
+      "image": "https://i.ytimg.com/vi/5D6ZVELC2l0/hqdefault.jpg",
+      "image_aspect_ratio": "16/9",
+      "embed_aspect_ratio": "21/9",
+      "slug": "gabi-hartmann-baby"
+    },
+    {
+      "title": "Mallu Magalhães - Quero Quero",
+      "provider": "YouTube",
+      "provider_key": "KsdxRS2Rwsg",
+      "image": "https://i.ytimg.com/vi/KsdxRS2Rwsg/hqdefault.jpg",
+      "image_aspect_ratio": "16/9",
+      "embed_aspect_ratio": "16/9",
+      "slug": "mallu-magalhaes-quero-quero"
+    }
+  ]
+}
