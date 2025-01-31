@@ -1,0 +1,62 @@
+{
+  "id": 49,
+  "title": "Favorites",
+  "path": "/2025/01/favorites",
+  "date": "Jan 31, 2025",
+  "items": [
+    {
+      "title": "Julie Kuhl - Clouds of Grief",
+      "provider": "Bandcamp",
+      "provider_key": "408223104",
+      "image": "https://f4.bcbits.com/img/a0360337401_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "julie-kuhl-clouds-of-grief"
+    },
+    {
+      "title": "yeemz - Beau's Old Bones",
+      "provider": "Bandcamp",
+      "provider_key": "520281449",
+      "image": "https://f4.bcbits.com/img/a1721795651_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "yeemz-beaus-old-bones"
+    },
+    {
+      "title": "Samia - Charm You",
+      "provider": "Bandcamp",
+      "provider_key": "653896294",
+      "image": "https://f4.bcbits.com/img/a1712147232_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "samia-charm-you"
+    },
+    {
+      "title": "Luna Li - Afterglow",
+      "provider": "Bandcamp",
+      "provider_key": "2386915253",
+      "image": "https://f4.bcbits.com/img/a0378231791_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "luna-li-afterglow"
+    },
+    {
+      "title": "Julie Kuhl - Floating",
+      "provider": "Bandcamp",
+      "provider_key": "1635552500",
+      "image": "https://f4.bcbits.com/img/a3821516503_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "julie-kuhl-floating"
+    },
+    {
+      "title": "Layzi - Eventually",
+      "provider": "Bandcamp",
+      "provider_key": "526351216",
+      "image": "https://f4.bcbits.com/img/a2343534803_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "layzi-eventually"
+    }
+  ]
+}
