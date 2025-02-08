@@ -32,7 +32,7 @@
   text-decoration: none;
 }
 
-@media (hover: hover) and (pointer: fine) {
+@media (any-hover: hover) {
   .link:hover {
     background: rgb(var(--purple-600));
   }
@@ -48,7 +48,7 @@
   font-size: var(--text-xs);
 }
 
-@media (hover: hover) and (pointer: fine) {
+@media (any-hover: hover) {
   .link:hover .linkSymbol {
     color: rgb(var(--gray-200));
   }

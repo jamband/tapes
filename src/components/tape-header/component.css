@@ -11,7 +11,7 @@
   text-decoration-color: rgb(var(--gray-400) / 70%);
 }
 
-@media (hover: hover) and (pointer: fine) {
+@media (any-hover: hover) {
   .link:hover {
     color: rgb(var(--purple-400));
     text-decoration-color: rgb(var(--purple-400) / 50%);
@@ -31,7 +31,7 @@
   width: 1rem;
 }
 
-@media (hover: hover) and (pointer: fine) {
+@media (any-hover: hover) {
   .link:hover :global(.linkIcon) {
     color: rgb(var(--purple-400) / 70%);
   }

@@ -10,7 +10,7 @@
   text-decoration-color: rgb(var(--gray-200) / 70%);
 }
 
-@media (hover: hover) and (pointer: fine) {
+@media (any-hover: hover) {
   .link:hover {
     color: rgb(var(--purple-400));
     text-decoration-color: rgb(var(--purple-400) / 70%);
@@ -27,7 +27,7 @@
   color: rgb(var(--gray-200) / 70%);
 }
 
-@media (hover: hover) and (pointer: fine) {
+@media (any-hover: hover) {
   .link:hover .linkSymbol {
     color: rgb(var(--purple-400));
   }
