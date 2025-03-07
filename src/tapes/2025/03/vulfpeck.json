@@ -1,0 +1,62 @@
+{
+  "id": 51,
+  "title": "Vulfpeck",
+  "path": "/2025/03/vulfpeck",
+  "date": "Mar 07, 2025",
+  "items": [
+    {
+      "title": "Vulfpeck - Big Dipper",
+      "provider": "Bandcamp",
+      "provider_key": "1525672981",
+      "image": "https://f4.bcbits.com/img/a3993602279_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "vulfpeck-big-dipper"
+    },
+    {
+      "title": "Vulfpeck - Matter of Time",
+      "provider": "Bandcamp",
+      "provider_key": "2695399886",
+      "image": "https://f4.bcbits.com/img/a3993602279_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "vulfpeck-matter-of-time"
+    },
+    {
+      "title": "Vulfpeck - In Real Life",
+      "provider": "Bandcamp",
+      "provider_key": "4162489580",
+      "image": "https://f4.bcbits.com/img/a3993602279_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "vulfpeck-in-real-life"
+    },
+    {
+      "title": "Vulfpeck - Tender Defender",
+      "provider": "Bandcamp",
+      "provider_key": "2958249520",
+      "image": "https://f4.bcbits.com/img/a3993602279_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "vulfpeck-tender-defender"
+    },
+    {
+      "title": "Vulfpeck - Birds of a Feather, We Rock Together (feat. Antwaun Stanley, Mocky Cover)",
+      "provider": "Bandcamp",
+      "provider_key": "1857800461",
+      "image": "https://f4.bcbits.com/img/a3488149262_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "vulfpeck-birds-of-a-feather-we-rock-together-feat-antwaun-stanley-mocky-cover"
+    },
+    {
+      "title": "Vulfpeck  - Animal Spirits",
+      "provider": "Bandcamp",
+      "provider_key": "1356784584",
+      "image": "https://f4.bcbits.com/img/a1702319957_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "vulfpeck-animal-spirits"
+    }
+  ]
+}
