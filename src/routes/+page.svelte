@@ -12,7 +12,7 @@
   <TapeHeader title="Monthly Favorite Tracks" />
   <SectionDivider />
   <div class="main">
-    {#each data.years as year}
+    {#each data.years as year (year)}
       <a href="{base}/{year}/" class="link"
         ><span class="linkSymbol">#</span>{year}</a
       >
