@@ -1,0 +1,62 @@
+{
+  "id": 52,
+  "title": "HAIM",
+  "path": "/2025/04/haim",
+  "date": "Apr 01, 2025",
+  "items": [
+    {
+      "title": "HAIM - Relationships",
+      "provider": "YouTube",
+      "provider_key": "dOI_QTmK8Ks",
+      "image": "https://i.ytimg.com/vi/dOI_QTmK8Ks/hqdefault.jpg",
+      "image_aspect_ratio": "16/9",
+      "embed_aspect_ratio": "16/9",
+      "slug": "haim-relationships"
+    },
+    {
+      "title": "HAIM - Forever",
+      "provider": "YouTube",
+      "provider_key": "sEwM6ERq0gc",
+      "image": "https://i.ytimg.com/vi/sEwM6ERq0gc/hqdefault.jpg",
+      "image_aspect_ratio": "16/9",
+      "embed_aspect_ratio": "16/9",
+      "slug": "haim-forever"
+    },
+    {
+      "title": "HAIM - Want You Back",
+      "provider": "YouTube",
+      "provider_key": "yPQfcG-eimk",
+      "image": "https://i.ytimg.com/vi/yPQfcG-eimk/hqdefault.jpg",
+      "image_aspect_ratio": "16/9",
+      "embed_aspect_ratio": "16/9",
+      "slug": "haim-want-you-back"
+    },
+    {
+      "title": "HAIM - Summer Girl",
+      "provider": "YouTube",
+      "provider_key": "ZjuA_o6Jzyo",
+      "image": "https://i.ytimg.com/vi/ZjuA_o6Jzyo/hqdefault.jpg",
+      "image_aspect_ratio": "16/9",
+      "embed_aspect_ratio": "16/9",
+      "slug": "haim-summer-girl"
+    },
+    {
+      "title": "HAIM - The Steps",
+      "provider": "YouTube",
+      "provider_key": "J2O_xa8cems",
+      "image": "https://i.ytimg.com/vi/J2O_xa8cems/hqdefault.jpg",
+      "image_aspect_ratio": "16/9",
+      "embed_aspect_ratio": "16/9",
+      "slug": "haim-the-steps"
+    },
+    {
+      "title": "HAIM - Little of Your Love",
+      "provider": "YouTube",
+      "provider_key": "4NJYWgb6dQM",
+      "image": "https://i.ytimg.com/vi/4NJYWgb6dQM/hqdefault.jpg",
+      "image_aspect_ratio": "16/9",
+      "embed_aspect_ratio": "16/9",
+      "slug": "haim-little-of-your-love"
+    }
+  ]
+}
