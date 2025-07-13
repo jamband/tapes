@@ -1,0 +1,62 @@
+{
+  "id": 55,
+  "title": "Favorites",
+  "path": "/2025/07/favorites",
+  "date": "Jul 13, 2025",
+  "items": [
+    {
+      "title": "The Zenmenn - Flags Of The World",
+      "provider": "Bandcamp",
+      "provider_key": "344035943",
+      "image": "https://f4.bcbits.com/img/a2997515377_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "the-zenmenn-flags-of-the-world"
+    },
+    {
+      "title": "Cindy Lee - Kingdom Come",
+      "provider": "Bandcamp",
+      "provider_key": "1546731640",
+      "image": "https://f4.bcbits.com/img/a1091823768_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "cindy-lee-kingdom-come"
+    },
+    {
+      "title": "Vetiver - From Now On",
+      "provider": "Bandcamp",
+      "provider_key": "3767924817",
+      "image": "https://f4.bcbits.com/img/a2581844886_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "vetiver-from-now-on"
+    },
+    {
+      "title": "Bruno Pernadas - Theme Vision",
+      "provider": "Bandcamp",
+      "provider_key": "1160265846",
+      "image": "https://f4.bcbits.com/img/a0488580759_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "bruno-pernadas-theme-vision"
+    },
+    {
+      "title": "Alex Izenberg - An Obscured Odyssey",
+      "provider": "Bandcamp",
+      "provider_key": "3132565324",
+      "image": "https://f4.bcbits.com/img/a1760433300_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "alex-izenberg-an-obscured-odyssey"
+    },
+    {
+      "title": "Konradsen - Michael",
+      "provider": "Bandcamp",
+      "provider_key": "2764322982",
+      "image": "https://f4.bcbits.com/img/a2001942083_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "konradsen-michael"
+    }
+  ]
+}
