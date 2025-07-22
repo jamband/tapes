@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { page } from "$app/stores";
+  import { page } from "$app/state";
   import { APP_NAME, APP_URL } from "@/constants/app";
   import { Footer } from "@/layouts/footer";
   import { Header } from "@/layouts/header";
@@ -9,7 +9,7 @@
 
   let { children } = $props();
 
-  const currentUrl = APP_URL.replace("/tapes/", "") + $page.url.pathname;
+  const currentUrl = APP_URL.replace("/tapes/", "") + page.url.pathname;
 </script>
 
 <svelte:head>
@@ -21,7 +21,7 @@
 <Loading />
 <Header />
 <main class="main">
-  <div class:hidden={!$page.params.track}>
+  <div class:hidden={!page.params.track}>
     <Track />
   </div>
   {@render children()}

@@ -1,6 +1,6 @@
 <script lang="ts">
   import { base } from "$app/paths";
-  import { page } from "$app/stores";
+  import { page } from "$app/state";
   import { HomeLink } from "@/components/home-link";
   import { SectionDivider } from "@/components/section-divider";
   import { TapeHeader } from "@/components/tape-header";
@@ -11,7 +11,7 @@
 
 <Head title={data.title} />
 <div class="container">
-  <TapeHeader title="Monthly Favorite Tracks of {$page.params.year}" />
+  <TapeHeader title="Monthly Favorite Tracks of {page.params.year}" />
   <SectionDivider />
   <ul class="main">
     {#each data.tapes as tape (tape.id)}

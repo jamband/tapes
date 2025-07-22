@@ -1,10 +1,10 @@
 <script lang="ts">
   import { base } from "$app/paths";
-  import { page } from "$app/stores";
+  import { page } from "$app/state";
   import { tape } from "@/stores/tape.svelte";
   import type { Params } from "@/types/params";
 
-  let params = $derived<Params>($page.params);
+  let params = $derived<Params>(page.params);
   let tapePath = $derived(`/${params.year}/${params.month}/${params.tape}`);
 </script>
 

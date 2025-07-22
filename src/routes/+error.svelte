@@ -1,15 +1,13 @@
 <script lang="ts">
   import { base } from "$app/paths";
-  import { page } from "$app/stores";
+  import { page } from "$app/state";
   import { SectionDivider } from "@/components/section-divider";
   import { Head } from "@/layouts/head";
 
-  const isNotFound = $page.status === 404;
+  const isNotFound = page.status === 404;
   const title = isNotFound ? "Not Found" : "An Error occured";
 
-  const message = isNotFound
-    ? "The page does not exist."
-    : $page.error?.message;
+  const message = isNotFound ? "The page does not exist." : page.error?.message;
 </script>
 
 <Head title="Not Found" />
