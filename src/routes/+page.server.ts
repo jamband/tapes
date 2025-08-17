@@ -1,8 +1,8 @@
 import { getYears } from "@/utils/api";
 import type { PageServerLoad } from "./$types";
 
-export const load: PageServerLoad = () => {
+export const load: PageServerLoad = async () => {
   return {
-    years: getYears,
+    years: await getYears(),
   };
 };
