@@ -2,8 +2,7 @@ import { initialValue as trackInitialValue } from "@/stores/track.svelte";
 import type { Params } from "@/types/params";
 import type { Tape, Tapes } from "@/types/tape";
 import type { Track } from "@/types/track";
-import fg from "fast-glob";
-import { readdirSync, readFileSync } from "node:fs";
+import { globSync, readdirSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 
 const baseDir = join(process.cwd(), "src/tapes");
@@ -17,7 +16,7 @@ const tapePath = (params: Params) => {
 };
 
 export const getTapes = (year: number): Tapes => {
-  const tapes = fg.sync(`${baseDir}/${year}/**/*.json`).map((file) => {
+  const tapes = globSync(`${baseDir}/${year}/**/*.json`).map((file) => {
     const { id, title, path, date }: Tape = JSON.parse(contents(file));
     return { id, title, path, date };
   });
