@@ -7,8 +7,8 @@
   let showPlayerTitle = $derived(
     track.value.path &&
       !page.params.track &&
-      page.route.id !== "contact" &&
-      page.route.id !== "about",
+      page.route.id !== "/contact" &&
+      page.route.id !== "/about",
   );
 </script>
 
