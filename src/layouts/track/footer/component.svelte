@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { base } from "$app/paths";
+  import { resolve } from "$app/paths";
   import { page } from "$app/state";
   import { tape } from "@/stores/tape.svelte";
   import type { Params } from "@/types/params";
@@ -9,7 +9,7 @@
 </script>
 
 <div class="container">
-  <a class="link" href="{base}{tapePath}/"
+  <a class="link" href={resolve(`/${tapePath}/`)}
     ><span class="linkSymbol">←</span>
     {tape.value.title}</a
   >

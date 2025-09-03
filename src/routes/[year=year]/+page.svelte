@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { base } from "$app/paths";
+  import { resolve } from "$app/paths";
   import { page } from "$app/state";
   import { HomeLink } from "@/components/home-link";
   import { SectionDivider } from "@/components/section-divider";
@@ -21,7 +21,7 @@
           <div class="date">{tape.date}</div>
         {:else}
           <div>
-            <a class="title" href="{base}{tape.path}/"
+            <a class="title" href={resolve(`/${tape.path}`)}
               >{tape.title}<span class="titleSymbol">→</span></a
             >
           </div>

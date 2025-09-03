@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { base } from "$app/paths";
+  import { resolve } from "$app/paths";
   import { page } from "$app/state";
   import { SectionDivider } from "@/components/section-divider";
   import { Head } from "@/layouts/head";
@@ -17,7 +17,8 @@
     <p>{message}</p>
   </div>
   <SectionDivider />
-  <a class="link" href="{base}/">Go Digging <span class="linkSymbol">→</span></a
+  <a class="link" href={resolve("/")}
+    >Go Digging <span class="linkSymbol">→</span></a
   >
 </div>
 
