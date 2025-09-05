@@ -1,13 +1,15 @@
 import js from "@eslint/js";
 import prettier from "eslint-config-prettier";
 import svelte from "eslint-plugin-svelte";
+import { defineConfig, globalIgnores } from "eslint/config";
 import globals from "globals";
 import ts from "typescript-eslint";
 import svelteConfig from "./svelte.config.js";
 
-export default ts.config(
+export default defineConfig(
+  [globalIgnores([".svelte-kit/", "build/"])],
   js.configs.recommended,
-  ...ts.configs.recommended,
+  ts.configs.recommended,
   ...svelte.configs.recommended,
   prettier,
   ...svelte.configs.prettier,
@@ -29,9 +31,6 @@ export default ts.config(
         svelteConfig,
       },
     },
-  },
-  {
-    ignores: [".svelte-kit/", "build/"],
   },
   {
     rules: {
