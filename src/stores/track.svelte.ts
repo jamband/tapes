@@ -9,6 +9,7 @@ export const initialValue: Track = {
   image_aspect_ratio: "1/1",
   embed_aspect_ratio: "1/1",
   path: "",
+  tapeTitle: "",
 };
 
 const createTrack = () => {

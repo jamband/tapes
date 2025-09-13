@@ -1,7 +1,7 @@
 <script lang="ts">
   import { resolve } from "$app/paths";
   import { page } from "$app/state";
-  import { tape } from "@/stores/tape.svelte";
+  import { track } from "@/stores/track.svelte";
   import type { Params } from "@/types/params";
 
   let params = $derived<Params>(page.params);
@@ -11,7 +11,7 @@
 <div class="container">
   <a class="link" href={resolve(`/${tapePath}/`)}
     ><span class="linkSymbol">←</span>
-    {tape.value.title}</a
+    {track.value.tapeTitle}</a
   >
 </div>
 

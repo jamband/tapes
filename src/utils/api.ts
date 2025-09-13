@@ -46,6 +46,7 @@ export const getTrack = async (params: Params) => {
 
   if (track) {
     track.path = `/${params.year}/${params.month}/${params.tape}/${params.track}`;
+    track.tapeTitle = `${tape.date} ${tape.title}`;
     return track;
   }
 
