@@ -6,8 +6,9 @@
   import { IconPlay } from "@/icons/play";
   import { Head } from "@/layouts/head";
   import { track } from "@/stores/track.svelte";
+  import type { PageProps } from "./$types";
 
-  let { data } = $props();
+  let { data, params }: PageProps = $props();
 </script>
 
 <Head
@@ -48,9 +49,9 @@
   </div>
   <SectionDivider />
   <div class="backToTape">
-    <a href={resolve(`/${data.year}/`)} class="backToTapeLink"
+    <a href={resolve(`/${params.year}/`)} class="backToTapeLink"
       ><span class="backToTapeLinkSymbol">←</span>
-      Monthly Favorite Tracks of {data.year}</a
+      Monthly Favorite Tracks of {params.year}</a
     >
   </div>
 </div>

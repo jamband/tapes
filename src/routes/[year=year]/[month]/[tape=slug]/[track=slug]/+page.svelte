@@ -2,8 +2,9 @@
   import { Head } from "@/layouts/head";
   import { tape } from "@/stores/tape.svelte";
   import { track } from "@/stores/track.svelte";
+  import type { PageProps } from "./$types";
 
-  let { data } = $props();
+  let { data }: PageProps = $props();
 
   const title = `${data.tapeTitle} ･ ${data.track.title}`;
 

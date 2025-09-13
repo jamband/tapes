@@ -7,6 +7,5 @@ export const load: PageServerLoad = async ({ params }) => {
   return {
     title: `${tape.date} ${tape.title}`,
     tape,
-    year: params.year || "",
   };
 };

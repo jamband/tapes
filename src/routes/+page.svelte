@@ -3,8 +3,9 @@
   import { SectionDivider } from "@/components/section-divider";
   import { TapeHeader } from "@/components/tape-header";
   import { Head } from "@/layouts/head";
+  import type { PageProps } from "./$types";
 
-  let { data } = $props();
+  let { data }: PageProps = $props();
 </script>
 
 <Head />

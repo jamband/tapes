@@ -1,17 +1,17 @@
 <script lang="ts">
   import { resolve } from "$app/paths";
-  import { page } from "$app/state";
   import { HomeLink } from "@/components/home-link";
   import { SectionDivider } from "@/components/section-divider";
   import { TapeHeader } from "@/components/tape-header";
   import { Head } from "@/layouts/head";
+  import type { PageProps } from "./$types";
 
-  let { data } = $props();
+  let { data, params }: PageProps = $props();
 </script>
 
 <Head title={data.title} />
 <div class="container">
-  <TapeHeader title="Monthly Favorite Tracks of {page.params.year}" />
+  <TapeHeader title="Monthly Favorite Tracks of {params.year}" />
   <SectionDivider />
   <ul class="main">
     {#each data.tapes as tape (tape.id)}

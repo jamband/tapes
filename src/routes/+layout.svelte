@@ -1,13 +1,15 @@
 <script lang="ts">
+  import "@/styles/app.css";
+
   import { page } from "$app/state";
   import { APP_NAME, APP_URL } from "@/constants/app";
   import { Footer } from "@/layouts/footer";
   import { Header } from "@/layouts/header";
   import { Loading } from "@/layouts/loading";
   import { Track } from "@/layouts/track";
-  import "@/styles/app.css";
+  import type { LayoutProps } from "./$types";
 
-  let { children } = $props();
+  let { children }: LayoutProps = $props();
 
   const currentUrl = APP_URL.replace("/tapes/", "") + page.url.pathname;
 </script>
