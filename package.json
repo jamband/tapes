@@ -2,7 +2,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "svelte-kit sync && vite --open",
+    "prepare": "svelte-kit sync",
+    "dev": "vite --open",
     "build": "vite build",
     "preview": "vite preview --open",
     "typecheck": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
