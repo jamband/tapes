@@ -3,9 +3,9 @@
   "type": "module",
   "scripts": {
     "prepare": "svelte-kit sync",
-    "dev": "vite --open",
+    "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview --open",
+    "preview": "vite preview",
     "typecheck": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
     "lint": "eslint .",
     "stylelint": "stylelint \"src/**/*.css\"",
