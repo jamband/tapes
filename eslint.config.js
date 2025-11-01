@@ -33,9 +33,10 @@ export default defineConfig(
     },
   },
   {
+    files: ["**/*.{svelte,ts}"],
     rules: {
       "@typescript-eslint/consistent-type-imports": "error",
-      "no-console": ["error", { allow: ["warn", "error"] }],
+      "no-undef": "off",
     },
   },
 );
