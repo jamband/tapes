@@ -2,7 +2,7 @@
   import { HomeLink } from "@/components/home-link";
   import { SectionDivider } from "@/components/section-divider";
   import { APP_DESCRIPTION, APP_NAME } from "@/constants/app";
-  import { IconExternalLink } from "@/icons/external-link";
+  import { IconUpRightFromSquare } from "@/icons/up-right-from-square";
   import { Head } from "@/layouts/head";
 </script>
 
@@ -18,7 +18,8 @@
           href="https://plusarchive.com"
           class="link"
           target="_blank"
-          rel="noreferrer">PlusArchive<IconExternalLink class="linkIcon" /></a
+          rel="noreferrer"
+          >PlusArchive<IconUpRightFromSquare class="linkIcon" /></a
         >.
       </p>
       <p class="description">
@@ -28,7 +29,7 @@
           class="link"
           target="_blank"
           rel="noreferrer"
-          >GitHub: {APP_NAME}<IconExternalLink class="linkIcon" /></a
+          >GitHub: {APP_NAME}<IconUpRightFromSquare class="linkIcon" /></a
         >
       </p>
     </div>

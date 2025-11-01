@@ -1,7 +1,7 @@
 <script lang="ts">
   import { HomeLink } from "@/components/home-link";
   import { SectionDivider } from "@/components/section-divider";
-  import { IconExternalLink } from "@/icons/external-link";
+  import { IconUpRightFromSquare } from "@/icons/up-right-from-square";
   import { Head } from "@/layouts/head";
 </script>
 
@@ -16,14 +16,14 @@
           href="https://twitter.com/livejam_db"
           class="link"
           target="_blank"
-          rel="noreferrer">X<IconExternalLink class="linkIcon" /></a
+          rel="noreferrer">X<IconUpRightFromSquare class="linkIcon" /></a
         >
         or
         <a
           href="https://github.com/jamband/tapes/issues"
           class="link"
           target="_blank"
-          rel="noreferrer">GitHub<IconExternalLink class="linkIcon" /></a
+          rel="noreferrer">GitHub<IconUpRightFromSquare class="linkIcon" /></a
         >
         Issues. Thank you.
       </p>

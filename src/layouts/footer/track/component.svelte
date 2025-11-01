@@ -1,6 +1,6 @@
 <script lang="ts">
   import { resolve } from "$app/paths";
-  import { IconX } from "@/icons/x";
+  import { IconXMark } from "@/icons/xmark";
   import { track } from "@/stores/track.svelte";
 </script>
 
@@ -8,7 +8,7 @@
   <a class="link" href={resolve(`/${track.value.path}/`)}>{track.value.title}</a
   >
   <button class="close" onclick={track.clear} aria-label="close"
-    ><IconX class="closeIcon" /></button
+    ><IconXMark class="closeIcon" /></button
   >
 </div>
 

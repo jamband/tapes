@@ -2,8 +2,8 @@
   import { resolve } from "$app/paths";
   import { SectionDivider } from "@/components/section-divider";
   import { TapeHeader } from "@/components/tape-header";
-  import { IconPause } from "@/icons/pause";
-  import { IconPlay } from "@/icons/play";
+  import { IconCirclePause } from "@/icons/circle-pause";
+  import { IconCirclePlay } from "@/icons/circle-play";
   import { Head } from "@/layouts/head";
   import { track } from "@/stores/track.svelte";
   import type { PageProps } from "./$types";
@@ -35,9 +35,9 @@
         />
         <div class="trackIconStatus">
           {#if `${data.tape.path}/${item.slug}` === track.value.path}
-            <IconPause class="trackIcon" />
+            <IconCirclePause class="trackIcon" />
           {:else}
-            <IconPlay class="trackIcon" />
+            <IconCirclePlay class="trackIcon" />
           {/if}
         </div>
         <div class="trackFooter">

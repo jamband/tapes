@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { IconExternalLink } from "@/icons/external-link";
+  import { IconUpRightFromSquare } from "@/icons/up-right-from-square";
   import type { Props } from "./types";
 
   let { title }: Props = $props();
@@ -13,7 +13,7 @@
       href="https://plusarchive.com"
       class="link"
       target="_blank"
-      rel="noreferrer">PlusArchive<IconExternalLink class="linkIcon" /></a
+      rel="noreferrer">PlusArchive<IconUpRightFromSquare class="linkIcon" /></a
     >
   </div>
 </header>
