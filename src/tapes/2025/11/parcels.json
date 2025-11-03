@@ -1,0 +1,62 @@
+{
+  "id": 59,
+  "title": "Parcels",
+  "path": "/2025/11/parcels",
+  "date": "Nov 03, 2025",
+  "items": [
+    {
+      "title": "Parcels - Tobeloved",
+      "provider": "Bandcamp",
+      "provider_key": "3328912265",
+      "image": "https://f4.bcbits.com/img/a1270752713_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "parcels-tobeloved"
+    },
+    {
+      "title": "Parcels - Ifyoucall",
+      "provider": "Bandcamp",
+      "provider_key": "3534517375",
+      "image": "https://f4.bcbits.com/img/a1270752713_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "parcels-ifyoucall"
+    },
+    {
+      "title": "Parcels - Yougotmefeeling",
+      "provider": "Bandcamp",
+      "provider_key": "1641164440",
+      "image": "https://f4.bcbits.com/img/a1270752713_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "parcels-yougotmefeeling"
+    },
+    {
+      "title": "Parcels - Leaves",
+      "provider": "Bandcamp",
+      "provider_key": "2581143780",
+      "image": "https://f4.bcbits.com/img/a1270752713_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "parcels-leaves"
+    },
+    {
+      "title": "Parcels - Tieduprightnow",
+      "provider": "Bandcamp",
+      "provider_key": "405410302",
+      "image": "https://f4.bcbits.com/img/a4231266264_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "parcels-tieduprightnow"
+    },
+    {
+      "title": "Parcels - Finallyover",
+      "provider": "Bandcamp",
+      "provider_key": "787498983",
+      "image": "https://f4.bcbits.com/img/a1270752713_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "parcels-finallyover"
+    }
+  ]
+}
