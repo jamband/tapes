@@ -14,25 +14,25 @@
     "clean": "node scripts/clean.js"
   },
   "dependencies": {
-    "@eslint/js": "9.38.0",
+    "@eslint/js": "9.39.1",
     "@sveltejs/adapter-static": "3.0.10",
     "@sveltejs/kit": "2.48.4",
     "@sveltejs/vite-plugin-svelte": "6.2.1",
-    "@types/node": "22.18.13",
-    "eslint": "9.38.0",
+    "@types/node": "22.19.1",
+    "eslint": "9.39.1",
     "eslint-config-prettier": "10.1.8",
     "eslint-plugin-svelte": "3.13.0",
-    "globals": "16.4.0",
+    "globals": "16.5.0",
     "prettier": "3.6.2",
     "prettier-plugin-svelte": "3.4.0",
     "stylelint": "16.25.0",
     "stylelint-config-standard": "39.0.1",
     "stylelint-order": "7.0.0",
-    "svelte": "5.43.2",
-    "svelte-check": "4.3.3",
+    "svelte": "5.43.6",
+    "svelte-check": "4.3.4",
     "the-new-css-reset": "1.11.3",
     "typescript": "5.9.3",
-    "typescript-eslint": "8.46.2",
-    "vite": "7.1.12"
+    "typescript-eslint": "8.46.4",
+    "vite": "7.2.2"
   }
 }
