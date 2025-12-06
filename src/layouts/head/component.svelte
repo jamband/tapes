@@ -4,10 +4,8 @@
 
   let { title, description, children }: Props = $props();
 
-  // svelte-ignore state_referenced_locally
-  const _title = title ? `${title} ･ ${APP_NAME}` : APP_NAME;
-  // svelte-ignore state_referenced_locally
-  const _description = description ? description : APP_DESCRIPTION;
+  let _title = $derived(title ? `${title} ･ ${APP_NAME}` : APP_NAME);
+  let _description = $derived(description ? description : APP_DESCRIPTION);
 </script>
 
 <svelte:head>
