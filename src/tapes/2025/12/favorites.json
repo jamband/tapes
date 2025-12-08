@@ -1,0 +1,62 @@
+{
+  "id": 60,
+  "title": "Favorites",
+  "path": "/2025/12/favorites",
+  "date": "Dec 08, 2025",
+  "items": [
+    {
+      "title": "Makoto Kubota & The Sunset Gang - Hi Sai Ozisan",
+      "provider": "Bandcamp",
+      "provider_key": "1973009098",
+      "image": "https://f4.bcbits.com/img/a0894215682_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "makoto-kubota-the-sunset-gang-hi-sai-ozisan"
+    },
+    {
+      "title": "Lamp - 1998",
+      "provider": "Bandcamp",
+      "provider_key": "4086020388",
+      "image": "https://f4.bcbits.com/img/a2340832422_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "lamp-1998"
+    },
+    {
+      "title": "Mei Semones - Takaramono",
+      "provider": "Bandcamp",
+      "provider_key": "2153209692",
+      "image": "https://f4.bcbits.com/img/a2751128368_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "mei-semones-takaramono"
+    },
+    {
+      "title": "Fuyu ni Wakarete - Yureru",
+      "provider": "Bandcamp",
+      "provider_key": "3019473952",
+      "image": "https://f4.bcbits.com/img/a3331305518_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "fuyu-ni-wakarete-yureru"
+    },
+    {
+      "title": "Shutaro Noguchi - Melody",
+      "provider": "Bandcamp",
+      "provider_key": "1088133551",
+      "image": "https://f4.bcbits.com/img/a2264138982_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "shutaro-noguchi-melody"
+    },
+    {
+      "title": "Kate NV - KATA",
+      "provider": "Bandcamp",
+      "provider_key": "1669357139",
+      "image": "https://f4.bcbits.com/img/a2973556585_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "kate-nv-kata"
+    }
+  ]
+}
