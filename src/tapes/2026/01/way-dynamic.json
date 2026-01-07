@@ -1,0 +1,62 @@
+{
+  "id": 61,
+  "title": "Way Dynamic",
+  "path": "/2026/01/way-dynamic",
+  "date": "Jan 07, 2026",
+  "items": [
+    {
+      "title": "Way Dynamic - So Familiar",
+      "provider": "Bandcamp",
+      "provider_key": "957074347",
+      "image": "https://f4.bcbits.com/img/a4144529959_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "way-dynamic-so-familiar"
+    },
+    {
+      "title": "Way Dynamic - Just Begun",
+      "provider": "Bandcamp",
+      "provider_key": "2404667189",
+      "image": "https://f4.bcbits.com/img/a2752907893_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "way-dynamic-just-begun"
+    },
+    {
+      "title": "Way Dynamic - The Goose Is Loose",
+      "provider": "Bandcamp",
+      "provider_key": "606237092",
+      "image": "https://f4.bcbits.com/img/a2752907893_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "way-dynamic-the-goose-is-loose"
+    },
+    {
+      "title": "Way Dynamic - You've Got Every Part Of Me",
+      "provider": "Bandcamp",
+      "provider_key": "4039939577",
+      "image": "https://f4.bcbits.com/img/a2752907893_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "way-dynamic-you-ve-got-every-part-of-me"
+    },
+    {
+      "title": "Way Dynamic - People Settle Down",
+      "provider": "Bandcamp",
+      "provider_key": "3789458033",
+      "image": "https://f4.bcbits.com/img/a1236566509_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "way-dynamic-people-settle-down"
+    },
+    {
+      "title": "Way Dynamic - My Visit (To Hell)",
+      "provider": "Bandcamp",
+      "provider_key": "286697138",
+      "image": "https://f4.bcbits.com/img/a1236566509_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "way-dynamic-my-visit-to-hell"
+    }
+  ]
+}
