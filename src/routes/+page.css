@@ -12,7 +12,7 @@
   place-items: center;
 }
 
-@media (width >= 768px) {
+@media (width >= 48rem) {
   .main {
     gap: 2rem;
   }
