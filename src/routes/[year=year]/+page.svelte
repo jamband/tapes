@@ -21,7 +21,7 @@
           <div class="date">{tape.date}</div>
         {:else}
           <div>
-            <a class="title" href={resolve(`/${tape.path}`)}
+            <a class="title" href={resolve(`/${tape.path}/`)}
               >{tape.title}<span class="titleSymbol">→</span></a
             >
           </div>
