@@ -8,20 +8,18 @@
   grid-column: span 12 / span 12;
 }
 
-@media (width >= 40rem) {
-  .containerInnerAspect1x1 {
+.containerInnerAspect1x1 {
+  @media (width >= 40rem) {
     padding: 0 1rem;
   }
-}
 
-@media (width >= 48rem) {
-  .containerInnerAspect1x1 {
+  @media (width >= 48rem) {
     grid-column: 3 / span 8;
   }
 }
 
-@media (width >= 48rem) {
-  .containerInnerAspect4x3 {
+.containerInnerAspect4x3 {
+  @media (width >= 48rem) {
     grid-column: 2 / span 10;
   }
 }

@@ -17,32 +17,30 @@
   color: rgb(var(--gray-200));
   padding: 0.5rem 1rem;
   text-decoration-color: rgb(var(--gray-200) / 70%);
-}
 
-@media (any-hover: hover) {
-  .link:hover {
+  @media (any-hover: hover) {
+    &:hover {
+      color: rgb(var(--purple-400));
+      text-decoration-color: rgb(var(--purple-400) / 70%);
+    }
+  }
+
+  &:is(:active, :focus-visible) {
     color: rgb(var(--purple-400));
     text-decoration-color: rgb(var(--purple-400) / 70%);
   }
 }
 
-.link:active,
-.link:focus-visible {
-  color: rgb(var(--purple-400));
-  text-decoration-color: rgb(var(--purple-400) / 70%);
-}
-
 .linkSymbol {
   color: rgb(var(--gray-200) / 70%);
-}
 
-@media (any-hover: hover) {
-  .link:hover .linkSymbol {
+  @media (any-hover: hover) {
+    .link:hover & {
+      color: rgb(var(--purple-400));
+    }
+  }
+
+  .link:is(:active, :focus-visible) & {
     color: rgb(var(--purple-400));
   }
-}
-
-.link:active .linkSymbol,
-.link:focus-visible .linkSymbol {
-  color: rgb(var(--purple-400));
 }

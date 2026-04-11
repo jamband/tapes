@@ -10,10 +10,8 @@
   grid-template-columns: repeat(3, 90px);
   justify-content: center;
   place-items: center;
-}
 
-@media (width >= 48rem) {
-  .main {
+  @media (width >= 48rem) {
     gap: 2rem;
   }
 }
@@ -30,31 +28,29 @@
   line-height: 1.75rem;
   padding: 0.25rem 1rem;
   text-decoration: none;
-}
 
-@media (any-hover: hover) {
-  .link:hover {
+  @media (any-hover: hover) {
+    &:hover {
+      background: rgb(var(--purple-600));
+    }
+  }
+
+  &:is(:active, :focus-visible) {
     background: rgb(var(--purple-600));
   }
-}
-
-.link:active,
-.link:focus-visible {
-  background: rgb(var(--purple-600));
 }
 
 .linkSymbol {
   color: rgb(var(--gray-400));
   font-size: var(--text-xs);
-}
 
-@media (any-hover: hover) {
-  .link:hover .linkSymbol {
+  @media (any-hover: hover) {
+    .link:hover & {
+      color: rgb(var(--gray-200));
+    }
+  }
+
+  .link:is(:active, :focus-visible) & {
     color: rgb(var(--gray-200));
   }
-}
-
-.link:active .linkSymbol,
-.link:focus-visible .linkSymbol {
-  color: rgb(var(--gray-200));
 }

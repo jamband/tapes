@@ -24,6 +24,18 @@
   font-weight: 700;
   padding: 0 0 0.1rem;
   text-decoration: none;
+
+  @media (any-hover: hover) {
+    &:hover {
+      border-bottom: 2px solid rgb(var(--purple-400) / 50%);
+      color: rgb(var(--purple-400));
+    }
+  }
+
+  &:is(:active, :focus-visible) {
+    border-bottom: 2px solid rgb(var(--purple-400) / 50%);
+    color: rgb(var(--purple-400));
+  }
 }
 
 .blankTitle {
@@ -34,34 +46,20 @@
   line-height: 1.3;
 }
 
-@media (any-hover: hover) {
-  .title:hover {
-    border-bottom: 2px solid rgb(var(--purple-400) / 50%);
-    color: rgb(var(--purple-400));
-  }
-}
-
-.title:active,
-.title:focus-visible {
-  border-bottom: 2px solid rgb(var(--purple-400) / 50%);
-  color: rgb(var(--purple-400));
-}
-
 .titleSymbol {
   color: rgb(var(--gray-100) / 70%);
   font-size: var(--text-base);
   margin: 0 0 0 0.5rem;
-}
 
-@media (any-hover: hover) {
-  .title:hover .titleSymbol {
+  @media (any-hover: hover) {
+    .title:hover & {
+      color: rgb(var(--purple-400));
+    }
+  }
+
+  .title:is(:active, :focus-visible) & {
     color: rgb(var(--purple-400));
   }
-}
-
-.title:active .titleSymbol,
-.title:focus-visible .titleSymbol {
-  color: rgb(var(--purple-400));
 }
 
 .date {

@@ -1,6 +1,4 @@
 html {
-  font-size: var(--text-base);
-  line-height: 1.5;
   scrollbar-gutter: stable;
   -webkit-text-size-adjust: 100%;
 }
@@ -10,7 +8,7 @@ body {
   color: rgb(var(--gray-400));
   font-family: var(--font-sans);
   font-size: var(--text-base);
-  line-height: inherit;
+  line-height: 1.5;
 }
 
 h1 {
@@ -31,11 +29,11 @@ a {
   text-decoration: underline;
   text-decoration-thickness: 0.05rem;
   text-underline-offset: 0.25rem;
-}
 
-a:active {
-  color: rgb(var(--purple-400));
-  text-decoration-color: rgb(var(--purple-400) / 50%);
+  &:active {
+    color: rgb(var(--purple-400));
+    text-decoration-color: rgb(var(--purple-400) / 50%);
+  }
 }
 
 button {
@@ -49,4 +47,8 @@ img {
 iframe {
   border: none;
   vertical-align: middle;
+}
+
+:focus {
+  outline: revert;
 }
