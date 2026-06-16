@@ -1,1 +1,3 @@
 minimumReleaseAge: 4320
+minimumReleaseAgeExclude:
+  - "@sveltejs/kit@2.65.1"
