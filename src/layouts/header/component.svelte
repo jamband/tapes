@@ -1,6 +1,6 @@
 <script lang="ts">
+  import { APP_NAME } from "#/constants/app.ts";
   import { resolve } from "$app/paths";
-  import { APP_NAME } from "@/constants/app";
 
   const [name, repository] = APP_NAME.split("/");
 </script>

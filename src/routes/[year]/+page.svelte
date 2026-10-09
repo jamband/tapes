@@ -1,9 +1,8 @@
 <script lang="ts">
-  import { resolve } from "$app/paths";
-  import { HomeLink } from "@/components/home-link";
-  import { SectionDivider } from "@/components/section-divider";
-  import { TapeHeader } from "@/components/tape-header";
-  import { Head } from "@/layouts/head";
+  import { HomeLink } from "#/components/home-link/index.ts";
+  import { SectionDivider } from "#/components/section-divider/index.ts";
+  import { TapeHeader } from "#/components/tape-header/index.ts";
+  import { Head } from "#/layouts/head/index.ts";
   import type { PageProps } from "./$types";
 
   let { data, params }: PageProps = $props();
@@ -21,7 +20,7 @@
           <div class="date">{tape.date}</div>
         {:else}
           <div>
-            <a class="title" href={resolve(`/${tape.path}/`)}
+            <a class="title" href={tape.path}
               >{tape.title}<span class="titleSymbol">→</span></a
             >
           </div>

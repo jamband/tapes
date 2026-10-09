@@ -1,9 +1,9 @@
 <script lang="ts">
-  import { HomeLink } from "@/components/home-link";
-  import { SectionDivider } from "@/components/section-divider";
-  import { APP_DESCRIPTION, APP_NAME } from "@/constants/app";
-  import { IconUpRightFromSquare } from "@/icons/up-right-from-square";
-  import { Head } from "@/layouts/head";
+  import { HomeLink } from "#/components/home-link/index.ts";
+  import { SectionDivider } from "#/components/section-divider/index.ts";
+  import { APP_DESCRIPTION, APP_NAME } from "#/constants/app.ts";
+  import { IconUpRightFromSquare } from "#/icons/up-right-from-square/index.ts";
+  import { Head } from "#/layouts/head/index.ts";
 </script>
 
 <Head title="About" />

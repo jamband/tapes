@@ -1,8 +1,8 @@
 <script lang="ts">
+  import { SectionDivider } from "#/components/section-divider/index.ts";
+  import { Head } from "#/layouts/head/index.ts";
   import { resolve } from "$app/paths";
   import { page } from "$app/state";
-  import { SectionDivider } from "@/components/section-divider";
-  import { Head } from "@/layouts/head";
 
   const isNotFound = page.status === 404;
   const title = isNotFound ? "Not Found" : "An Error occured";

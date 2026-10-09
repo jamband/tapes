@@ -4,8 +4,8 @@
 
 <nav class="nav" aria-label="Footer navigation">
   <div class="links">
-    <a class="link" href={resolve("/about/")}>About</a>
-    <a class="link" href={resolve("/contact/")}>Contact</a>
+    <a class="link" href={resolve("/about")}>About</a>
+    <a class="link" href={resolve("/contact")}>Contact</a>
     <a
       class="link"
       href="https://github.com/jamband/tapes"

@@ -1,12 +1,12 @@
 <script lang="ts">
-  import "@/styles/app.css";
+  import "#/styles/app.css";
 
+  import { APP_NAME, APP_URL } from "#/constants/app.ts";
+  import { Footer } from "#/layouts/footer/index.ts";
+  import { Header } from "#/layouts/header/index.ts";
+  import { Loading } from "#/layouts/loading/index.ts";
+  import { Track } from "#/layouts/track/index.ts";
   import { page } from "$app/state";
-  import { APP_NAME, APP_URL } from "@/constants/app";
-  import { Footer } from "@/layouts/footer";
-  import { Header } from "@/layouts/header";
-  import { Loading } from "@/layouts/loading";
-  import { Track } from "@/layouts/track";
   import type { LayoutProps } from "./$types";
 
   let { children }: LayoutProps = $props();

@@ -1,6 +1,6 @@
 <script lang="ts">
-  import { SectionDivider } from "@/components/section-divider";
-  import { track } from "@/stores/track.svelte";
+  import { SectionDivider } from "#/components/section-divider/index.ts";
+  import { track } from "#/stores/track.svelte.ts";
   import { TrackEmbed } from "./embed";
   import { TrackFooter } from "./footer";
   import { TrackTitle } from "./title";

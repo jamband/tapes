@@ -1,6 +1,6 @@
 <script lang="ts">
-  import { APP_PRIMARY_COLOR } from "@/constants/app";
-  import { track } from "@/stores/track.svelte";
+  import { APP_PRIMARY_COLOR } from "#/constants/app.ts";
+  import { track } from "#/stores/track.svelte.ts";
   import { TrackEmbedLoading } from "./loading";
 
   const player = $derived.by(() => {

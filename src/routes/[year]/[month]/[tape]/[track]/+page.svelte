@@ -1,6 +1,6 @@
 <script lang="ts">
-  import { Head } from "@/layouts/head";
-  import { track } from "@/stores/track.svelte";
+  import { Head } from "#/layouts/head/index.ts";
+  import { track } from "#/stores/track.svelte.ts";
   import type { PageProps } from "./$types";
 
   let { data }: PageProps = $props();

@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { track } from "@/stores/track.svelte";
+  import { track } from "#/stores/track.svelte.ts";
 </script>
 
 <div class="container">

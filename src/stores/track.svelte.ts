@@ -1,4 +1,4 @@
-import type { Track } from "@/types/track";
+import type { Track } from "#/types/track.ts";
 
 export const initialValue: Track = {
   title: "",

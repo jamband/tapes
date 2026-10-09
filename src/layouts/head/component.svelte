@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { APP_DESCRIPTION, APP_NAME } from "@/constants/app";
+  import { APP_DESCRIPTION, APP_NAME } from "#/constants/app.ts";
   import type { Props } from "./types";
 
   let { title, description, children }: Props = $props();

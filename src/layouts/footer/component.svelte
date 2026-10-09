@@ -1,6 +1,6 @@
 <script lang="ts">
+  import { track } from "#/stores/track.svelte.ts";
   import { page } from "$app/state";
-  import { track } from "@/stores/track.svelte";
   import { FooterNavigation } from "./navigation";
   import { FooterTrack } from "./track";
 

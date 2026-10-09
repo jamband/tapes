@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { IconUpRightFromSquare } from "@/icons/up-right-from-square";
+  import { IconUpRightFromSquare } from "#/icons/up-right-from-square/index.ts";
   import type { Props } from "./types";
 
   let { title }: Props = $props();

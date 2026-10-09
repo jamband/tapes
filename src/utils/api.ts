@@ -1,7 +1,7 @@
-import { initialValue as trackInitialValue } from "@/stores/track.svelte";
-import type { Params } from "@/types/params";
-import type { Tape, Tapes } from "@/types/tape";
-import type { Track } from "@/types/track";
+import { initialValue as trackInitialValue } from "#/stores/track.svelte.ts";
+import type { Params } from "#/types/params.ts";
+import type { Tape, Tapes } from "#/types/tape.ts";
+import type { Track } from "#/types/track.ts";
 import { glob, readdir, readFile } from "node:fs/promises";
 import { join } from "node:path";
 

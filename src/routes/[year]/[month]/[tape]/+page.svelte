@@ -1,11 +1,10 @@
 <script lang="ts">
-  import { resolve } from "$app/paths";
-  import { SectionDivider } from "@/components/section-divider";
-  import { TapeHeader } from "@/components/tape-header";
-  import { IconCirclePause } from "@/icons/circle-pause";
-  import { IconCirclePlay } from "@/icons/circle-play";
-  import { Head } from "@/layouts/head";
-  import { track } from "@/stores/track.svelte";
+  import { SectionDivider } from "#/components/section-divider/index.ts";
+  import { TapeHeader } from "#/components/tape-header/index.ts";
+  import { IconCirclePause } from "#/icons/circle-pause/index.ts";
+  import { IconCirclePlay } from "#/icons/circle-play/index.ts";
+  import { Head } from "#/layouts/head/index.ts";
+  import { track } from "#/stores/track.svelte.ts";
   import type { PageProps } from "./$types";
 
   let { data, params }: PageProps = $props();
@@ -22,7 +21,7 @@
   <SectionDivider />
   <div class="main">
     {#each data.tape.items as item (item.slug)}
-      <a class="track" href={resolve(`/${data.tape.path}/${item.slug}/`)}>
+      <a class="track" href="{data.tape.path}/{item.slug}">
         <img
           class="trackImage"
           class:aspect1x1={item.image_aspect_ratio === "1/1"}
@@ -49,7 +48,7 @@
   </div>
   <SectionDivider />
   <div class="backToTape">
-    <a href={resolve(`/${params.year}/`)} class="backToTapeLink"
+    <a href="/{params.year}" class="backToTapeLink"
       ><span class="backToTapeLinkSymbol">←</span>
       Monthly Favorite Tracks of {params.year}</a
     >
