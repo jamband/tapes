@@ -5,6 +5,7 @@
   import { IconCirclePlay } from "#/icons/circle-play/index.ts";
   import { Head } from "#/layouts/head/index.ts";
   import { track } from "#/stores/track.svelte.ts";
+  import { resolve } from "$app/paths";
   import type { PageProps } from "./$types";
 
   let { data, params }: PageProps = $props();
@@ -21,7 +22,15 @@
   <SectionDivider />
   <div class="main">
     {#each data.tape.items as item (item.slug)}
-      <a class="track" href="{data.tape.path}/{item.slug}">
+      <a
+        class="track"
+        href={resolve("/[year]/[month]/[tape]/[track]", {
+          year: params.year,
+          month: params.month,
+          tape: params.tape,
+          track: item.slug,
+        })}
+      >
         <img
           class="trackImage"
           class:aspect1x1={item.image_aspect_ratio === "1/1"}
@@ -48,7 +57,7 @@
   </div>
   <SectionDivider />
   <div class="backToTape">
-    <a href="/{params.year}" class="backToTapeLink"
+    <a href={resolve(`/[year]`, { year: params.year })} class="backToTapeLink"
       ><span class="backToTapeLinkSymbol">←</span>
       Monthly Favorite Tracks of {params.year}</a
     >

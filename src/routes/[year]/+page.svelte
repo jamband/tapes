@@ -3,6 +3,7 @@
   import { SectionDivider } from "#/components/section-divider/index.ts";
   import { TapeHeader } from "#/components/tape-header/index.ts";
   import { Head } from "#/layouts/head/index.ts";
+  import { resolve } from "$app/paths";
   import type { PageProps } from "./$types";
 
   let { data, params }: PageProps = $props();
@@ -20,8 +21,13 @@
           <div class="date">{tape.date}</div>
         {:else}
           <div>
-            <a class="title" href={tape.path}
-              >{tape.title}<span class="titleSymbol">→</span></a
+            <a
+              class="title"
+              href={resolve("/[year]/[month]/[tape]", {
+                year: tape.path.split("/")[1],
+                month: tape.path.split("/")[2],
+                tape: tape.path.split("/")[3],
+              })}>{tape.title}<span class="titleSymbol">→</span></a
             >
           </div>
           <div class="date">{tape.date}</div>

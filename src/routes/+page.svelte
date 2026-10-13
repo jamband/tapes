@@ -2,6 +2,7 @@
   import { SectionDivider } from "#/components/section-divider/index.ts";
   import { TapeHeader } from "#/components/tape-header/index.ts";
   import { Head } from "#/layouts/head/index.ts";
+  import { resolve } from "$app/paths";
   import type { PageProps } from "./$types";
 
   let { data }: PageProps = $props();
@@ -13,7 +14,9 @@
   <SectionDivider />
   <div class="main">
     {#each data.years as year (year)}
-      <a href={year} class="link"><span class="linkSymbol">#</span>{year}</a>
+      <a href={resolve("/[year]", { year })} class="link"
+        ><span class="linkSymbol">#</span>{year}</a
+      >
     {/each}
   </div>
 </div>

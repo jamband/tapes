@@ -1,16 +1,18 @@
 <script lang="ts">
   import { track } from "#/stores/track.svelte.ts";
-  import type { Params } from "#/types/params.ts";
-  import { page } from "$app/state";
+  import { resolve } from "$app/paths";
 
-  let params = $derived<Params>(page.params);
-  let tapePath = $derived(`/${params.year}/${params.month}/${params.tape}`);
+  const params = $derived(track.value.path.split("/"));
 </script>
 
 <div class="container">
-  <a class="link" href={tapePath}
-    ><span class="linkSymbol">←</span>
-    {track.value.tapeTitle}</a
+  <a
+    class="link"
+    href={resolve("/[year]/[month]/[tape]", {
+      year: params[1],
+      month: params[2],
+      tape: params[3],
+    })}><span class="linkSymbol">←</span>{track.value.tapeTitle}</a
   >
 </div>
 
