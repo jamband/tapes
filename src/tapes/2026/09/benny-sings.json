@@ -1,0 +1,62 @@
+{
+  "id": 69,
+  "title": "Benny Sings",
+  "path": "/2026/09/benny-sings",
+  "date": "Sep 25, 2026",
+  "items": [
+    {
+      "title": "Benny Sings - Simple Love Songs",
+      "provider": "Bandcamp",
+      "provider_key": "597989674",
+      "image": "https://f4.bcbits.com/img/a0077726378_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "benny-sings-simple-love-songs"
+    },
+    {
+      "title": "Benny Sings - Pyjamas (feat. Remi Wolf)",
+      "provider": "Bandcamp",
+      "provider_key": "1265970021",
+      "image": "https://f4.bcbits.com/img/a1182873768_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "benny-sings-pyjamas-feat-remi-wolf"
+    },
+    {
+      "title": "Benny Sings - Wait For The Summer",
+      "provider": "Bandcamp",
+      "provider_key": "1841940652",
+      "image": "https://f4.bcbits.com/img/a0274344057_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "benny-sings-wait-for-the-summer"
+    },
+    {
+      "title": "Benny Sings - You Love Me",
+      "provider": "Bandcamp",
+      "provider_key": "709884799",
+      "image": "https://f4.bcbits.com/img/a0110252126_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "benny-sings-you-love-me"
+    },
+    {
+      "title": "Benny Sings - Homerun",
+      "provider": "Bandcamp",
+      "provider_key": "2955071217",
+      "image": "https://f4.bcbits.com/img/a0110252126_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "benny-sings-homerun"
+    },
+    {
+      "title": "Benny Sings - Castle",
+      "provider": "Bandcamp",
+      "provider_key": "2541371532",
+      "image": "https://f4.bcbits.com/img/a3249224151_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "benny-sings-castle"
+    }
+  ]
+}

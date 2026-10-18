@@ -1,0 +1,62 @@
+{
+  "id": 70,
+  "title": "Remi Wolf",
+  "path": "/2026/10/remi-wolf",
+  "date": "Oct 18, 2026",
+  "items": [
+    {
+      "title": "Remi Wolf - Cinderella",
+      "provider": "Bandcamp",
+      "provider_key": "101293588",
+      "image": "https://f4.bcbits.com/img/a1604119313_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "remi-wolf-cinderella"
+    },
+    {
+      "title": "Remi Wolf - Toro",
+      "provider": "Bandcamp",
+      "provider_key": "745026322",
+      "image": "https://f4.bcbits.com/img/a1604119313_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "remi-wolf-toro"
+    },
+    {
+      "title": "Remi Wolf - Pitiful",
+      "provider": "Bandcamp",
+      "provider_key": "3957982204",
+      "image": "https://f4.bcbits.com/img/a1604119313_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "remi-wolf-pitiful"
+    },
+    {
+      "title": "Remi Wolf - Champagne",
+      "provider": "Bandcamp",
+      "provider_key": "256221408",
+      "image": "https://f4.bcbits.com/img/a2240516381_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "remi-wolf-champagne"
+    },
+    {
+      "title": "Remi Wolf - Moon So High",
+      "provider": "Bandcamp",
+      "provider_key": "1832902380",
+      "image": "https://f4.bcbits.com/img/a2240516381_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "remi-wolf-moon-so-high"
+    },
+    {
+      "title": "Remi Wolf - Guess",
+      "provider": "Bandcamp",
+      "provider_key": "1239905935",
+      "image": "https://f4.bcbits.com/img/a2240516381_4.jpg",
+      "image_aspect_ratio": "1/1",
+      "embed_aspect_ratio": "1/1",
+      "slug": "remi-wolf-guess"
+    }
+  ]
+}
